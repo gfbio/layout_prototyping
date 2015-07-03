@@ -1,0 +1,10 @@
+#header {
+    /* black with alphachannel adjust */
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.main-nav-wrapper {
+    padding: 25px 80px;
+}
+
+.site-title {}
