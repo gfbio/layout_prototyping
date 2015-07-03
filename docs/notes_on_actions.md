@@ -1,0 +1,11 @@
+# Setup
+- create new foundation 5.5.2 project via webstorm
+- cd gfbio_html/
+- git init
+- git remote add -t master -f origin https://maweber@bitbucket.org/maweber/gfbio_html.git
+- git flow init
+- git checkout master
+- (git reset)
+- git checkout develop
+- git rebase master
+- git push origin master develop --force
