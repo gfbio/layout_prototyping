@@ -1,10 +1,87 @@
+/* TODO: coherent name-schema for classes and ids etc. */
+
+@import url(http://fonts.googleapis.com/css?family=Dosis:500);
+
 #header {
     /* black with alphachannel adjust */
     background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    z-index: 8001;
+    padding: 0;
 }
 
 .main-nav-wrapper {
+    display: table;
+    width: 100%;
+    margin: 0 auto;
     padding: 25px 80px;
+    vertical-align: middle;
+    box-sizing: border-box;
 }
 
-.site-title {}
+.site-title {
+    font-family: "Dosis", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    display: table-cell;
+    width: 30%;
+    vertical-align: middle;
+    line-height: 1em;
+    z-index: 8002;
+    position: relative;
+}
+
+#desktopNav {
+    display: table-cell;
+    width: 70%;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.main-nav ul, .secondary-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 1em;
+    position: relative;
+    z-index: 8002;
+}
+
+.cf:before, .cf:after {
+    content: " ";
+    display: table;
+}
+
+#desktopNav .folder, .secondary-nav .folder {
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+}
+
+.main-nav ul li {
+    text-align: right;
+    margin: 0 0 0 30px;
+    display: inline-block;
+    z-index: inherit;
+}
+
+.main-nav ul li a, .main-nav ul li a:visited {
+    color: #fff;
+}
+
+.main-nav ul li a span, .main-nav ul li a:visited span {
+    font-family: "Dosis";
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 2em;
+}
