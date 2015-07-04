@@ -3,6 +3,15 @@
 @import url(http://fonts.googleapis.com/css?family=Dosis:500);
 
 #header {
+    /* for chrome suggestested here
+        http://foundation.zurb.com/forum/posts/2888-sticky-navigation-bar-flickering-in-chrome
+        refers to
+        http://stackoverflow.com/questions/15152470/chrome-rendering-issue-fixed-position-anchor-with-ul-in-body
+    */
+    /*-webkit-transform: translateZ(0);*/
+    /* or */
+    /*-webkit-transform: scale3d(1,1,1);*/
+
     /* black with alphachannel adjust */
     background-color: rgba(0, 0, 0, 0.8);
     width: 100%;
