@@ -23,6 +23,7 @@
     display: table;
     width: 100%;
     margin: 0 auto;
+    /* top/bottom was 25 px */
     padding: 14px 80px;
     vertical-align: middle;
     box-sizing: border-box;
@@ -93,4 +94,28 @@
     font-weight: 500;
     font-style: normal;
     line-height: 2em;
+}
+
+/*.title-img-wrapper {*/
+
+    /*width: 100%;*/
+/*}*/
+
+/*.title-img {*/
+    /*position: absolute;*/
+    /*/!*top: 0;*!/*/
+    /*left: 0;*/
+    /*right: 0;*/
+    /*/!*bottom: 0;*!/*/
+    /*z-index: 0;*/
+    /*width: 100%;*/
+    /*height: 400px;*/
+    /*background-color: #007ba4;*/
+/*}*/
+
+
+.full-test {
+    background-color: #007ba4;
+    height: 400px;
+    width: 100%;
 }
