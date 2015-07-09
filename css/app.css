@@ -161,11 +161,16 @@ div.border-hack {
     /*margin-bottom: 10px;*/
 }
 
-.footer p, .footer a {
+.footer p {
     font-weight: 300;
     /*font-size: .8em;*/
     font-size: 1em;
     color: #fff;
+}
+
+.footer a {
+    color: #fff;
+    font-weight: bold;
 }
 
 /*.columns:nth-child(n+2)*/
