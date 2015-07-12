@@ -1,6 +1,6 @@
 /* TODO: coherent name-schema for classes and ids etc. */
 @import url(http://fonts.googleapis.com/css?family=Dosis:500);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
 
 #header {
@@ -196,9 +196,16 @@ div.border-hack {
 
 .footer-middle {
     border-top: 1px dotted rgba(255,255,255,0.2);
+    padding: 25px 0;
 }
 .footer-bottom {
     background: #333;
 }
+
+.left {
+    color: #fff;
+    text-align: left;
+}
+
 
 /*  END FOOTER   */
