@@ -24,23 +24,26 @@
             <div class="row"> <!-- // row to force nav into centered layout -->
                 <div class="title-bar-left">
                     <ul class="menu">
-                        <li><a href="#">One</a></li>
-                        <li><a href="#">Two</a></li>
-                        <li><a href="#">Three</a></li>
-                        <li><a href="#">Four</a></li>
+                        <li class="logo-top-nav"></li>
+                        <li><a href="#"><i class="fa fa-bars"></i> About</a></li>
+                        <li><a href="#"><i class="fa fa-bars"></i> News</a></li>
+                        <li><a href="#"><i class="fa fa-bars"></i> Resources</a></li>
+                        <!--<li><a href="#"><i class="fa fa-bars"></i> Education</a></li>-->
+                        <li><a href="#"><i class="fa fa-bars"></i> Data</a></li>
                     </ul>
                 </div>
                 <div class="title-bar-right">
                     <ul class="menu">
+                        <li class="logo-top-nav-no-img"></li>
                         <li><input type="radio" id="top-nav-search-site" name="top-nav-search-option" class="with-font"
                                    value="site" checked="checked"><label for="top-nav-search-site">This Site</label>
                         </li>
                         <li><input type="radio" id="top-nav-gfbio-site" name="top-nav-search-option" class="with-font"
                                    value="gfbio"><label for="top-nav-gfbio-site">GFBio Search</label>
                         </li>
-                        <li><input type="search" placeholder="Search"></li>
+                        <li><input type="search" placeholder="Search ..."></li>
                         <li>
-                            <button type="button" class="button">Search</button>
+                            <button type="button" class="button">Go</button>
                         </li>
                     </ul>
                 </div>
@@ -50,10 +53,10 @@
 
 
     <div class="row">
-        <div class="medium-4 columns">
-            <!--<img src="http://placehold.it/450x183&text=LOGO" alt="company logo">-->
-            <img src="img/gfbiologo-transparent.png" alt="gfbio logo">
-        </div>
+        <!--<div class="medium-4 columns">-->
+            <!--&lt;!&ndash;<img src="http://placehold.it/450x183&text=LOGO" alt="company logo">&ndash;&gt;-->
+            <!--<img src="img/gfbiologo-transparent.png" alt="gfbio logo">-->
+        <!--</div>-->
         <div class="medium-8 columns">
             <img src="http://placehold.it/900x175&text=Raesponsive Ads - ZURB Playground/fff"
                  alt="advertisement for deep fried Twinkies">
@@ -65,6 +68,38 @@
         <button class="menu-icon" type="button" data-toggle></button>
         <div class="title-bar-title">Menu</div>
     </div>
+
+    <!--  TODO: check if fixed navi here looks better -->
+    <!--<div data-sticky-container> &lt;!&ndash; // sticky nav &ndash;&gt;-->
+        <!--<div class="title-bar" id="top-nav" data-sticky data-options="marginTop:0;">-->
+            <!--<div class="row"> &lt;!&ndash; // row to force nav into centered layout &ndash;&gt;-->
+                <!--<div class="title-bar-left">-->
+                    <!--<ul class="menu">-->
+                        <!--<li><a href="#">One</a></li>-->
+                        <!--<li><a href="#">Two</a></li>-->
+                        <!--<li><a href="#">Three</a></li>-->
+                        <!--<li><a href="#">Four</a></li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+                <!--<div class="title-bar-right">-->
+                    <!--<ul class="menu">-->
+                        <!--<li><input type="radio" id="top-nav-search-site" name="top-nav-search-option" class="with-font"-->
+                                   <!--value="site" checked="checked"><label for="top-nav-search-site">This Site</label>-->
+                        <!--</li>-->
+                        <!--<li><input type="radio" id="top-nav-gfbio-site" name="top-nav-search-option" class="with-font"-->
+                                   <!--value="gfbio"><label for="top-nav-gfbio-site">GFBio Search</label>-->
+                        <!--</li>-->
+                        <!--<li><input type="search" placeholder="Search"></li>-->
+                        <!--<li>-->
+                            <!--<button type="button" class="button">Search</button>-->
+                        <!--</li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+            <!--</div> &lt;!&ndash; row to force nav into centered layout // &ndash;&gt;-->
+        <!--</div>-->
+    <!--</div> &lt;!&ndash; sticky nav // &ndash;&gt;-->
+
+
     <div class="top-bar" id="main-menu">
         <ul class="menu vertical medium-horizontal expanded medium-text-center"
             data-responsive-menu="drilldown medium-dropdown">
@@ -112,6 +147,8 @@
             </li>
         </ul>
     </div>
+
+
 </header>
 <br>
 <div class="row">

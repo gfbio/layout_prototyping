@@ -43,6 +43,21 @@ i.fi-social-tumblr {
     font-family: "Lato", Helvetica, Arial, sans-serif;
 }
 
+.logo-top-nav {
+    padding: 86px 174px 0 0;
+    background: url(../img/gfbiologo-transparent.png) no-repeat center center;
+}
+
+.logo-top-nav-no-img {
+    padding: 86px 0 0 0;
+}
+
+.title-bar label {
+    color: #345AA2; /* dark blue from logo */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+}
 
 .menu > li > a {
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -51,8 +66,24 @@ i.fi-social-tumblr {
     /*text-transform: lowercase;*/
     font-size: 16px;
     line-height: 23px;
+    color: #3CACE4; /* light blue from logo */
+    color: #345AA2; /* dark blue from logo */
 }
 
+.menu > li > input[type=search] {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    text-align: center;
+    border: 1px solid #345AA2;
+}
+
+.menu > li > button[type=button] {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom: 0;
+    text-align: center;
+    background-color: #345AA2;
+}
 /* top/sticky nav // */
 
 /* // radio/checkbox with fontawesome */
@@ -74,10 +105,10 @@ input[type=checkbox].with-font ~ label:before {
     font-family: FontAwesome;
     display: inline-block;
     /*content: "\f1db";*/
-    content: "\f10c";
+    content: "\f096";
     letter-spacing: 10px;
     font-size: 1.2em;
-    color: #535353;
+    color: #345AA2; /* dark blue from logo */
     width: 1.4em;
 }
 
@@ -89,9 +120,9 @@ input[type=checkbox].with-font:checked ~ label:before  {
 }
 
 input[type=radio].with-font:checked ~ label:before  {
-    content: "\f192";
+    content: "\f046";
     font-size: 1.2em;
-    color: darkgreen;
+    color: #345AA2; /* dark blue from logo */
     letter-spacing: 10px;
 }
 
