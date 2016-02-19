@@ -43,10 +43,30 @@ i.fi-social-tumblr {
     font-family: "Lato", Helvetica, Arial, sans-serif;
 }
 
+
+.nav-move {
+    background-color: rgba(52, 90, 162, 1.0);
+}
+
+.nav-move .menu > li > a  {
+    color: #ffffff;
+}
+
+.brand-move {
+    padding: 50px 174px 0 0;
+    background: url(../img/GFBio_logo_white_png_101x50.png) no-repeat left center;
+}
+
+.brand-placeholder-move {
+    padding: 0;
+}
+
+
 .logo-top-nav {
     padding: 86px 174px 0 0;
     background: url(../img/gfbiologo-transparent.png) no-repeat center center;
 }
+
 
 .logo-top-nav-no-img {
     padding: 86px 0 0 0;
@@ -66,8 +86,9 @@ i.fi-social-tumblr {
     /*text-transform: lowercase;*/
     font-size: 16px;
     line-height: 23px;
-    color: #3CACE4; /* light blue from logo */
+    /*color: #3CACE4; !* light blue from logo *!*/
     color: #345AA2; /* dark blue from logo */
+    /* #282828 #808080 #333333 */
 }
 
 .menu > li > input[type=search] {
