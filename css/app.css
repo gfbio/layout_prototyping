@@ -45,7 +45,10 @@ i.fi-social-tumblr {
 
 
 .nav-move {
-    background-color: rgba(52, 90, 162, 1.0);
+    background-color: rgba(52, 90, 162, 0.9);
+    height: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .nav-move .menu > li > a  {
@@ -53,8 +56,8 @@ i.fi-social-tumblr {
 }
 
 .brand-move {
-    padding: 50px 174px 0 0;
-    background: url(../img/GFBio_logo_white_png_101x50.png) no-repeat left center;
+    padding: 40px 174px 0 0;
+    background: url(../img/GFBio_logo_mono_png_71x35.png) no-repeat left center;
 }
 
 .brand-placeholder-move {
@@ -91,20 +94,25 @@ i.fi-social-tumblr {
     /* #282828 #808080 #333333 */
 }
 
-.menu > li > input[type=search] {
+.menu > li > div.input-group {
+    margin: 0;
+}
+
+.menu > li > div.input-group input[type=text] {
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
     text-align: center;
     border: 1px solid #345AA2;
 }
 
-.menu > li > button[type=button] {
+.menu > li > div.input-group > div.input-group-button input[type=submit] {
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
-    border-bottom: 0;
     text-align: center;
     background-color: #345AA2;
 }
+
+
 /* top/sticky nav // */
 
 /* // radio/checkbox with fontawesome */
@@ -136,7 +144,7 @@ input[type=checkbox].with-font ~ label:before {
 input[type=checkbox].with-font:checked ~ label:before  {
     content: "\f00c";
     font-size: 1.2em;
-    color: darkgreen;
+    /*color: darkgreen;*/
     letter-spacing: 5px;
 }
 
@@ -152,14 +160,14 @@ input[type=checkbox].with-font ~ label:before {
 }
 input[type=checkbox].with-font:checked ~ label:before {
     content: "\f046";
-    color: darkgreen;
+    /*color: darkgreen;*/
 }
 input[type=radio].with-font:focus ~ label:before,
 input[type=checkbox].with-font:focus ~ label:before,
 input[type=radio].with-font:focus ~ label,
 input[type=checkbox].with-font:focus ~ label
 {
-    color: green;
+    /*color: green;*/
 }
 
 /* radio/checkbox with fontawesome // */
