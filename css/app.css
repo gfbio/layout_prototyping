@@ -127,10 +127,10 @@ i.fi-social-tumblr {
 /* // second row below top-nav */
 
 div.claim {
-    height: 175px;
+    /*height: 175px;*/
     /*background-color: lightgrey;*/
     text-align: center;
-    padding: 0 20px 0 20px;
+    padding: 0 10px 0 10px;
 }
 
 .claim p {
@@ -148,26 +148,6 @@ h1.submission {
     /*padding-left: 20px;*/
 }
 
-h1.submission-2 {
-    color:white;
-    border-radius: 4px;
-    background-color: rgba(52, 90, 162, 0.9);
-    font-family: "Lato", Helvetica, Arial, sans-serif;
-    font-weight: 300;
-    text-transform: lowercase;
-    vertical-align: middle;
-}
-
-h1.submission-3 {
-    color:white;
-    border-radius: 4px 4px 0 0;
-    background-color: rgba(60, 172, 228, 0.9);
-    font-family: "Lato", Helvetica, Arial, sans-serif;
-    font-weight: 300;
-    text-transform: lowercase;
-    vertical-align: middle;
-}
-
 h4.submission {
     color: #345AA2;
     font-family: "Lato", Helvetica, Arial, sans-serif;
@@ -175,47 +155,32 @@ h4.submission {
     text-transform: lowercase;
 }
 
-h4.submission-2 {
-    color: white;
-    font-family: "Lato", Helvetica, Arial, sans-serif;
-    font-weight: 300;
-    text-transform: lowercase;
-    border-radius: 4px;
-    background-color: rgba(129, 178, 72, 0.9);
-}
-
-h4.submission-3 {
-    color: white;
-    font-family: "Lato", Helvetica, Arial, sans-serif;
-    font-weight: 300;
-    text-transform: lowercase;
-    border-radius: 0 0 4px 4px;
-    background-color: rgba(60, 172, 228, 0.9);
-}
-
 /*replace the content value with the
 corresponding value from the list below*/
 
-h1.submission:before {
-    content: "\f093";
-    font-family: FontAwesome;
-    /*font-style: normal;*/
-    /*font-weight: normal;*/
-    /*text-decoration: inherit;*/
-    /*/*--adjust as necessary--*/
-    color: rgba(52, 90, 162, 0.5);
-    font-size: 80px;
-    padding-right: 0.5em;
-    position: absolute;
-    top: 10px;
-    left: 0;
-}
+/*h1.submission:before {*/
+    /*content: "\f102";*/
+    /*font-family: FontAwesome;*/
+    /*!*font-style: normal;*!*/
+    /*!*font-weight: normal;*!*/
+    /*!*text-decoration: inherit;*!*/
+    /*!*!*--adjust as necessary--*!*/
+    /*color: rgba(52, 90, 162, 0.5);*/
+    /*font-size: 8rem;*/
+    /*padding-right: 0.5em;*/
+    /*position: absolute;*/
+    /*top: 10px;*/
+    /*left: 0;*/
+/*}*/
 /*#col1:after {*/
     /*content: "\f102";*/
     /*font-family: FontAwesome;*/
     /*font-size: 75px;*/
 /*}*/
 
+div#col1:hover {
+    background-color: #3a945b;
+}
 
 div#submit-data-header {
     /*background-color: rgba(129, 178, 72, 1.0); !* somewhere from the green part of logo *!*/
@@ -224,18 +189,7 @@ div#submit-data-header {
     height: 100%;
     width: 100%;
     border-radius: 4px;
-    padding: 0 20px 0 20px;
-}
-
-div#submit-data-header-2 {
-    /*background-color: rgba(129, 178, 72, 1.0); !* somewhere from the green part of logo *!*/
-    /*background-color: rgba(60, 172, 228, 1.0); !* light blue from logo *!*/
-    /*background-color: rgba(52, 90, 162, 0.9); !* dark blue from logo *!*/
-    height: 100%;
-    width: 100%;
-    border-radius: 12px;
-    border: 4px solid rgba(52, 90, 162, 0.7);
-    padding: 0 20px 0 20px;
+    padding: 0 10px 0 10px;
 }
 
 div#retrieve-data-header {
@@ -245,7 +199,7 @@ div#retrieve-data-header {
     height: 100%;
     width: 100%;
     border-radius: 4px;
-    padding: 0 20px 0 20px;
+    padding: 0 10px 0 10px;
 }
 
 div#plan-data-header {
@@ -255,7 +209,7 @@ div#plan-data-header {
     height: 100%;
     width: 100%;
     border-radius: 4px;
-    padding: 0 20px 0 20px;
+    padding: 0 10px 0 10px;
 }
 
 /* second row below top-nav // */
