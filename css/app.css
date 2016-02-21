@@ -45,7 +45,7 @@ i.fi-social-tumblr {
 
 
 .nav-move {
-    background-color: rgba(52, 90, 162, 0.9);
+    background-color: rgba(52, 90, 162, 0.8);
     height: 50px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -53,6 +53,15 @@ i.fi-social-tumblr {
 
 .nav-move .menu > li > a  {
     color: #ffffff;
+}
+
+.nav-move .menu > li > a:hover  {
+    /*color: #F0D24D;*/
+    color: #62C510;
+    color: #80D936;
+    color: #F4D13C;
+    /*color: #FFE262;*/
+    /*color: #81B248; !* somewhere from the green part of logo *!*/
 }
 
 .brand-move {
@@ -103,6 +112,7 @@ i.fi-social-tumblr {
     border-bottom-left-radius: 6px;
     text-align: center;
     border: 1px solid #345AA2;
+    color: #0F3272 !important;
 }
 
 .menu > li > div.input-group > div.input-group-button input[type=submit] {
@@ -112,8 +122,73 @@ i.fi-social-tumblr {
     background-color: #345AA2;
 }
 
-
 /* top/sticky nav // */
+
+/* // second row below top-nav */
+
+div.claim {
+    height: 175px;
+    /*background-color: lightgrey;*/
+    text-align: center;
+    padding: 0 20px 0 20px;
+}
+
+.claim p {
+    color: #555;
+    margin-bottom: 0.2rem;
+}
+
+h1.submission {
+    position: relative;
+    /*font-family: 'Dancing Script';*/
+    color: #345AA2;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    text-transform: lowercase;
+    /*padding-left: 20px;*/
+}
+
+h4.submission {
+    color: #345AA2;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    text-transform: lowercase;
+}
+
+/*replace the content value with the
+corresponding value from the list below*/
+
+/*h1.submission:before {*/
+/*content: "\f093";*/
+/*font-family: FontAwesome;*/
+/*!*font-style: normal;*!*/
+/*!*font-weight: normal;*!*/
+/*!*text-decoration: inherit;*!*/
+/*!*!*--adjust as necessary--*!*!*/
+
+/*color: rgba(52, 90, 162, 0.5);*/
+/*font-size: 80px;*/
+/*padding-right: 0.5em;*/
+/*position: absolute;*/
+/*top: 10px;*/
+/*left: 0;*/
+/*}*/
+
+div#submit-data-header {
+    background-color: rgba(129, 178, 72, 1.0); /* somewhere from the green part of logo */
+    height: 100%;
+    width: 100%;
+}
+
+div#retrieve-data-header {
+    background-color: rgba(60, 172, 228, 1.0); /* light blue from logo */
+}
+
+div#plan-data-header {
+    background-color: rgba(52, 90, 162, 1.0); /* dark blue from logo */
+}
+
+/* second row below top-nav // */
 
 /* // radio/checkbox with fontawesome */
 
@@ -141,6 +216,15 @@ input[type=checkbox].with-font ~ label:before {
     width: 1.4em;
 }
 
+.nav-move input[type=radio].with-font ~ label:before,
+.nav-move input[type=checkbox].with-font ~ label:before {
+    color: #ffffff;
+}
+
+.nav-move input[type=radio].with-font ~ label {
+    color: #ffffff;
+}
+
 input[type=checkbox].with-font:checked ~ label:before  {
     content: "\f00c";
     font-size: 1.2em;
@@ -155,9 +239,20 @@ input[type=radio].with-font:checked ~ label:before  {
     letter-spacing: 10px;
 }
 
+.nav-move input[type=radio].with-font:checked ~ label:before,
+.nav-move input[type=checkbox].with-font:checked ~ label:before {
+    color: #ffffff;
+}
+
+.nav-move input[type=radio].with-font:checked ~ label,
+.nav-move input[type=checkbox].with-font:checked ~ label {
+    color: #ffffff;
+}
+
 input[type=checkbox].with-font ~ label:before {
     content: "\f096";
 }
+
 input[type=checkbox].with-font:checked ~ label:before {
     content: "\f046";
     /*color: darkgreen;*/
