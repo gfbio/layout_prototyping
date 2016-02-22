@@ -1,39 +1,40 @@
 /* // from original template */
-.fi-social-facebook {
-    color: dodgerblue;
-    font-size: 2rem;
-}
+/*.fi-social-facebook {*/
+    /*color: dodgerblue;*/
+    /*font-size: 2rem;*/
+/*}*/
 
-.fi-social-youtube {
-    color: red;
-    font-size: 2rem;
-}
+/*.fi-social-youtube {*/
+    /*color: red;*/
+    /*font-size: 2rem;*/
+/*}*/
 
-.fi-social-pinterest {
-    color: darkred;
-    font-size: 2rem;
-}
+/*.fi-social-pinterest {*/
+    /*color: darkred;*/
+    /*font-size: 2rem;*/
+/*}*/
 
-i.fi-social-instagram {
-    color: brown;
-    font-size: 2rem;
-}
+/*i.fi-social-instagram {*/
+    /*color: brown;*/
+    /*font-size: 2rem;*/
+/*}*/
 
-i.fi-social-tumblr {
-    color: navy;
-    font-size: 2rem;
-}
+/*i.fi-social-tumblr {*/
+    /*color: navy;*/
+    /*font-size: 2rem;*/
+/*}*/
 
-.fi-social-twitter {
-    color: skyblue;
-    font-size: 2rem;
-}
+/*.fi-social-twitter {*/
+    /*color: skyblue;*/
+    /*font-size: 2rem;*/
+/*}*/
 
 /* from original template  // */
 
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css);
 /*@import url(https://fonts.googleapis.com/css?family=Lato:400,300,100italic,100,400italic,700italic,700,900,300italic,900italic);*/
 /*@import url(https://fonts.googleapis.com/css?family=Dancing+Script:400,700);*/
+
 /* // top/sticky nav */
 
 .title-bar {
@@ -138,7 +139,7 @@ div.claim {
     margin-bottom: 0.2rem;
 }
 
-h1.submission {
+h1.submission-a, h1.submission-b, h1.submission-c {
     position: relative;
     /*font-family: 'Dancing Script';*/
     color: #345AA2;
@@ -146,14 +147,51 @@ h1.submission {
     font-weight: 300;
     text-transform: lowercase;
     /*padding-left: 20px;*/
+    /*border-bottom: 2px solid rgba(52, 90, 162, 0.9);*/
+    /* darkblue from logo with 0.8 alpha as fullcolor #5C7BB4 */
 }
 
-h4.submission {
+
+/*h1.submission-a:hover:before, h1.submission-b:hover:before, h1.submission-c:hover:before {*/
+    /*content: "\f101";*/
+    /*font-family: FontAwesome;*/
+    /*font-size: 75%;*/
+/*}*/
+
+h4.submission-a, h4.submission-b, h4.submission-c {
     color: #345AA2;
     font-family: "Lato", Helvetica, Arial, sans-serif;
     font-weight: 300;
     text-transform: lowercase;
 }
+
+
+/*h1.submission-a:hover {*/
+    /*background-color: rgba(52, 90, 162, 0.9);*/
+    /* darkblue from logo with 0.8 alpha as fullcolor #5C7BB4 */
+    /*color: #ffffff;*/
+    /*border-radius: 4px;*/
+/*}*/
+
+h4.submission-a:hover {
+    background-color: rgba(52, 90, 162, 0.9);
+    /* darkblue from logo with 0.8 alpha as fullcolor #5C7BB4 */
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+h4.submission-b:hover {
+    background-color: rgba(129, 178, 72, 0.9);
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+h4.submission-c:hover {
+    background-color: rgba(60, 172, 228, 0.9);
+    color: #ffffff;
+    border-radius: 4px;
+}
+
 
 /*replace the content value with the
 corresponding value from the list below*/
@@ -178,14 +216,12 @@ corresponding value from the list below*/
     /*font-size: 75px;*/
 /*}*/
 
-div#col1:hover {
-    background-color: #3a945b;
-}
 
 div#submit-data-header {
     /*background-color: rgba(129, 178, 72, 1.0); !* somewhere from the green part of logo *!*/
     /*background-color: rgba(60, 172, 228, 1.0); !* light blue from logo *!*/
     background-color: rgba(52, 90, 162, 0.9); /* dark blue from logo */
+    /* darkblue from logo with 0.8 alpha as fullcolor #5C7BB4 */
     height: 100%;
     width: 100%;
     border-radius: 4px;
@@ -214,6 +250,55 @@ div#plan-data-header {
 
 /* second row below top-nav // */
 
+/* // main menu below second row */
+
+/* some styles come from .menu > li > a  above */
+div#main-menu {
+    /* darkblue from logo with 0.8 alpha as fullcolor #5C7BB4 */
+    /*background-color: rgba(52, 90, 162, 0.8);*/
+    background-color: #5C7BB4;
+
+    /*background-color: white;*/
+    /*border-top: 1px solid rgba(52, 90, 162, 1.0);*/
+    /*border-bottom: 1px solid rgba(52, 90, 162, 1.0);*/
+
+    padding: 0;
+}
+
+div#main-menu .menu {
+    background-color: transparent; /* dark blue from logo */
+}
+
+div#main-menu .menu > li > a {
+    color: white;
+    line-height: 1.0;
+}
+
+/* remove arrows from menu */
+div#main-menu .menu > li > a:after {
+    border-color: transparent transparent transparent;
+}
+
+div#main-menu .submenu {
+    background-color: navajowhite;
+    border: 0;
+    top: 98%;
+    /*background-color: rgba(52, 90, 162, 0.8);*/
+    /* darkblue from logo with 0.8 alpha as fullcolor #5C7BB4 */
+    /*line-height: 1.0;*/
+}
+
+div#main-menu .submenu > li {
+    border: 1px solid yellow;
+    margin: 10px;
+}
+
+div#main-menu .submenu > li > a {
+    color: red;
+    /*line-height: 1.0;*/
+}
+
+/* main menu below second row // */
 
 /* // radio/checkbox with fontawesome */
 
