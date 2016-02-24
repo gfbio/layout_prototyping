@@ -11,7 +11,6 @@
     font-family: "Lato", Helvetica, Arial, sans-serif;
 }
 
-
 .nav-move {
     background-color: rgba(52, 90, 162, 0.8);
     height: 50px;
@@ -19,11 +18,11 @@
     padding-bottom: 5px;
 }
 
-.nav-move .menu > li > a  {
+.nav-move .menu > li > a {
     color: #ffffff;
 }
 
-.nav-move .menu > li > a:hover  {
+.nav-move .menu > li > a:hover {
     /*color: #F0D24D;*/
     color: #62C510;
     color: #80D936;
@@ -41,12 +40,10 @@
     padding: 0;
 }
 
-
 .logo-top-nav {
     padding: 86px 174px 0 0;
     background: url(../img/gfbiologo-transparent.png) no-repeat center center;
 }
-
 
 .logo-top-nav-no-img {
     padding: 86px 0 0 0;
@@ -118,11 +115,10 @@ h1.submission-a, h1.submission-b, h1.submission-c {
     /* darkblue from logo with 0.8 alpha as fullcolor #5C7BB4 */
 }
 
-
 /*h1.submission-a:hover:before, h1.submission-b:hover:before, h1.submission-c:hover:before {*/
-    /*content: "\f101";*/
-    /*font-family: FontAwesome;*/
-    /*font-size: 75%;*/
+/*content: "\f101";*/
+/*font-family: FontAwesome;*/
+/*font-size: 75%;*/
 /*}*/
 
 h4.submission-a, h4.submission-b, h4.submission-c {
@@ -132,12 +128,11 @@ h4.submission-a, h4.submission-b, h4.submission-c {
     text-transform: lowercase;
 }
 
-
 /*h1.submission-a:hover {*/
-    /*background-color: rgba(52, 90, 162, 0.9);*/
-    /* darkblue from logo with 0.8 alpha as fullcolor #5C7BB4 */
-    /*color: #ffffff;*/
-    /*border-radius: 4px;*/
+/*background-color: rgba(52, 90, 162, 0.9);*/
+/* darkblue from logo with 0.8 alpha as fullcolor #5C7BB4 */
+/*color: #ffffff;*/
+/*border-radius: 4px;*/
 /*}*/
 
 h4.submission-a:hover {
@@ -159,30 +154,28 @@ h4.submission-c:hover {
     border-radius: 4px;
 }
 
-
 /*replace the content value with the
 corresponding value from the list below*/
 
 /*h1.submission:before {*/
-    /*content: "\f102";*/
-    /*font-family: FontAwesome;*/
-    /*!*font-style: normal;*!*/
-    /*!*font-weight: normal;*!*/
-    /*!*text-decoration: inherit;*!*/
-    /*!*!*--adjust as necessary--*!*/
-    /*color: rgba(52, 90, 162, 0.5);*/
-    /*font-size: 8rem;*/
-    /*padding-right: 0.5em;*/
-    /*position: absolute;*/
-    /*top: 10px;*/
-    /*left: 0;*/
+/*content: "\f102";*/
+/*font-family: FontAwesome;*/
+/*!*font-style: normal;*!*/
+/*!*font-weight: normal;*!*/
+/*!*text-decoration: inherit;*!*/
+/*!*!*--adjust as necessary--*!*/
+/*color: rgba(52, 90, 162, 0.5);*/
+/*font-size: 8rem;*/
+/*padding-right: 0.5em;*/
+/*position: absolute;*/
+/*top: 10px;*/
+/*left: 0;*/
 /*}*/
 /*#col1:after {*/
-    /*content: "\f102";*/
-    /*font-family: FontAwesome;*/
-    /*font-size: 75px;*/
+/*content: "\f102";*/
+/*font-family: FontAwesome;*/
+/*font-size: 75px;*/
 /*}*/
-
 
 div#submit-data-header {
     /*background-color: rgba(129, 178, 72, 1.0); !* somewhere from the green part of logo *!*/
@@ -300,14 +293,14 @@ input[type=checkbox].with-font ~ label:before {
     color: #ffffff;
 }
 
-input[type=checkbox].with-font:checked ~ label:before  {
+input[type=checkbox].with-font:checked ~ label:before {
     content: "\f00c";
     font-size: 1.2em;
     /*color: darkgreen;*/
     letter-spacing: 5px;
 }
 
-input[type=radio].with-font:checked ~ label:before  {
+input[type=radio].with-font:checked ~ label:before {
     content: "\f046";
     font-size: 1.2em;
     color: #345AA2; /* dark blue from logo */
@@ -332,12 +325,68 @@ input[type=checkbox].with-font:checked ~ label:before {
     content: "\f046";
     /*color: darkgreen;*/
 }
+
 input[type=radio].with-font:focus ~ label:before,
 input[type=checkbox].with-font:focus ~ label:before,
 input[type=radio].with-font:focus ~ label,
-input[type=checkbox].with-font:focus ~ label
-{
+input[type=checkbox].with-font:focus ~ label {
     /*color: green;*/
 }
 
 /* radio/checkbox with fontawesome // */
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* // mega menu */
+
+.dropdown-pane {
+    width: 100%;
+    max-width: 33rem;
+    margin: 0 auto !important;
+    left: auto !important;
+    /*left: 0% !important;*/
+    /*right: 0% !important;*/
+}
+
+.js-dropdown-active {
+    max-width: 100% !important;
+    width: 100% !important;
+    left: 0 !important;
+    display: block;
+}
+
+.column > img {
+    margin: 1em 0;
+}
+
+.info-wrap h3 {
+    width: 50%;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #4E4E4E;
+}
+
+.info {
+    display: none;
+}
+
+.info-visible {
+    display: block;
+}
+
+.dt {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 2em;
+    padding: 0 20px;
+}
+
+.p {
+    color: black;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------- */
