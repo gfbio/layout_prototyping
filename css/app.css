@@ -338,13 +338,50 @@ input[type=checkbox].with-font:focus ~ label {
 /* ---------------------------------------------------------------------------------------------------- */
 /* // mega menu */
 
+
+/* GENERAL STYLES
+        –––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*body {*/
+    /*background: lightgray;*/
+/*}*/
+
+/*body, h3 {*/
+    /*color: white;*/
+/*}*/
+
+p.mega {
+    font-size: .9em;
+}
+
+h3.mega {
+    text-transform: uppercase;
+    font-size: 1em;
+    padding: .5em 0;
+    margin: .5em 0;
+}
+
+img.mega {
+    margin-bottom: 20px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
 .dropdown-pane-33 {
-    width: 100%;
-    max-width: 33rem;
+    /*position: absolute !important;*/
+    width: auto;
+    max-width: 33rem; /* 75rem is official rowsize*/
+    /*min-width: 100%;*/
     margin: 0 auto !important;
-    left: auto !important;
-    /*left: 0% !important;*/
-    /*right: 0% !important;*/
+
+    /*right: auto !important;*/
+    /*left: 0 !important;*/
+
+    /*left: auto !important;*/
+
+    /*right: auto !important;*/
+    left: 0% !important;
+    right: 0% !important;
 }
 
 
@@ -364,6 +401,12 @@ input[type=checkbox].with-font:focus ~ label {
     /*right: auto !important;*/
     left: 0% !important;
     right: 0% !important;
+}
+
+/* this mega row adapted from f5 example seems to need
+fix information about with*/
+.mega-item-row {
+    width: 75rem !important;
 }
 
 .js-dropdown-active {
