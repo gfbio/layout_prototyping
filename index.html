@@ -135,13 +135,26 @@
                 data-responsive-menu="drilldown medium-dropdown">
 
                 <!-- // this one has "mega" submenue -->
-                <li class="has-submenu">
+                <li class="has-submenu first">
                     <a href="#" class="dropdown" data-toggle="tech">Tech</a>
-                    <div class="dropdown-pane" id="tech" data-dropdown
-                         data-options="closeOnClick:true; hover: true; hoverPane: true">
+                    <div class="dropdown-pane" id="tech" data-dropdown data-options="closeOnClick:true; hover: true; hoverPane: true">
                         <div class="row">
 
-                            <div class="medium-6 column show-for-medium-up">
+                            <div class="medium-5 column show-for-medium-up col-a" >
+                                <h3>DIKFMDI</h3>
+                                <p>lsn i ld l sdlj öoin öoisnd cöoisd cis dcin s</p>
+                            </div>
+
+                            <div class="medium-5 column show-for-medium-up col-b" >
+                                <ul class="menu vertical">
+                                    <li><a href="#">One</a></li>
+                                    <li><a href="#">Two</a></li>
+                                    <li><a href="#">Three</a></li>
+                                    <li><a href="#">Four</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="medium-2 column show-for-medium-up col-c" >
                                 <h3>DIKFMDI</h3>
                                 <p>lsn i ld l sdlj öoin öoisnd cöoisd cis dcin s</p>
                             </div>
@@ -166,7 +179,7 @@
                             <li class="js-dropdown-active">
 
                                 <div class="row mega-item-row">
-                                    <div class="medium-6 column show-for-medium-up">
+                                    <div class="medium-5 column show-for-medium-up">
 
                                         <!-- TODO: keep unsplash in mind ! -->
                                         <img class="mega" src="https://unsplash.it/380/220?image=668">
@@ -176,44 +189,49 @@
 
                                             <!-- this class(es) available in css -->
                                             <div class="info info-visible">
-                                                <h3 class="mega">Select your program...</h3>
+                                                <h4 class="mega">Select your program...</h4>
                                                 <p class="mega">More info...</p>
                                             </div>
 
                                             <div class="info">
-                                                <h3 class="mega">Undergraduate Studies</h3>
-                                                <p class="mega">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                                                <h4 class="mega">Undergraduate Studies</h4>
+                                                <p class="mega">At vero eos et accusamus et iusto odio dignissimos
+                                                    ducimus qui
                                                     blanditiis
                                                     praesentium voluptatum deleniti atque corrupti quos dolores et quas
                                                     molestias excepturi sint occaecati cupiditate non provident.</p>
                                             </div>
 
                                             <div class="info">
-                                                <h3 class="mega">Graduate Studies</h3>
-                                                <p class="mega">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                                <h4 class="mega">Graduate Studies</h4>
+                                                <p class="mega">Sed ut perspiciatis unde omnis iste natus error sit
+                                                    voluptatem
                                                     accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
                                                     quae ab
                                                     illo inventore veritatis et quasi architecto.</p>
                                             </div>
 
                                             <div class="info">
-                                                <h3 class="mega">Internships</h3>
-                                                <p class="mega">Temporibus autem quibusdam et aut officiis debitis aut rerum
+                                                <h4 class="mega">Internships</h4>
+                                                <p class="mega">Temporibus autem quibusdam et aut officiis debitis aut
+                                                    rerum
                                                     necessitatibus saepe eveniet ut et voluptates repudiandae sint et
                                                     molestiae non recusandae adipisci velit, sed quia non numquam
                                                     eius.</p>
                                             </div>
 
                                             <div class="info">
-                                                <h3 class="mega">Other Studies</h3>
-                                                <p class="mega">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+                                                <h4 class="mega">Other Studies</h4>
+                                                <p class="mega">Neque porro quisquam est, qui dolorem ipsum quia dolor
+                                                    sit amet,
                                                     consectetur, adipisci velit, sed quia non numquam eius modi tempora
                                                     incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
                                             </div>
 
                                             <div class="info">
-                                                <h3 class="mega">Useful Contacts</h3>
-                                                <p class="mega">Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
+                                                <h4 class="mega">Useful Contacts</h4>
+                                                <p class="mega">Itaque earum rerum hic tenetur a sapiente delectus, ut
+                                                    aut reiciendis
                                                     voluptatibus maiores alias consequatur aut perferendis doloribus
                                                     asperiores repellat adipisci velit, sed quia non numquam eius.</p>
                                             </div>
@@ -222,16 +240,18 @@
 
                                     </div><!--end of .column-->
 
-                                    <div class="medium-6 column">
-                                        <h3 class="mega"Programs</h3>
-                                        <ul class="is-hover">
-                                            <li><a href="#"><i class="icon-circle-right"></i>Undergraduate</a></li>
-                                            <li><a href="#"><i class="icon-circle-right"></i>Graduate</a></li>
-                                            <li><a href="#"><i class="icon-circle-right"></i>Internships</a></li>
-                                            <li><a href="#"><i class="icon-circle-right"></i>Other</a></li>
-                                            <li><a href="#"><i class="icon-circle-right"></i>Contact</a></li>
+                                    <div class="medium-5 column">
+                                        <h4 class="mega">Programs</h4>
+                                        <ul class="is-hover menu vertical">
+                                            <li><a href="#">Undergraduate</a></li>
+                                            <li><a href="#">Graduate</a></li>
+                                            <li><a href="#">Internships</a></li>
+                                            <li><a href="#">Other</a></li>
+                                            <li><a href="#">Contact</a></li>
                                         </ul>
                                     </div><!--end of .column-->
+
+                                    <div class="medium-2 column"></div>
 
                                 </div><!--end of .row-->
                             </li>

@@ -247,8 +247,13 @@ div#main-menu .submenu {
 
 }
 
-div#main-menu .submenu > li {
-    /*border: 1px solid yellow;*/
+div#main-menu .menu > li.first {
+    border-left: 1px solid #fff;
+}
+
+div#main-menu .menu > li {
+    text-align: center;
+    border-right: 1px solid #fff;
 }
 
 div#main-menu .submenu > li > a {
@@ -338,70 +343,120 @@ input[type=checkbox].with-font:focus ~ label {
 /* ---------------------------------------------------------------------------------------------------- */
 /* // mega menu */
 
-
-/* GENERAL STYLES
+/* ICOMOON STYLES
         –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/*body {*/
-    /*background: lightgray;*/
+/*@font-face {*/
+    /*font-family: 'icomoon';*/
+    /*src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/icomoon_copy.eot");*/
+    /*src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/icomoon_copy.eot") format("embedded-opentype"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/icomoon_copy.woff") format("woff"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/icomoon_copy.ttf") format("truetype"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/icomoon_copy.svg") format("svg");*/
+    /*font-weight: normal;*/
+    /*font-style: normal;*/
 /*}*/
 
-/*body, h3 {*/
-    /*color: white;*/
+/*[class^="icon-"]:before,*/
+/*[class*=" icon-"]:before {*/
+    /*font-family: FontAwesome;*/
+    /*position: absolute;*/
+    /*margin-top: -6.5px;*/
+    /*right: 0;*/
+    /*font-weight: normal;*/
+    /*font-style: normal;*/
+    /*display: inline-block;*/
+    /*text-decoration: inherit;*/
 /*}*/
 
-p.mega {
-    font-size: .9em;
-}
+/*[class^="icon-"], [class*=" icon-"] {*/
+    /*font-family: FontAwesome;*/
+    /*speak: none;*/
+    /*font-style: normal;*/
+    /*font-weight: normal;*/
+    /*font-variant: normal;*/
+    /*text-transform: none;*/
+    /*line-height: 1;*/
+    /*position: absolute;*/
+    /*-webkit-transition: all .3s ease;*/
+    /*transition: all .3s ease;*/
+    /*!* Better Font Rendering =========== *!*/
+    /*-webkit-font-smoothing: antialiased;*/
+    /*-moz-osx-font-smoothing: grayscale;*/
+/*}*/
 
-h3.mega {
-    text-transform: uppercase;
-    font-size: 1em;
-    padding: .5em 0;
-    margin: .5em 0;
-}
+/*[class^="icon-"]:not(.icon-play),*/
+/*[class*=" icon-"]:not(.icon-play) {*/
 
-img.mega {
-    margin-bottom: 20px;
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
+/*}*/
 
-.dropdown-pane-33 {
-    /*position: absolute !important;*/
-    width: auto;
-    max-width: 33rem; /* 75rem is official rowsize*/
-    /*min-width: 100%;*/
-    margin: 0 auto !important;
+/*.icon-play:before {*/
+    /*content: "\ea15";*/
+/*}*/
 
-    /*right: auto !important;*/
-    /*left: 0 !important;*/
+/*.icon-circle-right:before {*/
+    /*content: "\f101";*/
+/*}*/
 
-    /*left: auto !important;*/
-
-    /*right: auto !important;*/
-    left: 0% !important;
-    right: 0% !important;
-}
-
+/*.dropdown-pane-33 {*/
+    /*width: auto;*/
+    /*max-width: 33rem; !* 75rem is official rowsize*!*/
+    /*margin: 0 auto !important;*/
+    /*left: 0% !important;*/
+    /*right: 0% !important;*/
+/*}*/
 
 /* this should pop up centered */
 .dropdown-pane {
-    /*position: absolute !important;*/
+    background-color:  #5C7BB4;
+    border: 0;
+    border-left: 1px solid #fff; /* match background of body */
+    /*border-bottom: 1px solid #5C7BB4;*/
+    border-right: 1px solid #fff; /* match background of body*/
     width: auto;
     max-width: 75rem; /* 75rem is official rowsize*/
-    /*min-width: 100%;*/
     margin: 0 auto !important;
-
-    /*right: auto !important;*/
-    /*left: 0 !important;*/
-
-    /*left: auto !important;*/
-
-    /*right: auto !important;*/
+    /*margin-top: 20px !important;*/
     left: 0% !important;
     right: 0% !important;
+
+    padding-top: 0;
 }
+
+.dropdown-pane:after {
+    background-color: #5C7BB4;
+    border-top: 1px solid white;
+    border-left: 1px solid #5C7BB4; /* match background-color*/
+    border-right: 1px solid #5C7BB4; /* match background-colort */
+    position:absolute;
+    content:"";
+    left:0;
+    right:0;
+    height: 2px;
+    top: -2px;
+
+}
+
+.col-a {
+    background-color: #3a945b;
+    border: 1px solid #1cc7ff;
+    text-align: left;
+}
+
+.col-b {
+    background-color: #3adb76;
+    border: 1px solid #881f0e;
+    text-align: left;
+}
+
+.col-b .menu {
+    text-align: left;
+    border: 0;
+}
+
+.col-c {
+    background-color: #147cc0;
+    border: 1px solid #0c4d78;
+    text-align: left;
+}
+
+/* ------------------------------------------------------------------------- */
 
 /* this mega row adapted from f5 example seems to need
 fix information about with*/
@@ -416,39 +471,116 @@ fix information about with*/
     display: block;
 }
 
-.column > img {
+
+div#studies .menu > li {
+    border: 0;
+    text-align: left;
+}
+
+div#studies .column > img {
     margin: 1em 0;
 }
 
-.info-wrap h3 {
+
+div#studies p.mega {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    /*font-size: .9em;*/
+    color: #fff;
+}
+
+div#studies h4.mega {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    color: #fff;
+    /*text-transform: uppercase;*/
+    /*font-size: 1em;*/
+    padding: .5em 0;
+    margin: .5em 0;
+}
+
+div#studies .info-wrap h4.mega {
+    /*font-family: "Lato", Helvetica, Arial, sans-serif;*/
+    /*font-weight: 300;*/
+    /*color: #fff;*/
+    /*!*text-transform: uppercase;*!*/
+    /*!*font-size: 1em;*!*/
+    /*padding: .5em 0;*/
+    /*margin: .5em 0;*/
+    width: 50%;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.6);
+}
+
+div#studies .is-hover {
+    list-style-type: none;
+    background-color: #5C7BB4;
+}
+
+div#studies .is-hover > li:not(:last-child) a {
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.6);
+}
+
+div#studies .is-hover > li  a:after {
+    font-family: FontAwesome;
+    /*display: inline-block;*/
+    content: "\f138";
+    line-height: 1;
+    position: relative;
+    float: right;
+    right: 0;
+    /*top: 50%;*/
+    /*-webkit-transition: all .3s ease;*/
+    /*transition: all .3s ease;*/
+    /*/* Better Font Rendering =========== */*/
+    /*-webkit-font-smoothing: antialiased;*/
+    /*-moz-osx-font-smoothing: grayscale;*/
+    /*letter-spacing: 10px;*/
+    /*font-size: 1.2em;*/
+    /*color: #345AA2; !* dark blue from logo *!*/
+    /*width: 1.4em;*/
+}
+
+div#studies .is-hover > li > a {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    color: #fff;
+}
+
+
+div#studies img.mega {
+    margin-bottom: 20px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+div#studies .info-wrap h3 {
     width: 50%;
     padding-bottom: 5px;
     border-bottom: 1px solid #4E4E4E;
 }
 
-.info {
+div#studies .info {
     display: none;
 }
 
-.info-visible {
+div#studies .info-visible {
     display: block;
 }
 
-.dt {
+div#studies .dt {
     margin-top: 50px;
     text-align: center;
     font-size: 2em;
     padding: 0 20px;
 }
 
-.p {
+div#studies .p {
     color: black;
     text-align: center;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
-
-
 
 /* ---------------------------------------------------------------------------------------------------- */
