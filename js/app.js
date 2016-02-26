@@ -24,3 +24,27 @@ $('.is-hover a').on('mouseover', function () {
 $('.dropdown').on('mouseout', function () {
     $('.info:nth-child(1)').addClass('info-visible').siblings().removeClass('info-visible');
 });
+
+//$(function() {
+//// OPACITY OF BUTTON SET TO 0%
+//    $(".roll").css("opacity","0");
+//
+//// ON MOUSE OVER
+//    $(".roll").hover(function () {
+//
+//// SET OPACITY TO 70%
+//            $(this).stop().animate({
+//                opacity: .7
+//            }, "fast");
+//        },
+//
+//
+//// ON MOUSE OUT
+//        function () {
+//
+//// SET OPACITY BACK TO 50%
+//            $(this).stop().animate({
+//                opacity: 0
+//            }, "slow");
+//        });
+//});

@@ -472,23 +472,30 @@ fix information about with*/
 }
 
 
-div#studies .menu > li {
+div#studies-mega .menu > li {
+/*div[id$="-mega"] .menu > li {*/
     border: 0;
     text-align: left;
 }
 
-div#studies .column > img {
+div#energy-mega .menu > li {
+    /*div[id$="-mega"] .menu > li {*/
+    border: 0;
+    text-align: left;
+}
+
+div[id$="-mega"] .column > img {
     margin: 1em 0;
 }
 
 
-div#studies p.mega {
+div[id$="-mega"] p.mega {
     font-family: "Lato", Helvetica, Arial, sans-serif;
     /*font-size: .9em;*/
     color: #fff;
 }
 
-div#studies h4.mega {
+div[id$="-mega"] h4.mega {
     font-family: "Lato", Helvetica, Arial, sans-serif;
     font-weight: 300;
     color: #fff;
@@ -498,7 +505,7 @@ div#studies h4.mega {
     margin: .5em 0;
 }
 
-div#studies .info-wrap h4.mega {
+div[id$="-mega"] .info-wrap h4.mega {
     /*font-family: "Lato", Helvetica, Arial, sans-serif;*/
     /*font-weight: 300;*/
     /*color: #fff;*/
@@ -511,25 +518,25 @@ div#studies .info-wrap h4.mega {
     border-bottom: 1px dotted rgba(255, 255, 255, 0.6);
 }
 
-div#studies .is-hover {
+div[id$="-mega"] .is-hover {
     list-style-type: none;
     background-color: #5C7BB4;
 }
 
 
 
-div#studies .is-hover > li:not(:last-child) a {
+div[id$="-mega"] .is-hover > li:not(:last-child) a {
     border-bottom: 1px dotted rgba(255, 255, 255, 0.6);
 }
 
-div#studies .is-hover > li:not(:last-child) a:hover {
+div[id$="-mega"] .is-hover > li:not(:last-child) a:hover {
     border-bottom: 1px solid rgba(255, 255, 255, 0.6);
 }
 
-div#studies .is-hover > li  a:after {
+div[id$="-mega"] .is-hover > li  a:after {
     font-family: FontAwesome;
     /*display: inline-block;*/
-    content: "\f138";
+    content: "\f101";
     line-height: 1;
     position: relative;
     float: right;
@@ -546,25 +553,25 @@ div#studies .is-hover > li  a:after {
     /*width: 1.4em;*/
 }
 
-div#studies .is-hover > li  a:hover:after {
+div[id$="-mega"] .is-hover > li  a:hover:after {
     right: 3px;
     font-weight: normal;
 }
 
-div#studies .is-hover > li a:hover {
+div[id$="-mega"] .is-hover > li a:hover {
     /*font-weight: 400;*/
     color: rgba(255, 255, 255, 1.0);
     font-weight: bold;
 }
 
-div#studies .is-hover > li > a {
+div[id$="-mega"] .is-hover > li > a {
     font-family: "Lato", Helvetica, Arial, sans-serif;
     color: rgba(255, 255, 255, 1.0);
     padding-right: 0;
 }
 
 
-div#studies img.mega {
+div[id$="-mega"] img.mega {
     margin-bottom: 20px;
     max-width: 100%;
     height: auto;
@@ -572,33 +579,84 @@ div#studies img.mega {
 }
 
 
-div#studies .info-wrap h3 {
+div[id$="-mega"] .info-wrap h3 {
     width: 50%;
     padding-bottom: 5px;
     border-bottom: 1px solid #4E4E4E;
 }
 
-div#studies .info {
+div[id$="-mega"] .info {
     display: none;
 }
 
-div#studies .info-visible {
+div[id$="-mega"] .info-visible {
     display: block;
 }
 
-div#studies .dt {
+div[id$="-mega"] .dt {
     margin-top: 50px;
     text-align: center;
     font-size: 2em;
     padding: 0 20px;
 }
 
-div#studies .p {
+div[id$="-mega"] .p {
     color: black;
     text-align: center;
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+a.intro i {
+    /*position: absolute;*/
+    /*color: rgba(0, 0, 0, 0.4);*/
+    /*font-size: 2.5em;*/
+    /*left: 50%;*/
+    /*-webkit-transform: translate(-50%, -50%);*/
+    /*transform: translate(-50%, -50%);*/
+    /*-webkit-transition: color .3s ease;*/
+    /*transition: color .3s ease;*/
+    top: 50%;
+    left: 50%;
+    position: relative;
+    margin-left: -25px;
+    margin-top: -30px;
+}
+
+a.intro:hover i {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+span.roll {
+    /*background:center center no-repeat #fff;*/
+    height: 260px;
+    position: absolute;
+    text-align: center;
+    /*line-height: 153px;*/
+    width: 370px;
+    z-index: 10;
+}
+
+.roll:before {
+    content: "\f01d";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    /*--adjust as necessary--*/
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 80px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 50px;
+    left: 145px;
+    /*top: 50%;*/
+    /*left: 50%;*/
+}
+
+.roll:hover:before {
+    color: rgba(255, 255, 255, 1.0);
 }
 
 /* ---------------------------------------------------------------------------------------------------- */
