@@ -516,8 +516,14 @@ div#studies .is-hover {
     background-color: #5C7BB4;
 }
 
+
+
 div#studies .is-hover > li:not(:last-child) a {
     border-bottom: 1px dotted rgba(255, 255, 255, 0.6);
+}
+
+div#studies .is-hover > li:not(:last-child) a:hover {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
 }
 
 div#studies .is-hover > li  a:after {
@@ -531,18 +537,30 @@ div#studies .is-hover > li  a:after {
     /*top: 50%;*/
     /*-webkit-transition: all .3s ease;*/
     /*transition: all .3s ease;*/
-    /*/* Better Font Rendering =========== */*/
-    /*-webkit-font-smoothing: antialiased;*/
-    /*-moz-osx-font-smoothing: grayscale;*/
+    /*/* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     /*letter-spacing: 10px;*/
     /*font-size: 1.2em;*/
     /*color: #345AA2; !* dark blue from logo *!*/
     /*width: 1.4em;*/
 }
 
+div#studies .is-hover > li  a:hover:after {
+    right: 3px;
+    font-weight: normal;
+}
+
+div#studies .is-hover > li a:hover {
+    /*font-weight: 400;*/
+    color: rgba(255, 255, 255, 1.0);
+    font-weight: bold;
+}
+
 div#studies .is-hover > li > a {
     font-family: "Lato", Helvetica, Arial, sans-serif;
-    color: #fff;
+    color: rgba(255, 255, 255, 1.0);
+    padding-right: 0;
 }
 
 
