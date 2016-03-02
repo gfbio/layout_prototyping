@@ -2,6 +2,53 @@
 /*@import url(https://fonts.googleapis.com/css?family=Lato:400,300,100italic,100,400italic,700italic,700,900,300italic,900italic);*/
 /*@import url(https://fonts.googleapis.com/css?family=Dancing+Script:400,700);*/
 
+@font-face {
+    font-family: 'fontello';
+    src: url('../fonts/fontello/font/fontello.eot?53633970');
+    src: url('../fonts/fontello/font/fontello.eot?53633970#iefix') format('embedded-opentype'),
+    url('../fonts/fontello/font/fontello.woff?53633970') format('woff'),
+    url('../fonts/fontello/font/fontello.ttf?53633970') format('truetype'),
+    url('../fonts/fontello/font/fontello.svg?53633970#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.demo-icon
+{
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    /* opacity: .8; */
+
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+
+    /* fix buttons height, for twitter bootstrap */
+    line-height: 1em;
+
+    /* Animation center compensation - margins should be symmetric */
+    /* remove if not needed */
+    margin-left: .2em;
+
+    /* You can be more comfortable with increased icons size */
+    /* font-size: 120%; */
+
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Uncomment for 3D effect */
+    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
 /* // top/sticky nav */
 
 .title-bar {
@@ -66,6 +113,10 @@
     /*color: #3CACE4; !* light blue from logo *!*/
     color: #345AA2; /* dark blue from logo */
     /* #282828 #808080 #333333 */
+}
+
+.menu > li.first {
+    padding-left: 1rem;
 }
 
 .menu > li > div.input-group {
@@ -657,7 +708,6 @@ span.roll {
 
 /*  FOOTER   */
 
-
 .footer {
     background-color: #5C7BB4;
     padding-top: 2rem;
@@ -707,7 +757,7 @@ span.roll {
     padding-bottom: 10px;
     float: left;
     padding-top: 2px;
-    color: rgba(255,255,255,0.5);
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .footer h5 {
@@ -721,12 +771,10 @@ span.roll {
     padding-left: 50px;
 }
 
-
 .footer-middle {
     border-top: 1px dotted rgba(255, 255, 255, 0.4);
     padding: 25px 0;
 }
-
 
 .footer a.button {
     background-color: #fff;
@@ -740,15 +788,9 @@ span.roll {
     border: 1px solid #3CACE4;
 }
 
-
 .footer-bottom {
     background-color: #5c5c5c;
 }
-
-
-
-
-
 
 #footerNav {
     display: table-cell;
@@ -778,12 +820,9 @@ span.roll {
     line-height: 2em;
 }
 
-
-
 .footer-top-wrapper {
     background-color: #2980b9;
 }
-
 
 #footer-bottom-row ul li > a {
     color: #a3a3a3;
@@ -802,10 +841,6 @@ span.roll {
     color: #fff;
 }
 
-
-
-
-
 .footer a {
     color: #fff;
     font-weight: bold;
@@ -820,8 +855,6 @@ span.roll {
 /*}*/
 /*}*/
 
-
-
 .footer-links {
     list-style-type: none;
     margin: 0;
@@ -830,11 +863,5 @@ span.roll {
 .footer-links li {
     margin-top: .5em;
 }
-
-
-
-
-
-
 
 /*  END FOOTER   */
