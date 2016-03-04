@@ -79,7 +79,7 @@
 }
 
 .brand-move {
-    padding: 40px 174px 0 0;
+    padding: 40px 174px 0 0 !important;
     background: url(../img/GFBio_logo_mono_png_71x35.png) no-repeat left center;
 }
 
@@ -88,6 +88,11 @@
 }
 
 .logo-top-nav {
+    padding: 86px 174px 0 0 !important;
+    background: url(../img/gfbiologo-transparent.png) no-repeat center center;
+}
+
+a.logo-top-nav {
     padding: 86px 174px 0 0;
     background: url(../img/gfbiologo-transparent.png) no-repeat center center;
 }
