@@ -93,6 +93,9 @@
 
 .nav-move .menu > li > a {
     color: #ffffff;
+
+    /* for larger fonts */
+    padding-top: 0.3rem;
 }
 
 .nav-move .menu > li > a:hover {
