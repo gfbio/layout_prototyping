@@ -180,7 +180,12 @@ div.claim {
     /*height: 175px;*/
     /*background-color: lightgrey;*/
     text-align: center;
-    padding: 0 10px 0 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+div.claim:hover {
+    background-color: rgba(52, 90, 162, 0.1);
+    border-radius: 10px;
 }
 
 .claim p {
@@ -213,31 +218,26 @@ h4.submission-a, h4.submission-b, h4.submission-c {
     text-transform: lowercase;
 }
 
-/*h1.submission-a:hover {*/
-/*background-color: rgba(52, 90, 162, 0.9);*/
-/* darkblue from logo with 0.8 alpha as fullcolor #5C7BB4 */
-/*color: #ffffff;*/
-/*border-radius: 4px;*/
+h1.submission-a:hover {
+    font-weight: 400;
+}
+
+/*h4.submission-a:hover {*/
+    /*background-color: rgba(52, 90, 162, 0.9);*/
+    /*!* darkblue from logo with 0.8 alpha as fullcolor #5C7BB4 *!*/
+    /*color: #ffffff;*/
+    /*border-radius: 4px;*/
 /*}*/
 
-h4.submission-a:hover {
-    background-color: rgba(52, 90, 162, 0.9);
-    /* darkblue from logo with 0.8 alpha as fullcolor #5C7BB4 */
-    color: #ffffff;
-    border-radius: 4px;
-}
-
 h4.submission-b:hover {
-    background-color: rgba(129, 178, 72, 0.9);
-    color: #ffffff;
-    border-radius: 4px;
+    font-weight: 400;
 }
 
-h4.submission-c:hover {
-    background-color: rgba(60, 172, 228, 0.9);
-    color: #ffffff;
-    border-radius: 4px;
-}
+/*h4.submission-c:hover {*/
+    /*background-color: rgba(60, 172, 228, 0.9);*/
+    /*color: #ffffff;*/
+    /*border-radius: 4px;*/
+/*}*/
 
 /*replace the content value with the
 corresponding value from the list below*/
