@@ -158,10 +158,13 @@ a.logo-top-nav {
 }
 
 .menu > li > div.input-group input[type=text] {
-    border-top-left-radius: 6px;
-    border-bottom-left-radius: 6px;
+    /*border-top-left-radius: 6px;*/
+    /*border-bottom-left-radius: 6px;*/
     text-align: center;
-    border: 1px solid #345AA2;
+    /*border: 1px solid #345AA2;*/
+    border-top: 1px solid #345AA2;
+    border-bottom: 1px solid #345AA2;
+    border-right: 1px solid #345AA2;;
     color: #0F3272 !important;
 }
 
