@@ -338,8 +338,10 @@ h1, h2, h3, h4, h5, h6 {
     float: left;
     width: 100%;
     position: relative;
-    padding-top: 4em;
-    padding-bottom: 4em;
+    padding-bottom: 60px; // navbar heihgt
+    padding-top: 120px;
+    //padding-top: 4em;
+    //padding-bottom: 4em;
     //height: 900px;
     height: 100%;
     z-index: 10;
