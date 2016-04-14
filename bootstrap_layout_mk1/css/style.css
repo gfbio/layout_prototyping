@@ -6021,7 +6021,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   padding-top: 4em;
   padding-bottom: 4em;
-  height: 900px;
+  height: 100%;
   z-index: 10;
   background: #4fd2c2;
   overflow: hidden; }
