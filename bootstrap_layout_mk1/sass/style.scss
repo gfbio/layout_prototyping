@@ -355,7 +355,7 @@ h1, h2, h3, h4, h5, h6 {
         bottom: 0;
         z-index: 9;
         background: $brand-overlay-color;
-        opacity: .5;
+        opacity: 0.0;
     }
     @media screen and (max-width: $screen-sm) {
         padding-top: 2em;
@@ -366,7 +366,7 @@ h1, h2, h3, h4, h5, h6 {
     .fh5co-intro {
         // position: absolute;
         width: 100%;
-        color: $brand-white;
+        color: $brand-gray;
         z-index: 12;
         position: relative;
 
@@ -392,7 +392,7 @@ h1, h2, h3, h4, h5, h6 {
             }
         }
         h2 {
-            color: $brand-white;
+            color: $brand-gray;
             font-size: 50px;
             line-height: 50px;
             font-weight: 700;

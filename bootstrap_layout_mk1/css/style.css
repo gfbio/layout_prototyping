@@ -6033,7 +6033,7 @@ h1, h2, h3, h4, h5, h6 {
     bottom: 0;
     z-index: 9;
     background: #3b3d40;
-    opacity: .5; }
+    opacity: 0.0; }
   @media screen and (max-width: 768px) {
     #fh5co-hero {
       padding-top: 2em;
@@ -6041,7 +6041,7 @@ h1, h2, h3, h4, h5, h6 {
       height: inherit; } }
   #fh5co-hero .fh5co-intro {
     width: 100%;
-    color: #fff;
+    color: #ccc;
     z-index: 12;
     position: relative; }
     #fh5co-hero .fh5co-intro .fh5co-intro-img {
@@ -6063,7 +6063,7 @@ h1, h2, h3, h4, h5, h6 {
           bottom: 0;
           bottom: -4em; } }
     #fh5co-hero .fh5co-intro h2 {
-      color: #fff;
+      color: #ccc;
       font-size: 50px;
       line-height: 50px;
       font-weight: 700; }
