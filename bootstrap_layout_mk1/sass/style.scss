@@ -1,6 +1,6 @@
 // Fonts
 
-$font-monsterrat: 'Montserrat', arial, sans-serif;
+$font-monsterrat: 'Lato', arial, sans-serif;
 $font-playfair: 'Playfair Display', times, serif;
 $font-arial: Arial, sans-serif;
 $font-opensans: "Open Sans", Arial, sans-serif;
@@ -25,7 +25,7 @@ $brand-bg-color: $brand-white;
 $input-border-focus: $brand-primary !default;
 $form-group-margin-bottom: 30px !default;
 
-$navbar-height: 60px !default;
+$navbar-height: 68px !default;
 
 // Mixin
 @mixin transition($transition) {
@@ -367,7 +367,7 @@ h1, h2, h3, h4, h5, h6 {
     .fh5co-intro {
         // position: absolute;
         width: 100%;
-        color: $brand-gray;
+        color: lighten($brand-darker, 15%);
         z-index: 12;
         position: relative;
 
@@ -396,7 +396,7 @@ h1, h2, h3, h4, h5, h6 {
             }
         }
         h2 {
-            color: $brand-gray;
+            color: lighten($brand-darker, 15%);
             font-size: 50px;
             line-height: 50px;
             font-weight: 700;
@@ -434,13 +434,16 @@ h1, h2, h3, h4, h5, h6 {
     color: $brand-white;
     z-index: 10;
     position: relative;
-    // padding-left: 0;
+    padding-left: 0;
+    padding-top: 0 !important;
 
     > span {
         @include inline-block;
         float: left;
-        border: 2px solid $brand-white;
-        padding: 7px 10px 7px 12px;
+        padding: 147px 299px 0 0 !important;
+        background: url(../images/GFBio_logo_png_299x147.png) no-repeat center center;
+        //border: 2px solid $brand-white;
+        //padding: 7px 10px 7px 12px;
     }
     &:hover {
         color: $brand-white;
@@ -461,6 +464,9 @@ h1, h2, h3, h4, h5, h6 {
             color: $brand-black;
         }
         > span {
+            padding: 86px 174px 0 0 !important;
+            background: url(../images/gfbiologo-transparent.png) no-repeat center center;
+
             border-color: $brand-darker;
         }
     }
