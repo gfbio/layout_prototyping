@@ -82,7 +82,7 @@ $navbar-height: 60px !default;
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -318,12 +318,13 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     z-index: 10;
     font-family: $font-monsterrat;
-    color: $brand-white;
+    color: $brand-gray;
     i {
         font-size: 20px;
         margin-top: 3px;
         float: right;
         margin-left: 10px;
+        color: $brand-gray;
     }
     &:hover, &:focus, &:active {
         outline: none;
@@ -376,6 +377,9 @@ h1, h2, h3, h4, h5, h6 {
             @media screen and (max-width: $screen-sm) {
                 bottom: -10em;
                 img {
+                    max-width: 100%;
+                }
+                div#img-replacement {
                     max-width: 100%;
                 }
             }
@@ -1090,7 +1094,7 @@ pre {
     }
 }
 
-// Input Text 
+// Input Text
 .form-control {
     box-shadow: none !important;
     border: 2px solid $brand-darker;
@@ -1365,7 +1369,7 @@ pre {
     text-decoration: none;
     &.active i {
         &::before, &::after {
-            background: $brand-white;
+            background: $brand-gray;
         }
     }
     &:hover, &:focus, &:active {
@@ -1377,17 +1381,17 @@ pre {
         @include inline-block;
         width: 25px;
         height: 3px;
-        color: $brand-white;
+        color: $brand-gray;
         font: bold 14px/.4 Helvetica;
         text-transform: uppercase;
         text-indent: -55px;
-        background: $brand-white;
+        background: $brand-gray;
         transition: all .2s ease-out;
         &::before, &::after {
             content: '';
             width: 25px;
             height: 3px;
-            background: $brand-white;
+            background: $brand-gray;
             position: absolute;
             left: 0;
             @include transition(.2s);
@@ -1469,7 +1473,7 @@ pre {
         z-index: 99;
         width: 100px;
         margin-top: 12px;
-        color: $brand-white;
+        color: $brand-gray;
         margin-left: -70px;
         font-family: $font-monsterrat;
         letter-spacing: 2px;

@@ -5803,7 +5803,7 @@ button.close {
     display: none !important; } }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -6004,12 +6004,13 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 10;
   font-family: "Montserrat", arial, sans-serif;
-  color: #fff; }
+  color: #ccc; }
   .fh5co-menu-btn i {
     font-size: 20px;
     margin-top: 3px;
     float: right;
-    margin-left: 10px; }
+    margin-left: 10px;
+    color: #ccc; }
   .fh5co-menu-btn:hover, .fh5co-menu-btn:focus, .fh5co-menu-btn:active {
     outline: none;
     text-decoration: none;
@@ -6051,6 +6052,8 @@ h1, h2, h3, h4, h5, h6 {
         #fh5co-hero .fh5co-intro .fh5co-intro-img {
           bottom: -10em; }
           #fh5co-hero .fh5co-intro .fh5co-intro-img img {
+            max-width: 100%; }
+          #fh5co-hero .fh5co-intro .fh5co-intro-img div#img-replacement {
             max-width: 100%; } }
     #fh5co-hero .fh5co-intro .fh5co-text {
       bottom: -15em; }
@@ -6854,7 +6857,7 @@ pre {
   cursor: pointer;
   text-decoration: none; }
   .fh5co-nav-toggle.active i::before, .fh5co-nav-toggle.active i::after {
-    background: #fff; }
+    background: #ccc; }
   .fh5co-nav-toggle:hover, .fh5co-nav-toggle:focus, .fh5co-nav-toggle:active {
     outline: none;
     border-bottom: none !important; }
@@ -6866,17 +6869,17 @@ pre {
     *display: inline;
     width: 25px;
     height: 3px;
-    color: #fff;
+    color: #ccc;
     font: bold 14px/.4 Helvetica;
     text-transform: uppercase;
     text-indent: -55px;
-    background: #fff;
+    background: #ccc;
     transition: all .2s ease-out; }
     .fh5co-nav-toggle i::before, .fh5co-nav-toggle i::after {
       content: '';
       width: 25px;
       height: 3px;
-      background: #fff;
+      background: #ccc;
       position: absolute;
       left: 0;
       -webkit-transition: 0.2s;
@@ -6943,7 +6946,7 @@ pre {
     z-index: 99;
     width: 100px;
     margin-top: 12px;
-    color: #fff;
+    color: #ccc;
     margin-left: -70px;
     font-family: "Montserrat", arial, sans-serif;
     letter-spacing: 2px;
