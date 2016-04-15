@@ -373,7 +373,7 @@ h1, h2, h3, h4, h5, h6 {
 
         .fh5co-intro-img {
             text-align: right;
-            bottom: -5em;
+            bottom: -10em;
             @media screen and (max-width: $screen-sm) {
                 bottom: -10em;
                 img {
@@ -385,7 +385,7 @@ h1, h2, h3, h4, h5, h6 {
             }
         }
         .fh5co-text {
-            bottom: -15em;
+            bottom: -10em;
             @media screen and (max-width: $screen-md) {
                 bottom: 0;
                 bottom: -4em;

@@ -6047,7 +6047,7 @@ h1, h2, h3, h4, h5, h6 {
     position: relative; }
     #fh5co-hero .fh5co-intro .fh5co-intro-img {
       text-align: right;
-      bottom: -5em; }
+      bottom: -10em; }
       @media screen and (max-width: 768px) {
         #fh5co-hero .fh5co-intro .fh5co-intro-img {
           bottom: -10em; }
@@ -6056,7 +6056,7 @@ h1, h2, h3, h4, h5, h6 {
           #fh5co-hero .fh5co-intro .fh5co-intro-img div#img-replacement {
             max-width: 100%; } }
     #fh5co-hero .fh5co-intro .fh5co-text {
-      bottom: -15em; }
+      bottom: -10em; }
       @media screen and (max-width: 992px) {
         #fh5co-hero .fh5co-intro .fh5co-text {
           bottom: 0;
