@@ -277,7 +277,7 @@ div#submit-data-header {
 }
 
 div#retrieve-data-header {
-    /*background-color: rgba(129, 178, 72, 1.0); !* somewhere from the green part of logo *!*/
+    background-color: rgba(129, 178, 72, 1.0);  /*!* somewhere from the green part of logo *!*/
     background-color: rgba(60, 172, 228, 0.9); /* light blue from logo */
     /*background-color: rgba(52, 90, 162, 1.0); !* dark blue from logo *!*/
     height: 100%;
