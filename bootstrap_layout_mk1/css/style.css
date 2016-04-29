@@ -5808,7 +5808,7 @@ button.close {
 *
 * ======================================================= */
 body {
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Lato", arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
@@ -6046,7 +6046,7 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 12;
     position: relative; }
     #fh5co-hero .fh5co-intro .fh5co-intro-img {
-      text-align: right;
+      text-align: left;
       bottom: -10em; }
       @media screen and (max-width: 768px) {
         #fh5co-hero .fh5co-intro .fh5co-intro-img {
@@ -6088,6 +6088,8 @@ h1, h2, h3, h4, h5, h6 {
         display: inline-block;
         zoom: 1;
         *display: inline; }
+    #fh5co-hero .fh5co-intro blockquote {
+      border-left: 0; }
 
 .navbar-brand {
   text-align: left;
@@ -6163,7 +6165,7 @@ h1, h2, h3, h4, h5, h6 {
     #fh5co-pricing .fh5co-price > span {
       font-size: 16px;
       line-height: 16px;
-      font-family: "Open Sans", Arial, sans-serif;
+      font-family: "Lato", arial, sans-serif;
       font-weight: 400;
       color: #ccc; }
   #fh5co-pricing .pricing-feature {
@@ -6510,7 +6512,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff; }
     @media screen and (max-width: 480px) {
       #fh5co-testimony .fh5co-author {
-        text-align: center; } }
+        text-align: left; } }
     #fh5co-testimony .fh5co-author > span {
       color: #000; }
 
@@ -7025,17 +7027,17 @@ pre {
 .owl-theme .owl-dots .owl-dot span {
   width: 10px;
   height: 10px;
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 174, 0, 0.4);
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.2s;
   border: 2px solid transparent; }
   .owl-theme .owl-dots .owl-dot span:hover {
     background: none;
-    background: white; }
+    background: #ffae00; }
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-  background: white;
+  background: #ffae00;
   border: 2px solid transparent; }
 
 .js .to-animate,

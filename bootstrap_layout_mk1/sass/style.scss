@@ -1,9 +1,12 @@
 // Fonts
-
-$font-monsterrat: 'Lato', arial, sans-serif;
+$font-lato: 'Lato', arial, sans-serif;
+//$font-monsterrat: 'Montserrat', arial, sans-serif;
+$font-monsterrat: $font-lato;
 $font-playfair: 'Playfair Display', times, serif;
 $font-arial: Arial, sans-serif;
-$font-opensans: "Open Sans", Arial, sans-serif;
+// $font-opensans: "Open Sans", Arial, sans-serif;
+$font-opensans: $font-lato;
+
 
 // Overrides
 $grid-gutter-width: 40px !default;
@@ -374,7 +377,7 @@ h1, h2, h3, h4, h5, h6 {
         position: relative;
 
         .fh5co-intro-img {
-            text-align: right;
+            text-align: left;
             bottom: -10em;
             @media screen and (max-width: $screen-sm) {
                 bottom: -10em;
@@ -421,6 +424,9 @@ h1, h2, h3, h4, h5, h6 {
                 margin-top: -5px;
                 @include inline-block;
             }
+        }
+        blockquote {
+            border-left: 0;
         }
     }
 }
@@ -909,11 +915,11 @@ h1, h2, h3, h4, h5, h6 {
     }
     .fh5co-author {
 
-        font-family: $font-monsterrat;
+        font-family: $font-lato;
         // color: lighten($brand-darker, 25%);
         color: $brand-white;
         @media screen and (max-width: $screen-xs) {
-            text-align: center;
+            text-align: left;
         }
         > span {
             color: $brand-black;
@@ -1580,17 +1586,18 @@ pre {
 .owl-theme .owl-dots .owl-dot span {
     width: 10px;
     height: 10px;
-    background: rgba(255, 255, 255, .4);
+    background: rgba(255, 174, 0, .4);
     @include transition(.2s);
     border: 2px solid transparent;
     &:hover {
         background: none;
-        background: rgba(255, 255, 255, 1);
+        background: rgba(255, 174, 0, 1);
     }
 }
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-    background: rgba(255, 255, 255, 1);
+    //background: rgba(255, 255, 255, 1);
+    background: #ffae00;
     border: 2px solid transparent;
 }
 
