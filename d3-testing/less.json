@@ -2,41 +2,86 @@
     "nodes": [
         {
             "name": "DataManagement",
-            "group": 1
+            "group": 1,
+            "icon": "node"
         },
         {
             "name": "DataSubmission",
-            "group": 2
+            "group": 2,
+            "icon": "node"
         },
         {
             "name": "DataBrowsing",
-            "group": 3
+            "group": 3,
+            "icon": "node"
         },
         {
             "name": "DataAnalysis",
-            "group": 4
+            "group": 4,
+            "icon": "node"
+        },
+        {
+            "name": "Dummy",
+            "group": 0,
+            "icon": "node"
+        },
+        {
+            "name": "Dummy",
+            "group": 0,
+            "icon": "node"
+        },
+        {
+            "name": "Dummy",
+            "group": 0,
+            "icon": "node"
+        },
+        {
+            "name": "Dummy",
+            "group": 0,
+            "icon": "node"
         }
     ],
     "links": [
         {
             "source": 0,
             "target": 1,
-            "value": 1
+            "value": 3
         },
         {
             "source": 1,
             "target": 2,
-            "value": 2
+            "value": 3
         },
         {
             "source": 2,
             "target": 3,
-            "value": 2
+            "value": 3
         },
         {
-            "source": 3,
+            "source": 4,
             "target": 0,
-            "value": 2
+            "value": 8
+        },
+        {
+            "source": 5,
+            "target": 0,
+            "value": 1
+        },
+        {
+            "source": 6,
+            "target": 0,
+            "value": 1
+        },
+        {
+            "source": 7,
+            "target": 0,
+            "value": 1
+        },
+        {
+            "source": 7,
+            "target": 2,
+            "value": 1
         }
+
     ]
 }
