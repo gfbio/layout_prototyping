@@ -101,15 +101,21 @@ $(document).ready(function(){
 			console.log('done scrolling');
 		}
 	});
-	
+
+
     $(window).scroll(function () {
-        if ($(window).scrollTop() > 400) {
-            $(".navbar-brand a").css("color","#fff");
-            $("#navigation").removeClass("animated-header");
+        if ($(window).scrollTop() > 10) {
+            $(".navbar-fixed-top").addClass("navigation-shadow");
         } else {
-            $(".navbar-brand a").css("color","inherit");
-            $("#navigation").addClass("animated-header");
+            $(".navbar-fixed-top").removeClass("navigation-shadow");
         }
+        // if ($(window).scrollTop() > 400) {
+        //     $(".navbar-brand a").css("color","#fff");
+        //     $("#navigation").removeClass("animated-header");
+        // } else {
+        //     $(".navbar-brand a").css("color","inherit");
+        //     $("#navigation").addClass("animated-header");
+        // }
     });
 	
 	/* ========================================================================= */
