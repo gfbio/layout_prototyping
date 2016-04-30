@@ -246,26 +246,28 @@
 					$(this.element).addClass('animated');
 						
 				}
-			} , { offset: '75%' } );
+			} , {
+                offset: '75%'
+            } );
 		}
 	};
 
 	var HeaderToggle = function() {
 
 		var $this = $( '#fh5co-main' );
-			
+
 
 		$this.waypoint(function(direction) {
-			
+
 			if( direction === 'down' ) {
 				$('body').addClass('scrolled');
 			}
 			else if( direction === 'up' ){
 				$('body').removeClass('scrolled');
-			}			
-		
+			}
+
 		}, { offset: '-1px' } );
-		
+
 	};
 
 
@@ -635,7 +637,9 @@
 		    	navActive($(this.element).data('section'));
 		  	}
 		}, {
-		  	offset: function() { return -$(this.element).height() + 155; }
+		  	offset: function() {
+				return -$(this.element).height() + 155;
+			}
 		});
 
 	};

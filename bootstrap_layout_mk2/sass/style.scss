@@ -132,7 +132,7 @@ h1, h2, h3, h4, h5, h6 {
   background: $brand-selection-color;
 }
 #fh5co-menu {
-	background: transparent; 
+	background: $brand-gray;
 	position: absolute;
 	top: 0;
 	z-index: 999;
@@ -140,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding-bottom: 20px;
 	@include transition(.5s);
 	@include border-radius(0px);
-	margin-top: 20px;
+	//margin-top: 20px;
 	
 	&.sleep {
 	
@@ -442,6 +442,7 @@ h1, h2, h3, h4, h5, h6 {
 		margin-left: 0;
 	}
 }
+
 .scrolled {
 	.navbar-brand {
 		color: $brand-darker;
