@@ -6,20 +6,54 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <style>
 
+        @font-face {
+            font-family: 'icomoon';
+            src:    url('fonts/icomoon/fonts/icomoon.eot?xtb52m');
+            src:    url('fonts/icomoon/fonts/icomoon.eot?xtb52m#iefix') format('embedded-opentype'),
+            url('fonts/icomoon/fonts/icomoon.ttf?xtb52m') format('truetype'),
+            url('fonts/icomoon/fonts/icomoon.woff?xtb52m') format('woff'),
+            url('fonts/icomoon/fonts/icomoon.svg?xtb52m#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        [class^="icon-"], [class*=" icon-"] {
+            /* use !important to prevent issues with browser extensions that change fonts */
+            font-family: 'icomoon' !important;
+            /*speak: none;*/
+            /*font-style: normal;*/
+            /*font-weight: normal;*/
+            /*font-variant: normal;*/
+            /*text-transform: none;*/
+            /*line-height: 1;*/
+
+            /* Better Font Rendering =========== */
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
         .node {
-            stroke: #000;
+            fill: #fff;
+            stroke: #345AA2;
+            /*stroke: #fff;*/
+
+            stroke-width: 2;
         }
 
         .link {
-            stroke: #999;
-            stroke-opacity: .6;
+            stroke: #345AA2;
+            stroke-opacity: .7;
+            stroke-width: 3;
         }
-
-        .upload {
-            color: red;
-            font-family: FontAwesome;
-            content: "\f0ee";
+        
+        text {
+            fill: #345AA2;
         }
+        /*.upload {*/
+            /*color: red;*/
+            /*font-family: FontAwesome;*/
+            /*content: "\f0ee";*/
+        /*}*/
 
     </style>
 </head>
@@ -27,14 +61,14 @@
 <script src="//d3js.org/d3.v3.min.js"></script>
 <script>
 
-    var width = 960,
+    var width = 1024,
             height = 900;
 
     var color = d3.scale.category20();
 
     var force = d3.layout.force()
-            .charge(-2000)
-            .linkDistance(200)
+            .charge(-1000)
+            .linkDistance(250)
             .size([width, height]);
 
 
@@ -50,15 +84,16 @@
                 .links(graph.links)
                 .start();
 
-        //setInterval(function(){force.alpha(0.2);}, 20);
+
+        // setInterval(function(){force.alpha(0.1);}, 250);
 
         var link = svg.selectAll(".link")
                 .data(graph.links)
                 .enter().append("line")
-                .attr("class", "link")
-                .style("stroke-width", function (d) {
-                    return Math.sqrt(d.value);
-                });
+                .attr("class", "link");
+//                .style("stroke-width", function (d) {
+//                    return Math.sqrt(d.value);
+//                });
 
         var gnodes = svg.selectAll('g.gnode')
                 .data(graph.nodes)
@@ -68,21 +103,52 @@
 
         var node = gnodes.append("circle")
                 .attr("class", "node")
-                .attr("r", 35)
-                .style("fill", function (d) {
-                    return color(d.group);
-                })
+                .attr("r", 45)
+//                .style("fill", function (d) {
+//                    return color(d.group);
+//                })
                 .call(force.drag);
 
         var labels = gnodes.append("text")
-                .attr('font-family', 'FontAwesome')
-                .attr('font-size', function(d) { return d.size+'em'} )
-                .text(function(d) { return '\uf0ee' });
-//                .text(function (d) {
-//                    return d.name;
-//                });
+                //.attr('font-family', 'FontAwesome')
+                .attr('class', 'icon-circle')
+                .attr('font-size', '40px')
+                .attr('text-anchor', 'middle')
+//                .attr('x', '50%')
+                .attr('y', '12')
+                // .text(function(d) { return '\uf1c0' });
+                .text(function (d) {
+                    return d.icon_unicode;
+                });
 
-        console.log(labels);
+        var labels_sub_text_background = gnodes.append('rect')
+                .attr('x', '-50')
+                .attr('y', '22')
+                .attr('width', '100')
+                .attr('height', '12')
+                .attr('fill', function (d) {
+                    if ('sub_text' in d) {
+                        return 'white';
+                    }
+                    else {
+                        return 'transparent';
+                    }
+                });
+                //.attr('stroke', 'lime');
+
+
+        var labels_sub_text = gnodes.append('text')
+                .attr('font-family', 'Arial')
+                .attr('font-size', '12px')
+                .attr('text-anchor', 'middle')
+                //                .attr('x', '50%')
+                .attr('y', '32')
+                // .text(function(d) { return '\uf1c0' });
+                .text(function (d) {
+                    return d.sub_text;
+                });
+
+        //console.log(labels);
 
         force.on("tick", function () {
             link.attr("x1", function (d) {
@@ -99,99 +165,12 @@
                     });
 
             gnodes.attr("transform", function (d) {
+                //console.log('transform '+d.x+' '+d.y);
                 return 'translate(' + [d.x, d.y] + ')';
             });
 
 
         });
-//        if (error) throw error;
-//
-//        force
-//                .nodes(graph.nodes)
-//                .links(graph.links)
-//                .start();
-//
-//        setInterval(function(){force.alpha(0.2);}, 100);
-//
-//        var link = svg.selectAll(".link")
-//                .data(graph.links)
-//                .enter().append("line")
-//                .attr("class", "link")
-//                .style("stroke-width", function (d) {
-//                    return Math.sqrt(d.value);
-//                });
-//
-////        var node = svg.selectAll(".node")
-////                .data(graph.nodes)
-////                .enter()
-////                .append("circle")
-////                .attr("class", function (d) {
-////                    console.log('icon '+d.icon);
-////                    return d.icon;
-////                })
-////                .attr("r", 20)
-////                .style("fill", function (d) {
-////                    //return color(d.group);
-////                    return 'white';
-////                })
-////                .call(force.drag);
-//        var node = svg.selectAll(".node")
-//                .data(graph.nodes)
-//                .enter().append("g")
-//                .attr("class", "upload")
-//                .call(force.drag);
-//
-////        node.append("image")
-////                .attr("xlink:href", "https://github.com/favicon.ico")
-////                .attr("x", -8)
-////                .attr("y", -8)
-////                .attr("width", 16)
-////                .attr("height", 16);
-//
-//
-//        node.append("text")
-//                .attr('font-family', 'FontAwesome')
-//                .attr('font-size', function(d) { return d.size+'em'} )
-//                .text(function(d) { return '\uf0ee' });
-//
-////        node.append("title")
-////                .text(function (d) {
-////                    return d.name;
-////                });
-////
-////        // Append the labels to each group
-////        var labels = node.append("text")
-////                .text(function (d) {
-////                    console.log(' labels '+d.name);
-////                    return d.name;
-////                }).style('fill', 'black');
-//
-//        force.on("tick", function () {
-//            link.attr("x1", function (d) {
-//                        return d.source.x;
-//                    })
-//                    .attr("y1", function (d) {
-//                        return d.source.y;
-//                    })
-//                    .attr("x2", function (d) {
-//                        return d.target.x;
-//                    })
-//                    .attr("y2", function (d) {
-//                        return d.target.y;
-//                    });
-//            node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
-//
-////            node.attr("cx", function (d) {
-////                        return d.x;
-////                    })
-////                    .attr("cy", function (d) {
-////                        return d.y;
-////                    });
-//        });
-//        node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
-////        node.attr("transform", function(d) {
-////            return 'translate(' + [d.x, d.y] + ')';
-////        });
     });
 
 </script>

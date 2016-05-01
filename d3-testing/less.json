@@ -3,42 +3,61 @@
         {
             "name": "DataManagement",
             "group": 1,
-            "icon": "node"
+            "icon_unicode": "\ue03c",
+            "sub_text": "Data Management"
         },
         {
             "name": "DataSubmission",
             "group": 2,
-            "icon": "node"
+            "icon_unicode": "\ue02b",
+            "sub_text": "Data Submission"
         },
         {
             "name": "DataBrowsing",
             "group": 3,
-            "icon": "node"
+            "icon_unicode": "\ue031",
+            "sub_text": "Data Browsing"
         },
         {
             "name": "DataAnalysis",
             "group": 4,
-            "icon": "node"
+            "icon_unicode": "\ue034",
+            "sub_text": "Data Analysis"
         },
         {
             "name": "Dummy",
             "group": 0,
-            "icon": "node"
+            "icon_unicode": "\ue032"
         },
         {
             "name": "Dummy",
             "group": 0,
-            "icon": "node"
+            "icon_unicode": "\ue046"
         },
         {
             "name": "Dummy",
             "group": 0,
-            "icon": "node"
+            "icon_unicode": "\ue04c"
         },
         {
             "name": "Dummy",
             "group": 0,
-            "icon": "node"
+            "icon_unicode": "\ue98c"
+        },
+        {
+            "name": "Dummy",
+            "group": 0,
+            "icon_unicode": "\uea16"
+        },
+        {
+            "name": "Dummy",
+            "group": 0,
+            "icon_unicode": "\uea22"
+        },
+        {
+            "name": "Dummy",
+            "group": 0,
+            "icon_unicode": "\ue98c"
         }
     ],
     "links": [
