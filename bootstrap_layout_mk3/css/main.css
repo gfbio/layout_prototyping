@@ -23,6 +23,65 @@
 /*}*/
 
 
+@font-face {
+    font-family: 'icomoon';
+    src:    url('../fonts/icomoon/fonts/icomoon.eot?xtb52m');
+    src:    url('../fonts/icomoon/fonts/icomoon.eot?xtb52m#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon/fonts/icomoon.ttf?xtb52m') format('truetype'),
+    url('../fonts/icomoon/fonts/icomoon.woff?xtb52m') format('woff'),
+    url('../fonts/icomoon/fonts/icomoon.svg?xtb52m#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+svg {
+    display: block;
+    position: relative;
+    width: 1024px;
+    height: inherit;
+    vertical-align: top;
+    margin: auto;
+    overflow: hidden;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    /*speak: none;*/
+    /*font-style: normal;*/
+    /*font-weight: normal;*/
+    /*font-variant: normal;*/
+    /*text-transform: none;*/
+    /*line-height: 1;*/
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.node {
+    fill: #fff;
+    stroke: #345AA2;
+    /*stroke: #fff;*/
+
+    stroke-width: 2;
+}
+
+.link {
+    stroke: #345AA2;
+    stroke-opacity: .7;
+    stroke-width: 3;
+}
+
+text {
+    fill: #345AA2;
+}
+/*.upload {*/
+/*color: red;*/
+/*font-family: FontAwesome;*/
+/*content: "\f0ee";*/
+/*}*/
+
 /* =================================== */
 /*	Basic Style 
 /* =================================== */
@@ -305,6 +364,10 @@ main > section {
     padding: 5px 0;
 }
 
+/*#nav-left, #nav-right {*/
+    /*height: 60px;*/
+/*}*/
+
 .navigation-shadow {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
@@ -324,10 +387,44 @@ h1.navbar-brand {
     /*padding: 84px 174px 0 0 !important;*/
 /*}*/
 
+#nav-left, #nav-right {
+    padding-top: 5px;
+}
+
+#nav-left {
+    padding-left: 50px;
+}
+
+div#navbar-search-wrapper {
+    padding-left: 50px;
+}
+
+#navbar-search-submit {
+    text-transform: none;
+    color: #666;
+    font-size: 20px;
+}
+
+#navbar-search-submit:hover {
+    background-color: #fff;
+    color: rgba(52, 90, 162, 0.7);
+}
+
+
+#navbar-search-input {
+    height: 40px;
+    border-radius: 6px;
+}
+
 .navbar-inverse .navbar-nav > li > a {
-    color: #5d5d5d;
+    color: #666;
     font-size: 15px;
     /*text-transform: uppercase;*/
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #333333;
+    border-bottom: 3px solid rgba(52, 90, 162, 0.8);
 }
 
 /*=================================================================
@@ -337,6 +434,11 @@ h1.navbar-brand {
 #home-slider {
     position: relative;
     padding: 0;
+}
+
+.abcen1 {
+    position: absolute;
+    top: 40%;
 }
 
 .sl-slider-wrapper {

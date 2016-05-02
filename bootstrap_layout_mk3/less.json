@@ -1,0 +1,46 @@
+{
+    "nodes": [
+        {
+            "name": "DataManagement",
+            "group": 1,
+            "icon_unicode": "\ue03c",
+            "sub_text": "Data Management"
+        },
+        {
+            "name": "DataSubmission",
+            "group": 2,
+            "icon_unicode": "\ue02b",
+            "sub_text": "Data Submission"
+        },
+        {
+            "name": "DataBrowsing",
+            "group": 3,
+            "icon_unicode": "\ue031",
+            "sub_text": "Data Browsing"
+        },
+        {
+            "name": "DataAnalysis",
+            "group": 4,
+            "icon_unicode": "\ue034",
+            "sub_text": "Data Analysis"
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "value": 3
+        },
+        {
+            "source": 1,
+            "target": 2,
+            "value": 3
+        },
+        {
+            "source": 2,
+            "target": 3,
+            "value": 3
+        }
+
+    ]
+}
