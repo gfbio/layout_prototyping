@@ -40,6 +40,15 @@
             stroke-width: 2;
         }
 
+        .small_node {
+            fill: #fff;
+            stroke: #345AA2;
+            stroke-opacity: .4;
+            /*stroke: #fff;*/
+
+            stroke-width: 2;
+        }
+
         .link {
             stroke: #345AA2;
             stroke-opacity: .7;
@@ -67,8 +76,10 @@
     var color = d3.scale.category20();
 
     var force = d3.layout.force()
-            .charge(-1000)
-            .linkDistance(250)
+//            .charge(-500)
+//            .linkDistance(200)
+            .distance(150)
+            .charge(-1920)
             .size([width, height]);
 
 
@@ -77,15 +88,16 @@
             .attr("height", height);
 
     //d3.json("miserables.json", function (error, graph) {
-    d3.json("less.json", function (error, graph) {
+    d3.json("dynamic.json", function (error, graph) {
 
         force
                 .nodes(graph.nodes)
                 .links(graph.links)
                 .start();
 
+        //setInterval(function(){force.alpha(0.5);}, 550);
+//        setInterval(function(){force.gravity(0.05);}, 500);
 
-        // setInterval(function(){force.alpha(0.1);}, 250);
 
         var link = svg.selectAll(".link")
                 .data(graph.links)
@@ -102,8 +114,23 @@
                 .classed('gnode', true);
 
         var node = gnodes.append("circle")
-                .attr("class", "node")
-                .attr("r", 45)
+                //.attr("class", "node")
+                .attr("class", function (d) {
+                    if (d.highlight) {
+                        return "node";
+                    }
+                    else {
+                        return "small_node";
+                    }
+                })
+                .attr("r", function (d) {
+                    if (d.highlight) {
+                        return 40;
+                    }
+                    else {
+                        return 22;
+                    }
+                })
                 //                .style("fill", function (d) {
                 //                    return color(d.group);
                 //                })
@@ -112,7 +139,15 @@
         var labels = gnodes.append("text")
                 //.attr('font-family', 'FontAwesome')
                 .attr('class', 'icon-circle')
-                .attr('font-size', '40px')
+//                .attr('font-size', '40px')
+                .attr('font-size', function (d) {
+                    if (d.highlight) {
+                        return '40px';
+                    }
+                    else {
+                        return '24px';
+                    }
+                })
                 .attr('text-anchor', 'middle')
                 //                .attr('x', '50%')
                 .attr('y', '12')
@@ -125,7 +160,7 @@
                 .attr('x', '-50')
                 .attr('y', '22')
                 .attr('width', '100')
-                .attr('height', '12')
+                .attr('height', '14')
                 .attr('fill', function (d) {
                     if ('sub_text' in d) {
                         return 'white';
@@ -139,10 +174,11 @@
 
         var labels_sub_text = gnodes.append('text')
                 .attr('font-family', 'Arial')
-                .attr('font-size', '12px')
+                .attr('font-size', '14px')
                 .attr('text-anchor', 'middle')
                 //                .attr('x', '50%')
                 .attr('y', '32')
+                .attr('font-weight', '700')
                 // .text(function(d) { return '\uf1c0' });
                 .text(function (d) {
                     return d.sub_text;
@@ -171,6 +207,14 @@
 
 
         });
+
+
+//        var k = 0;
+//        while ((force.alpha() > 1e-2) && (k < 150)) {
+//            force.tick(),
+//                    k = k + 1;
+//        }
+
     });
 
 </script>

@@ -47,17 +47,18 @@ svg {
 [class^="icon-"], [class*=" icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'icomoon' !important;
-    /*speak: none;*/
-    /*font-style: normal;*/
-    /*font-weight: normal;*/
-    /*font-variant: normal;*/
-    /*text-transform: none;*/
-    /*line-height: 1;*/
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
 
     /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
 
 .node {
     fill: #fff;
@@ -427,6 +428,78 @@ div#navbar-search-wrapper {
     border-bottom: 3px solid rgba(52, 90, 162, 0.8);
 }
 
+
+/*=================================================================
+	Landing Area
+==================================================================*/
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:center;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.landing {
+    display: inline-block;
+    color: #666;
+    width: 200px;
+    padding: 20px;
+    /*height: 250px;*/
+    /*border: 1px solid silver;*/
+    border-radius: 6px;
+}
+
+[id^="landing-"]:hover {
+    color: #fff;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.15);
+}
+
+#landing-1:hover {
+    background-color: rgba(52, 90, 162, 0.6);
+}
+#landing-2:hover {
+    background-color: rgba(60, 172, 228, 0.6);;
+}
+#landing-3:hover {
+    background-color: rgba(129, 178, 72, 0.7);
+}
+
+.landing-h1 {
+    color: #666;
+    font-weight: 300;
+}
+
+.landing-h1-wrapper {
+    margin-bottom: 75px;
+}
+.landing-h1-sub {
+    color: #666;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.icon-landing-area {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 72px;
+    /*color: #345AA2;*/
+    color: inherit;
+}
+
+.landing-footer {
+    color: inherit;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+
 /*=================================================================
 	Home Slider
 ==================================================================*/
@@ -438,7 +511,7 @@ div#navbar-search-wrapper {
 
 .abcen1 {
     position: absolute;
-    top: 40%;
+    top: 20%;
 }
 
 .sl-slider-wrapper {
@@ -1358,6 +1431,10 @@ textarea.form-control {
     /*navigation*/
     .navbar-inverse .navbar-toggle {
         border-color: #fff;
+    }
+
+    .navbar-inverse .navbar-toggle .icon-bar {
+        background-color: rgba(52, 90, 162, 1.0);;
     }
 
     .navbar-inverse .navbar-toggle:hover,

@@ -3,26 +3,32 @@
         {
             "name": "DataManagement",
             "group": 1,
-            "icon_unicode": "\ue03c",
+            "icon_unicode": "\ue02b",
             "sub_text": "Data Management"
         },
         {
             "name": "DataSubmission",
             "group": 2,
-            "icon_unicode": "\ue02b",
+            "icon_unicode": "\ue04c",
             "sub_text": "Data Submission"
         },
         {
             "name": "DataBrowsing",
             "group": 3,
-            "icon_unicode": "\ue031",
+            "icon_unicode": "\ue02a",
             "sub_text": "Data Browsing"
         },
         {
             "name": "DataAnalysis",
             "group": 4,
-            "icon_unicode": "\ue034",
+            "icon_unicode": "\ue03c",
             "sub_text": "Data Analysis"
+        },
+        {
+            "name": "DataAnalysis",
+            "group": 4,
+            "icon_unicode": "\ue034",
+            "sub_text": "Tools"
         },
         {
             "name": "Dummy",
@@ -37,7 +43,7 @@
         {
             "name": "Dummy",
             "group": 0,
-            "icon_unicode": "\ue04c"
+            "icon_unicode": "\ue031"
         },
         {
             "name": "Dummy",
@@ -58,7 +64,88 @@
             "name": "Dummy",
             "group": 0,
             "icon_unicode": "\ue98c"
+        },
+        {
+            "name": "Dummy",
+            "group": 0,
+            "icon_unicode": "\ue002"
+        },
+        {
+            "name": "Dummy",
+            "group": 0,
+            "icon_unicode": "\ue005"
+        },
+        {
+            "name": "Dummy",
+            "group": 0,
+            "icon_unicode": "\ue006"
+        },
+        {
+            "name": "Dummy",
+            "group": 0,
+            "icon_unicode": "\ue00e"
+        },
+        {
+            "name": "Dummy",
+            "group": 0,
+            "icon_unicode": "\ue018"
+        },
+        {
+            "name": "Dummy",
+            "group": 0,
+            "icon_unicode": "\ue025"
+        },
+        {
+            "name": "Dummy",
+            "group": 0,
+            "icon_unicode": "\ue030"
+        },
+        {
+            "name": "Dummy",
+            "group": 0,
+            "icon_unicode": "\ue033"
+        },
+        {
+            "name": "Dummy",
+            "group": 0,
+            "icon_unicode": "\ue037"
+        },
+        {
+            "name": "Dummy",
+            "group": 0,
+            "icon_unicode": "\ue039"
+        },
+        {
+            "name": "Dummy",
+            "group": 0,
+            "icon_unicode": "\ue045"
+        },
+        {
+            "name": "Dummy",
+            "group": 0,
+            "icon_unicode": "\ue049"
+        },
+        {
+            "name": "Dummy",
+            "group": 0,
+            "icon_unicode": "\ue05a"
+        },
+        {
+            "name": "Dummy",
+            "group": 0,
+            "icon_unicode": "\ue930"
+        },
+        {
+            "name": "Dummy",
+            "group": 0,
+            "icon_unicode": "\ue9bc"
+        },
+        {
+            "name": "Dummy",
+            "group": 0,
+            "icon_unicode": "\ue9ea"
         }
+
     ],
     "links": [
         {
