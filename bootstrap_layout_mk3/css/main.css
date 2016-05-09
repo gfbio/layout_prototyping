@@ -367,13 +367,16 @@ main > section {
     background-color: transparent;
     /*box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);*/
     padding: 5px 0;
+
+    /* uncomment to enable collapsing two-row navi example  */
+    /*height: 7.5em;*/
 }
 
-/*#nav-left, #nav-right {*/
-    /*height: 60px;*/
-/*}*/
 
 .navigation-shadow {
+    /* uncomment to enable collapsing two-row navi example  */
+    /*height: 3.5em !important;*/
+
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -381,21 +384,49 @@ main > section {
     /*padding: 20px 0;*/
 }
 
+/* TODO: add transitions for change of size in two row navi*/
 h1.navbar-brand {
     background: url("../img/GFBio_logo_png_60x122.png") no-repeat center center;
     padding: 60px 122px 0 0 !important;
     margin: 0;
 }
 
-/*h1.navbar-brand > a > span {*/
-    /*background: url("../img/gfbiologo-transparent.png") no-repeat center center;*/
-    /*padding: 84px 174px 0 0 !important;*/
-/*}*/
 
-#nav-left, #nav-right {
+#nav-left, #nav-right, #nav-right2 {
     padding-top: 5px;
 }
 
+/* uncomment to enable collapsing two-row navi example  */
+/*#nav-right-root {
+    -webkit-transition: all 0.8s ease 0s;
+    -moz-transition: all 0.8s ease 0s;
+    -ms-transition: all 0.8s ease 0s;
+    -o-transition: all 0.8s ease 0s;
+    transition: all 0.8s ease 0s;
+}
+
+#nav-right-root2 {
+    -webkit-transition: all 0.8s ease 0s;
+    -moz-transition: all 0.8s ease 0s;
+    -ms-transition: all 0.8s ease 0s;
+    -o-transition: all 0.8s ease 0s;
+    transition: all 0.8s ease 0s;
+}
+
+#navigation.navigation-shadow div.container #nav-right-root {
+    -moz-transform: translateX(264px) translateY(-4.28571em);
+    -ms-transform: translateX(264px) translateY(-4.28571em);
+    -webkit-transform: translateX(264px) translateY(-4.28571em);
+    transform: translateX(264px) translateY(-4.28571em)
+}
+
+#navigation.navigation-shadow div.container #nav-right-root2 {
+    -moz-transform: translateY(-4.28571em);
+    -ms-transform: translateY(-4.28571em);
+    -webkit-transform: translateY(-4.28571em);
+    transform: translateY(-4.28571em)
+}
+*/
 #nav-left {
     padding-left: 50px;
 }
