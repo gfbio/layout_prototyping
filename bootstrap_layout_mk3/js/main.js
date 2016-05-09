@@ -120,8 +120,10 @@ $(document).ready(function(){
 
     $(window).scroll(function () {
         if ($(window).scrollTop() > 10) {
+            $("#navigation").css("background-color", "#fff");
             $(".navbar-fixed-top").addClass("navigation-shadow");
         } else {
+            $("#navigation").css("background-color", "transparent");
             $(".navbar-fixed-top").removeClass("navigation-shadow");
         }
         // if ($(window).scrollTop() > 400) {

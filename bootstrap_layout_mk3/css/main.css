@@ -123,7 +123,8 @@ a, a:hover, a:focus, .btn:focus {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: 'Lato', sans-serif;
-    color: #252525;
+    /*color: #252525;*/
+    color: #666;
 }
 
 main > section {
@@ -146,6 +147,7 @@ main > section {
 
 .btn-border {
     border: 2px solid #fff;
+    border-radius: 6px;
     color: #fff;
     padding: 12px 35px;
 }
@@ -245,6 +247,7 @@ main > section {
     padding-bottom: 30px;
     position: relative;
     text-transform: uppercase;
+    font-weight: 300;
 }
 
 .sec-title.white h2 {
@@ -252,7 +255,8 @@ main > section {
 }
 
 .sec-title h2:after {
-    border-bottom: 1px solid #009ee3;
+    /*border-bottom: 1px solid #009ee3;*/
+    border-bottom: 2px solid rgba(129, 178, 72, 0.8);
     content: "";
     display: block;
     left: 45%;
@@ -360,7 +364,7 @@ main > section {
     transition: all 0.8s ease 0s;
 
     /*background-color: rgba(0,0,0,.4);*/
-    background-color: #fff;
+    background-color: transparent;
     /*box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);*/
     padding: 5px 0;
 }
@@ -471,7 +475,7 @@ div#navbar-search-wrapper {
     background-color: rgba(52, 90, 162, 0.6);
 }
 #landing-2:hover {
-    background-color: rgba(60, 172, 228, 0.6);;
+    background-color: rgba(60, 172, 228, 0.6);
 }
 #landing-3:hover {
     background-color: rgba(129, 178, 72, 0.7);
@@ -513,6 +517,14 @@ div#navbar-search-wrapper {
 #home-slider {
     position: relative;
     padding: 0;
+
+    /* background image for landing area */
+    /*background-image: url(../img/network-connection_50.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;*/
 }
 
 .abcen1 {
@@ -719,9 +731,17 @@ div#navbar-search-wrapper {
 ==================================================================*/
 
 #about {
-    background-color: #009EE3;
+    /*background-color: rgba(60, 172, 228, 0.9);*/
+    background-image: url(../img/parallax/Datacenter.jpg);
+    padding: 0;
     color: #fff;
 }
+
+#about .overlay {
+    background-color: rgba(60, 172, 228, 0.8);
+    padding: 70px 0 40px;
+}
+
 
 #about h3 {
     color: #fff;
@@ -730,7 +750,7 @@ div#navbar-search-wrapper {
 }
 
 #about .welcome-block h3 {
-    margin: 0 0 65px;
+    margin: 0 0 35px;
 }
 
 #about .welcome-block img {
@@ -741,13 +761,14 @@ div#navbar-search-wrapper {
 }
 
 #about .message-body {
-    font-size: 13px;
+    /*font-size: 13px;*/
     line-height: 20px;
     margin-bottom: 70px;
 }
 
 .owl-buttons {
     border: 2px solid #fff;
+    border-radius: 6px;
     display: inline-block;
     float: right;
     padding: 1px 8px 5px;
