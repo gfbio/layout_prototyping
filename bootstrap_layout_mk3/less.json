@@ -4,7 +4,7 @@
             "name": "DataManagement",
             "group": 1,
             "icon_unicode": "\ue03c",
-            "sub_text": "Data Management"
+            "sub_text": "Data Management"   
         },
         {
             "name": "DataSubmission",
