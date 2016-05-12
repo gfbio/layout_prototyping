@@ -494,6 +494,29 @@ div#navbar-search-wrapper {
     float: right;
 }
 
+.yamm-content {
+    padding-top: 0;
+}
+
+div.yamm-content .mega-lifecycle a {
+    color:#666;
+    font-size: 15px;
+    padding: 0 15px 15px 15px;
+}
+
+div.yamm-content .mega-lifecycle a:hover {
+    color: #333333;
+    border-bottom: 3px solid rgba(52, 90, 162, 0.8);
+}
+
+div.yamm-content > div > .mega-lifecycle li {
+    padding: 15px;
+}
+
+/*div.yamm-content > div > .mega-lifecycle a:hover {*/
+    /*color: #333333;*/
+    /*border-bottom: 3px solid rgba(52, 90, 162, 0.8);*/
+/*}*/
 
 
 /*=================================================================
