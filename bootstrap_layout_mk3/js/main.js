@@ -117,6 +117,22 @@ $(document).ready(function(){
         }
     });
 
+    // yamm megamenu
+    $(document).on('click', '.yamm .dropdown-menu', function(e) {
+        e.stopPropagation()
+    });
+
+    // $(".dropdown").hover(
+    //     function() {
+    //         $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideDown("400");
+    //         $(this).toggleClass('open');
+    //     },
+    //     function() {
+    //         $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideUp("400");
+    //         $(this).toggleClass('open');
+    //     }
+    // );
+
 
     $(window).scroll(function () {
         if ($(window).scrollTop() > 100) {

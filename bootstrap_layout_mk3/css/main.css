@@ -477,6 +477,24 @@ div#navbar-search-wrapper {
     /*border-bottom: 3px solid rgba(52, 90, 162, 0.8);*/
 }
 
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    color:#333333;
+    background-color: inherit;
+}
+
+/* yamm menu */
+/*  https://github.com/geedmo/yamm3 */
+.dropdown-menu {
+    border: 0;
+    box-shadow: 0 2px 5px rgba(0, 0.2, 0.2, 0.2);
+}
+
+.right {
+    padding-left: 10px;
+    float: right;
+}
+
+
 
 /*=================================================================
 	Landing Area
