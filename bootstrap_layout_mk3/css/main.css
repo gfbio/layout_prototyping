@@ -139,10 +139,16 @@ main > section {
 }
 
 .btn-blue {
-    background-color: rgba(0, 158, 227, 0.78);
+    /*background-color: rgba(0, 158, 227, 0.78);*/
+    background-color: rgba(52, 90, 162, 0.8);
     box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.15) inset;
     padding: 15px 55px;
     color: #fff;
+    border-radius: 6px;
+}
+
+.btn-contact-send:hover {
+    background-color: rgba(129, 178, 72, 0.8);
 }
 
 .btn-border {
@@ -153,7 +159,7 @@ main > section {
 }
 
 .bg-blue {
-    background-color: #009EE3;
+    background-color: #345AA2;
 }
 
 /* Sweep To Right */
@@ -223,7 +229,7 @@ main > section {
 }
 
 .btn-effect:hover, .btn-effect:focus, .btn-effect:active {
-    color: #009EE3;
+    color: #345AA2;
 }
 
 .btn-effect:hover:before, .btn-effect:focus:before, .btn-effect:active:before {
@@ -772,7 +778,9 @@ div#navbar-search-wrapper {
 
 #about .overlay {
     /*background-color: rgba(60, 172, 228, 0.8);*/
-    background-color: rgba(52, 90, 162, 0.75);
+    /*background-color: rgba(52, 90, 162, 0.75);*/
+    /*background-color: rgba(102, 102, 102, 0.75);*/
+    background: url("../img/slide_bg.png") repeat scroll 0 0 transparent;
     padding: 30px 0 20px;
 }
 
@@ -859,6 +867,7 @@ div#navbar-search-wrapper {
     margin-bottom: 20px;
     color: rgba(129, 178, 72, 1.0);
     font-size: 64px;
+
 }
 
 
