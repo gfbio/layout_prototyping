@@ -382,7 +382,6 @@ main > section {
 .navigation-shadow {
     /* uncomment to enable collapsing two-row navi example  */
     /*height: 3.5em !important;*/
-
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -392,13 +391,31 @@ main > section {
 
 /* TODO: add transitions for change of size in two row navi*/
 h1.navbar-brand {
-    background: url("../img/GFBio_logo_png_60x122.png") no-repeat center center;
-    padding: 60px 122px 0 0 !important;
-    /*background: url("../img/GFBio_logo_png_299x147.png") no-repeat center center;
-    padding: 147px 299px 0 0 !important;*/
+    -webkit-transition: all 0.8s ease 0s;
+    -moz-transition: all 0.8s ease 0s;
+    -ms-transition: all 0.8s ease 0s;
+    -o-transition: all 0.8s ease 0s;
+    transition: all 0.8s ease 0s;
+
+    /*background: url("../img/GFBio_logo_png_60x122.png") no-repeat center center;*/
+    /*padding: 60px 122px 0 0 !important;*/
+    /*background: url("../img/GFBio_logo_png_299x147.png") no-repeat center center;*/
+    /*padding: 147px 299px 0 0 !important;*/
+    background: url("../img/gfbiologo-transparent.png") no-repeat center center;
+    padding: 86px 174px 0 0 !important;
     margin: 0;
 }
 
+.navigation-shadow h1.navbar-brand {
+    -webkit-transition: all 0.8s ease 0s;
+    -moz-transition: all 0.8s ease 0s;
+    -ms-transition: all 0.8s ease 0s;
+    -o-transition: all 0.8s ease 0s;
+    transition: all 0.8s ease 0s;
+
+    background: url("../img/GFBio_logo_png_60x122.png") no-repeat center center;
+    padding: 60px 122px 0 0 !important;
+}
 
 #nav-left, #nav-right, #nav-right2 {
     padding-top: 5px;
