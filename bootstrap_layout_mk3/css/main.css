@@ -660,10 +660,120 @@ div.yamm-content > div > .mega-lifecycle li {
     overflow: hidden;
     position: relative;
 
-    background-color: lime;
-    margin-left: 20px;
+    background-color: #ffce00;
+    border-left: 1px solid #fff;
+}
+
+.home-col:first-child {
+    border: none;
+}
+
+.home-col h2 {
+    position: absolute;
+    opacity: 0;
+    display: block;
+    left: 50%;
+    top: 50%;
+    width: 72px;
+    text-indent: -9999em
+}
+
+.hover {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    padding: 0 10%;
+    background: rgba(0, 0, 0, .8);
+    color: #fff;
+    -webkit-transition: opacity .4s ease-in;
+    -moz-transition: opacity .4s ease-in;
+    -o-transition: opacity .4s ease-in;
+    transition: opacity .4s ease-in
+}
 
 
+.hover-content {
+    position: relative;
+    width: 100%
+}
+
+.hover-content {
+    opacity: 0;
+    display: block;
+    top: 50%;
+    font-size: 16px;
+    font-weight: 400;
+    color: #bdbdbd;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: .4s ease-in .2s;
+    -moz-transition: .4s ease-in .2s;
+    -o-transition: .4s ease-in .2s;
+    transition: .4s ease-in .2s
+}
+
+.hover-content p {
+    float: left;
+    margin: 0 30px 0 0;
+    line-height: 18px
+}
+
+.hover-content p span {
+    display: block;
+    font-size: 10px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase
+}
+
+.hover-content .icon-arrow {
+    font-size: 32px;
+    line-height: 36px;
+    color: #888
+}
+
+
+.home-col a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.home-col a:hover .hover, .home-col a:hover .hover .hover-content {
+    opacity: 1;
+}
+
+.project {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#home-1 .project {
+    -webkit-animation: columnLoad 1.5s step-end forwards;
+    -moz-animation: columnLoad 1.5s step-end forwards;
+    -o-animation: columnLoad 1.5s step-end forwards;
+    animation: columnLoad 1.5s step-end forwards;
+    background: url(../img/gf_bio_body_bg.jpg) no-repeat;
+    background-size: cover
+}
+
+#home-1 h2 {
+    width: 74px;
+    height: 331px;
+    margin: -165px 0 0 -37px;
+    background: url(../img/ud-heading.png) no-repeat;
+    background-size: 74px auto;
+    -webkit-animation: fadeIn .5s ease 1.5s forwards;
+    -moz-animation: fadeIn .5s ease 1.5s forwards;
+    -o-animation: fadeIn .5s ease 1.5s forwards;
+    animation: fadeIn .5s ease 1.5s forwards
 }
 
 .landing_flex {

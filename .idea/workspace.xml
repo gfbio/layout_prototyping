@@ -10,14 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0da817a-5eba-491d-adfc-ec949778e9c7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap_layout_mk3/img/GFBiologofooter_juni2015.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap_layout_mk3/img/gf_bio_body_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap_layout_mk3/img/header-image-start-smaller.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap_layout_mk3/img/line-nodes-connecting-tribe.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/material/GFBiologofooter_juni2015.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/material/gf_bio_body_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/material/line-nodes-connecting-tribe.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap_layout_mk3/julia_poignot.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/blue-onepage-business-template/Blue-Onepage-HTML5-Business-Template" afterPath="$PROJECT_DIR$/templates/blue-onepage-business-template/Blue-Onepage-HTML5-Business-Template" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap_layout_mk3/css/main.css" afterPath="$PROJECT_DIR$/bootstrap_layout_mk3/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap_layout_mk3/index.html" afterPath="$PROJECT_DIR$/bootstrap_layout_mk3/index.html" />
@@ -40,14 +32,14 @@
     <favorites_list name="gfbio_html" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.52579504">
+    <splitter split-orientation="horizontal" split-proportion="0.46998182">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/bootstrap_layout_mk3/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="441">
-                  <caret line="276" column="0" selection-start-line="276" selection-start-column="0" selection-end-line="276" selection-end-column="0" />
+                <state relative-caret-position="672">
+                  <caret line="284" column="28" selection-start-line="284" selection-start-column="28" selection-end-line="284" selection-end-column="28" />
                   <folding>
                     <element signature="e#16#98#0" expanded="false" />
                     <element signature="e#99#171#0" expanded="false" />
@@ -80,7 +72,7 @@
                     <element signature="n#button#0;n#form#0;n#nav#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#i#0;n#button#0;n#form#0;n#nav#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="e#12086#12152#0" expanded="false" />
-                    <element signature="e#14397#14469#0" expanded="false" />
+                    <element signature="e#15084#15156#0" expanded="false" />
                     <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -144,8 +136,8 @@
                     <element signature="n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#li#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#a#0;n#li#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="e#27068#30062#0" expanded="false" />
-                    <element signature="e#30132#32783#0" expanded="false" />
+                    <element signature="e#27755#30749#0" expanded="false" />
+                    <element signature="e#30819#33470#0" expanded="false" />
                     <element signature="n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#0;n#div#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -194,7 +186,7 @@
                     <element signature="n#li#4;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#a#0;n#li#4;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#i#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="e#38188#38272#0" expanded="false" />
+                    <element signature="e#38875#38959#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -203,8 +195,8 @@
           <file leaf-file-name="julia_poignot.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/bootstrap_layout_mk3/julia_poignot.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="259">
-                  <caret line="897" column="1" selection-start-line="897" selection-start-column="1" selection-end-line="897" selection-end-column="1" />
+                <state relative-caret-position="28">
+                  <caret line="1927" column="19" selection-start-line="1927" selection-start-column="19" selection-end-line="1927" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
@@ -227,19 +219,12 @@
           <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/bootstrap_layout_mk3/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="175">
-                  <caret line="636" column="27" selection-start-line="636" selection-start-column="27" selection-end-line="636" selection-end-column="27" />
+                <state relative-caret-position="126">
+                  <caret line="655" column="21" selection-start-line="655" selection-start-column="21" selection-end-line="655" selection-end-column="21" />
                   <folding>
-                    <marker date="1463174200408" expanded="true" signature="11973:12042" placeholder="{...}" />
+                    <marker date="1463176571520" expanded="true" signature="11973:12042" placeholder="{...}" />
                   </folding>
                 </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="gf_bio_body_bg.jpg" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/material/gf_bio_body_bg.jpg">
-              <provider selected="true" editor-type-id="images">
-                <state />
               </provider>
             </entry>
           </file>
@@ -329,6 +314,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gfbio_html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gfbio_html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap_layout_mk3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -338,6 +341,22 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="181" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="212" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="218" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1231" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="181" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="212" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="218" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1231" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -414,25 +433,25 @@
       <option name="presentableId" value="Default" />
       <updated>1463129497648</updated>
       <workItem from="1463129501233" duration="4897000" />
-      <workItem from="1463166988015" duration="6704000" />
+      <workItem from="1463166988015" duration="9174000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15353000" />
+    <option name="totallyTimeSpent" value="17823000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="-3" width="1924" height="1180" extended-state="6" />
-    <editor active="false" />
+    <frame x="-2" y="-3" width="1924" height="1180" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16987179" sideWeight="0.48102468" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11912393" sideWeight="0.48102468" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Duplicates" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="98" y="97" width="1724" height="980" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07736389" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39922103" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285578" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32814023" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23681435" sideWeight="0.5189753" order="2" side_tool="true" content_ui="tabs" />
@@ -486,13 +505,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/d3-testing/create_node.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2121">
-          <caret line="118" column="88" selection-start-line="118" selection-start-column="88" selection-end-line="118" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/d3-testing/dynamic.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -736,11 +748,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/material/gf_bio_body_bg.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backups/f5_layout_mk1/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2310">
@@ -748,14 +755,6 @@
           <folding>
             <element signature="n#style#0;n#i#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap_layout_mk3/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1281">
-          <caret line="119" column="20" selection-start-line="119" selection-start-column="20" selection-end-line="119" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -774,10 +773,28 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/material/gf_bio_body_bg.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap_layout_mk3/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1281">
+          <caret line="119" column="20" selection-start-line="119" selection-start-column="20" selection-end-line="119" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap_layout_mk3/img/ud-heading.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap_layout_mk3/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="276" column="0" selection-start-line="276" selection-start-column="0" selection-end-line="276" selection-end-column="0" />
+        <state relative-caret-position="672">
+          <caret line="284" column="28" selection-start-line="284" selection-start-column="28" selection-end-line="284" selection-end-column="28" />
           <folding>
             <element signature="e#16#98#0" expanded="false" />
             <element signature="e#99#171#0" expanded="false" />
@@ -810,7 +827,7 @@
             <element signature="n#button#0;n#form#0;n#nav#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#i#0;n#button#0;n#form#0;n#nav#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#12086#12152#0" expanded="false" />
-            <element signature="e#14397#14469#0" expanded="false" />
+            <element signature="e#15084#15156#0" expanded="false" />
             <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -874,8 +891,8 @@
             <element signature="n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#a#0;n#li#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#27068#30062#0" expanded="false" />
-            <element signature="e#30132#32783#0" expanded="false" />
+            <element signature="e#27755#30749#0" expanded="false" />
+            <element signature="e#30819#33470#0" expanded="false" />
             <element signature="n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -924,26 +941,26 @@
             <element signature="n#li#4;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#a#0;n#li#4;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#i#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#38188#38272#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap_layout_mk3/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="636" column="27" selection-start-line="636" selection-start-column="27" selection-end-line="636" selection-end-column="27" />
-          <folding>
-            <marker date="1463174200408" expanded="true" signature="11973:12042" placeholder="{...}" />
+            <element signature="e#38875#38959#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap_layout_mk3/julia_poignot.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="897" column="1" selection-start-line="897" selection-start-column="1" selection-end-line="897" selection-end-column="1" />
+        <state relative-caret-position="28">
+          <caret line="1927" column="19" selection-start-line="1927" selection-start-column="19" selection-end-line="1927" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap_layout_mk3/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="655" column="21" selection-start-line="655" selection-start-column="21" selection-end-line="655" selection-end-column="21" />
+          <folding>
+            <marker date="1463176571520" expanded="true" signature="11973:12042" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
