@@ -629,17 +629,54 @@ div.yamm-content > div > .mega-lifecycle li {
 ==================================================================*/
 
 #home-slider {
-    position: relative;
-    padding: 0;
+
+    display: flex;
+    flex-flow: row wrap;
+    min-height: 100%;
+
+    padding: 80px 70px 20px 70px;
+        /*position: relative;*/
+    /*padding: 0;*/
+    /* blue water bg of gfbio */
+    /*background: url(../img/gf_bio_body_bg.jpg) top left no-repeat; background-size: cover;*/
 
     /* background image for landing area */
-    background-image: url(../img/network-connection_50.jpg);
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    /*background-image: url(../img/network-connection_50.jpg);*/
+    /*background-position: center;*/
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*background-size: cover;*/
+    /*-o-background-size: cover;*/
 }
+
+.home-col {
+    width: 100%;
+    height: 100%;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+
+    background-color: lime;
+    margin-left: 20px;
+
+
+}
+
+.landing_flex {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+}
+
+.test_colors {
+    background-color: #00b3ee;
+    border-left: 2px solid crimson;
+}
+
 
 .abcen1 {
     position: absolute;
