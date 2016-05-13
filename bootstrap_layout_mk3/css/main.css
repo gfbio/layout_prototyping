@@ -477,6 +477,23 @@ div#navbar-search-wrapper {
     border-radius: 6px;
 }
 
+
+#nav-right-background {
+    z-index: -999;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url("../img/header-image-start.png");
+    background-size: contain;
+    height: 231px;
+    width: 565px;
+
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: fixed;*/
+    /*background-position: center;*/
+}
+
+
 .navbar-inverse .navbar-nav > li > a {
     color: #666;
     font-size: 15px;
@@ -555,7 +572,7 @@ div.yamm-content > div > .mega-lifecycle li {
 
 .landing {
     display: inline-block;
-    color: #666;
+    color: #345AA2; /* 666 */
     width: 200px;
     padding: 20px;
     /*height: 250px;*/
@@ -616,12 +633,12 @@ div.yamm-content > div > .mega-lifecycle li {
     padding: 0;
 
     /* background image for landing area */
-    /*background-image: url(../img/network-connection_50.jpg);
+    background-image: url(../img/network-connection_50.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;*/
+    -o-background-size: cover;
 }
 
 .abcen1 {
@@ -823,6 +840,10 @@ div.yamm-content > div > .mega-lifecycle li {
     left: 0;
 }
 
+
+
+
+
 /*=================================================================
 	About
 ==================================================================*/
@@ -836,9 +857,9 @@ div.yamm-content > div > .mega-lifecycle li {
 
 #about .overlay {
     /*background-color: rgba(60, 172, 228, 0.8);*/
-    /*background-color: rgba(52, 90, 162, 0.75);*/
+    background-color: rgba(52, 90, 162, 0.75);
     /*background-color: rgba(102, 102, 102, 0.75);*/
-    background: url("../img/slide_bg.png") repeat scroll 0 0 transparent;
+    /*background: url("../img/slide_bg.png") repeat scroll 0 0 transparent;*/
     padding: 30px 0 20px;
 }
 
@@ -893,6 +914,15 @@ div.yamm-content > div > .mega-lifecycle li {
 .welcome-message p {
     font-size: 13px;
     margin-left: 135px;
+}
+
+
+/* ------- partner --------- */
+
+#partner-banner {
+    background: url("../img/GFBiologofooter_juni2015.png") no-repeat scroll center center;
+    padding-left: 2000px;
+    padding-top: 291px;
 }
 
 /*=================================================================
