@@ -32,6 +32,8 @@ http://t3n.de/news/landingpage-beispiele-548072/
 
 ## Concrete ideas for GFBIO.org
 
+- down/more link on landing page
+
 
 
 

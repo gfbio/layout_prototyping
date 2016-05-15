@@ -373,7 +373,7 @@ main > section {
     background-color: transparent;
     /*box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);*/
     padding: 5px 0;
-    margin-top: 33%;
+    /*margin-top: 33%;*/
 
     /* uncomment to enable collapsing two-row navi example  */
     /*height: 7.5em;*/
@@ -402,7 +402,7 @@ h1.navbar-brand {
     /*padding: 60px 122px 0 0 !important;*/
     /*background: url("../img/GFBio_logo_png_299x147.png") no-repeat center center;*/
     /*padding: 147px 299px 0 0 !important;*/
-    background: url("../img/gfbiologo-transparent.png") no-repeat center center;
+    background: url(../img/GFBio_logo_174x86.png) no-repeat center center;
     padding: 86px 174px 0 0 !important;
     margin: 0;
 }
@@ -631,28 +631,61 @@ div.yamm-content > div > .mega-lifecycle li {
 
 #home-slider {
 
-    display: flex;
-    flex-flow: row wrap;
-    min-height: 100%;
+    /*display: -webkit-flex;*/
+    /*display: -moz-flex;*/
+    /*display: -ms-flex;*/
+    /*display: flex;*/
+    /*-webkit-flex-flow: row wrap;*/
+    /*-moz-flex-flow: row wrap;*/
+    /*-ms-flex-flow: row wrap;*/
+    /*flex-flow: row wrap;*/
+    /*min-height: 100%;*/
 
-    padding: 0px 0px 20px 0px;
+    /*padding: 0px 0px 20px 0px;*/
+
+
+
+
+
+
         /*position: relative;*/
     /*padding: 0;*/
     /* blue water bg of gfbio */
     /*background: url(../img/gf_bio_body_bg.jpg) top left no-repeat; background-size: cover;*/
 
     /* background image for landing area */
-    /*background-image: url(../img/network-connection_50.jpg);*/
-    /*background-position: center;*/
-    /*-webkit-background-size: cover;*/
-    /*-moz-background-size: cover;*/
-    /*background-size: cover;*/
-    /*-o-background-size: cover;*/
+    background-image: url(../img/network-connection_50.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#flex-wrap {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 33%;
+    min-height: 33%;
+
+    position: absolute;
+    bottom: 0;
+
+    justify-content: space-around;
+    margin: auto;
+    /*padding: 0 0 20px 0;*/
 }
 
 .home-col {
     width: 100%;
-    height: 33%;
+    /*height: 50%;*/
     -webkit-box-flex: 1;
     -moz-box-flex: 1;
     -webkit-flex: 1;
@@ -660,6 +693,7 @@ div.yamm-content > div > .mega-lifecycle li {
     flex: 1;
     overflow: hidden;
     position: relative;
+
 
     background-color: #ffce00;
     border-left: 1px solid #fff;
@@ -855,6 +889,7 @@ div.yamm-content > div > .mega-lifecycle li {
 .abcen1 {
     position: absolute;
     top: 20%;
+    /*bottom: 0;*/
 }
 
 .sl-slider-wrapper {
