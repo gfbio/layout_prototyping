@@ -1,5 +1,7 @@
 # Landing Page Notes
 
+http://t3n.de/news/landingpage-beispiele-548072/
+
 ## Common features
 
 - Logo near Navi
@@ -23,6 +25,13 @@
 - Foto "assembled" for landing area
 - Nice Large icons for navi on bottom
 - Collage of Picture around action
+
+- blurry 100% background or abstact with picture of item with claim (carousel is nice here)
+
+
+
+## Concrete ideas for GFBIO.org
+
 
 
 
