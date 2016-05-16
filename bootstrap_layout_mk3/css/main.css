@@ -10,23 +10,21 @@
 *
 */
 
-
 /*@font-face {*/
-    /*font-family: 'icomoon';*/
-    /*src:    url('../fonts/icomoon/fonts/icomoon.eot?xtb52m');*/
-    /*src:    url('../fonts/icomoon/fonts/icomoon.eot?xtb52m#iefix') format('embedded-opentype'),*/
-    /*url('../fonts/icomoon/fonts/icomoon.ttf?xtb52m') format('truetype'),*/
-    /*url('../fonts/icomoon/fonts/icomoon.woff?xtb52m') format('woff'),*/
-    /*url('../fonts/icomoon/fonts/icomoon.svg?xtb52m#icomoon') format('svg');*/
-    /*font-weight: normal;*/
-    /*font-style: normal;*/
+/*font-family: 'icomoon';*/
+/*src:    url('../fonts/icomoon/fonts/icomoon.eot?xtb52m');*/
+/*src:    url('../fonts/icomoon/fonts/icomoon.eot?xtb52m#iefix') format('embedded-opentype'),*/
+/*url('../fonts/icomoon/fonts/icomoon.ttf?xtb52m') format('truetype'),*/
+/*url('../fonts/icomoon/fonts/icomoon.woff?xtb52m') format('woff'),*/
+/*url('../fonts/icomoon/fonts/icomoon.svg?xtb52m#icomoon') format('svg');*/
+/*font-weight: normal;*/
+/*font-style: normal;*/
 /*}*/
-
 
 @font-face {
     font-family: 'icomoon';
-    src:    url('../fonts/icomoon/fonts/icomoon.eot?xtb52m');
-    src:    url('../fonts/icomoon/fonts/icomoon.eot?xtb52m#iefix') format('embedded-opentype'),
+    src: url('../fonts/icomoon/fonts/icomoon.eot?xtb52m');
+    src: url('../fonts/icomoon/fonts/icomoon.eot?xtb52m#iefix') format('embedded-opentype'),
     url('../fonts/icomoon/fonts/icomoon.ttf?xtb52m') format('truetype'),
     url('../fonts/icomoon/fonts/icomoon.woff?xtb52m') format('woff'),
     url('../fonts/icomoon/fonts/icomoon.svg?xtb52m#icomoon') format('svg');
@@ -59,7 +57,6 @@ svg {
     -moz-osx-font-smoothing: grayscale;
 }
 
-
 .node {
     fill: #fff;
     stroke: #345AA2;
@@ -77,6 +74,7 @@ svg {
 text {
     fill: #345AA2;
 }
+
 /*.upload {*/
 /*color: red;*/
 /*font-family: FontAwesome;*/
@@ -370,7 +368,8 @@ main > section {
     transition: all 0.8s ease 0s;
 
     /*background-color: rgba(0,0,0,.4);*/
-    background-color: transparent;
+    /*background-color: transparent;*/
+    background-color: rgba(255, 255, 255, 0.3);
     /*box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);*/
     padding: 5px 0;
     /*margin-top: 33%;*/
@@ -378,7 +377,6 @@ main > section {
     /* uncomment to enable collapsing two-row navi example  */
     /*height: 7.5em;*/
 }
-
 
 .navigation-shadow {
     /* uncomment to enable collapsing two-row navi example  */
@@ -398,12 +396,12 @@ h1.navbar-brand {
     -o-transition: all 0.8s ease 0s;
     transition: all 0.8s ease 0s;
 
-    /*background: url("../img/GFBio_logo_png_60x122.png") no-repeat center center;*/
-    /*padding: 60px 122px 0 0 !important;*/
+    background: url("../img/GFBio_logo_png_60x122.png") no-repeat center center;
+    padding: 60px 122px 0 0 !important;
     /*background: url("../img/GFBio_logo_png_299x147.png") no-repeat center center;*/
     /*padding: 147px 299px 0 0 !important;*/
-    background: url(../img/GFBio_logo_174x86.png) no-repeat center center;
-    padding: 86px 174px 0 0 !important;
+    /*background: url(../img/GFBio_logo_174x86.png) no-repeat center center;*/
+    /*padding: 86px 174px 0 0 !important;*/
     margin: 0;
 }
 
@@ -472,12 +470,10 @@ div#navbar-search-wrapper {
     color: rgba(52, 90, 162, 0.7);
 }
 
-
 #navbar-search-input {
     height: 40px;
     border-radius: 6px;
 }
-
 
 #nav-right-background {
     z-index: -999;
@@ -493,7 +489,6 @@ div#navbar-search-wrapper {
     /*background-attachment: fixed;*/
     /*background-position: center;*/
 }
-
 
 .navbar-inverse .navbar-nav > li > a {
     color: #666;
@@ -513,7 +508,7 @@ div#navbar-search-wrapper {
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    color:#333333;
+    color: #333333;
     background-color: inherit;
 }
 
@@ -534,7 +529,7 @@ div#navbar-search-wrapper {
 }
 
 div.yamm-content .mega-lifecycle a {
-    color:#666;
+    color: #666;
     font-size: 15px;
     padding: 0 15px 15px 15px;
 }
@@ -549,10 +544,9 @@ div.yamm-content > div > .mega-lifecycle li {
 }
 
 /*div.yamm-content > div > .mega-lifecycle a:hover {*/
-    /*color: #333333;*/
-    /*border-bottom: 3px solid rgba(52, 90, 162, 0.8);*/
+/*color: #333333;*/
+/*border-bottom: 3px solid rgba(52, 90, 162, 0.8);*/
 /*}*/
-
 
 /*=================================================================
 	Landing Area
@@ -560,15 +554,16 @@ div.yamm-content > div > .mega-lifecycle li {
 
 /* centered columns styles */
 .row-centered {
-    text-align:center;
+    text-align: center;
 }
+
 .col-centered {
-    display:inline-block;
-    float:none;
+    display: inline-block;
+    float: none;
     /* reset the text-align */
-    text-align:center;
+    text-align: center;
     /* inline-block space fix */
-    margin-right:-4px;
+    margin-right: -4px;
 }
 
 .landing {
@@ -589,9 +584,11 @@ div.yamm-content > div > .mega-lifecycle li {
 #landing-1:hover {
     background-color: rgba(52, 90, 162, 0.6);
 }
+
 #landing-2:hover {
     background-color: rgba(60, 172, 228, 0.6);
 }
+
 #landing-3:hover {
     background-color: rgba(129, 178, 72, 0.7);
 }
@@ -604,6 +601,7 @@ div.yamm-content > div > .mega-lifecycle li {
 .landing-h1-wrapper {
     margin-bottom: 75px;
 }
+
 .landing-h1-sub {
     color: #666;
     font-size: 20px;
@@ -624,7 +622,6 @@ div.yamm-content > div > .mega-lifecycle li {
     font-weight: 300;
 }
 
-
 /*=================================================================
 	Home Slider
 ==================================================================*/
@@ -643,23 +640,18 @@ div.yamm-content > div > .mega-lifecycle li {
 
     /*padding: 0px 0px 20px 0px;*/
 
-
-
-
-
-
-        /*position: relative;*/
-    /*padding: 0;*/
+    /*position: relative;*/
+    padding: 0;
     /* blue water bg of gfbio */
     /*background: url(../img/gf_bio_body_bg.jpg) top left no-repeat; background-size: cover;*/
 
     /* background image for landing area */
-    background-image: url(../img/network-connection_50.jpg);
-    background-position: center;
+    /* TODO:  try gfbio bubbles */
+    background: url(../img/stocksnap_lightbulb.jpg) bottom left no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
+    -o-background-size:cover;
 }
 
 #flex-wrap {
@@ -672,15 +664,17 @@ div.yamm-content > div > .mega-lifecycle li {
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
     width: 100%;
-    height: 33%;
-    min-height: 33%;
+    height: 200px;
+    min-height: 200px;
 
     position: absolute;
-    bottom: 0;
+
+    /* TODO: see javascript for slideHeight when modifying height etc. !*/
+    bottom: 0; /* 15px TODO: there is a gap if set to 0 ?*/
 
     justify-content: space-around;
     margin: auto;
-    /*padding: 0 0 20px 0;*/
+    padding: 0 0 0 0;
 }
 
 .home-col {
@@ -694,9 +688,9 @@ div.yamm-content > div > .mega-lifecycle li {
     overflow: hidden;
     position: relative;
 
-
-    background-color: #ffce00;
-    border-left: 1px solid #fff;
+    /*background-color: #ffce00;*/
+    background-color: transparent;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .home-col:first-child {
@@ -729,7 +723,6 @@ div.yamm-content > div > .mega-lifecycle li {
     -o-transition: opacity .4s ease-in;
     transition: opacity .4s ease-in
 }
-
 
 .hover-content {
     position: relative;
@@ -773,7 +766,6 @@ div.yamm-content > div > .mega-lifecycle li {
     color: #888
 }
 
-
 .home-col a {
     width: 100%;
     height: 100%;
@@ -795,8 +787,8 @@ div.yamm-content > div > .mega-lifecycle li {
     -moz-animation: columnLoad 1.5s step-end forwards;
     -o-animation: columnLoad 1.5s step-end forwards;
     animation: columnLoad 1.5s step-end forwards;
-    background: url(../img/gf_bio_body_bg.jpg) no-repeat;
-    background-size: cover
+    /*background: url(../img/gf_bio_body_bg.jpg) no-repeat;*/
+    /*background-size: cover*/
 }
 
 #home-2 .project {
@@ -804,8 +796,8 @@ div.yamm-content > div > .mega-lifecycle li {
     -moz-animation: columnLoad 1.5s step-end forwards;
     -o-animation: columnLoad 1.5s step-end forwards;
     animation: columnLoad 1.5s step-end forwards;
-    background: url(../img/gf_bio_body_bg.jpg) no-repeat;
-    background-size: cover
+    /*background: url(../img/gf_bio_body_bg.jpg) no-repeat;*/
+    /*background-size: cover*/
 }
 
 #home-3 .project {
@@ -813,8 +805,8 @@ div.yamm-content > div > .mega-lifecycle li {
     -moz-animation: columnLoad 1.5s step-end forwards;
     -o-animation: columnLoad 1.5s step-end forwards;
     animation: columnLoad 1.5s step-end forwards;
-    background: url(../img/gf_bio_body_bg.jpg) no-repeat;
-    background-size: cover
+    /*background: url(../img/gf_bio_body_bg.jpg) no-repeat;*/
+    /*background-size: cover*/
 }
 
 #home-4 .project {
@@ -822,20 +814,41 @@ div.yamm-content > div > .mega-lifecycle li {
     -moz-animation: columnLoad 1.5s step-end forwards;
     -o-animation: columnLoad 1.5s step-end forwards;
     animation: columnLoad 1.5s step-end forwards;
-    background: url(../img/gf_bio_body_bg.jpg) no-repeat;
-    background-size: cover
+    /*background: url(../img/gf_bio_body_bg.jpg) no-repeat;*/
+    /*background-size: cover*/
+}
+
+.project > a > h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project > a > h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 2em;
+}
+
+
+.icon-landing-flex {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 96px;
 }
 
 #home-1 h2 {
-    width: 74px;
-    height: 331px;
-    margin: -165px 0 0 -37px;
-    background: url(../img/ud-heading.png) no-repeat;
-    background-size: 74px auto;
-    -webkit-animation: fadeIn .5s ease 1.5s forwards;
-    -moz-animation: fadeIn .5s ease 1.5s forwards;
-    -o-animation: fadeIn .5s ease 1.5s forwards;
-    animation: fadeIn .5s ease 1.5s forwards
+    /*width: 74px;*/
+    /*height: 331px;*/
+    /*margin: -165px 0 0 -37px;*/
+
+    /*!*background: url(../img/ud-heading.png) no-repeat;*!*/
+    /*!*background-size: 74px auto;*!*/
+    /*-webkit-animation: fadeIn .5s ease 1.5s forwards;*/
+    /*-moz-animation: fadeIn .5s ease 1.5s forwards;*/
+    /*-o-animation: fadeIn .5s ease 1.5s forwards;*/
+    /*animation: fadeIn .5s ease 1.5s forwards*/
 }
 
 #home-2 h2 {
@@ -884,7 +897,6 @@ div.yamm-content > div > .mega-lifecycle li {
     background-color: #00b3ee;
     border-left: 2px solid crimson;
 }
-
 
 .abcen1 {
     position: absolute;
@@ -1086,10 +1098,6 @@ div.yamm-content > div > .mega-lifecycle li {
     left: 0;
 }
 
-
-
-
-
 /*=================================================================
 	About
 ==================================================================*/
@@ -1108,7 +1116,6 @@ div.yamm-content > div > .mega-lifecycle li {
     /*background: url("../img/slide_bg.png") repeat scroll 0 0 transparent;*/
     padding: 30px 0 20px;
 }
-
 
 #about h3 {
     color: #fff;
@@ -1162,7 +1169,6 @@ div.yamm-content > div > .mega-lifecycle li {
     margin-left: 135px;
 }
 
-
 /* ------- partner --------- */
 
 #partner-banner {
@@ -1203,7 +1209,6 @@ div.yamm-content > div > .mega-lifecycle li {
     font-size: 64px;
 
 }
-
 
 .icon-services {
     display: block;

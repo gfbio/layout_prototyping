@@ -139,7 +139,8 @@ $(document).ready(function(){
             $("#navigation").css("background-color", "#fff");
             $(".navbar-fixed-top").addClass("navigation-shadow");
         } else {
-            $("#navigation").css("background-color", "transparent");
+            //$("#navigation").css("background-color", "transparent");
+            $("#navigation").css("background-color", "rgba(255, 255, 255, 0.3)");
             $(".navbar-fixed-top").removeClass("navigation-shadow");
         }
         // if ($(window).scrollTop() > 400) {
@@ -155,8 +156,11 @@ $(document).ready(function(){
 	/*	Fix Slider Height
 	/* ========================================================================= */
 
+
     // Slider Height
-    var slideHeight = $(window).height();
+    // FIXME: why is there 15px gap on bottom of section ?
+    var slideHeight = $(window).height()+15;
+    console.log('slideHeight '+slideHeight);
 
     $('#home-slider, #slider, .sl-slider, .sl-content-wrapper').css('height',slideHeight);
 
@@ -165,15 +169,15 @@ $(document).ready(function(){
     });
 
 
-
-	$("#works, #testimonial").owlCarousel({
+    /* TODO: put this back in if slider */
+    $("#works, #testimonial").owlCarousel({
 		navigation : true,
 		pagination : false,
 		slideSpeed : 700,
 		paginationSpeed : 400,
 		singleItem:true,
 		navigationText: ["<i class='fa fa-angle-left fa-lg'></i>","<i class='fa fa-angle-right fa-lg'></i>"]
-	});
+    });
 
 
 	/* ========================================================================= */
