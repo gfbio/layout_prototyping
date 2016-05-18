@@ -136,11 +136,11 @@ $(document).ready(function(){
 
     $(window).scroll(function () {
         if ($(window).scrollTop() > 100) {
-            $("#navigation").css("background-color", "#fff");
+            //$("#navigation").css("background-color", "#fff");
             $(".navbar-fixed-top").addClass("navigation-shadow");
         } else {
             //$("#navigation").css("background-color", "transparent");
-            $("#navigation").css("background-color", "rgba(255, 255, 255, 0.3)");
+            //$("#navigation").css("background-color", "rgba(255, 255, 255, 0.3)");
             $(".navbar-fixed-top").removeClass("navigation-shadow");
         }
         // if ($(window).scrollTop() > 400) {

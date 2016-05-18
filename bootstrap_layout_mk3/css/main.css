@@ -369,7 +369,9 @@ main > section {
 
     /*background-color: rgba(0,0,0,.4);*/
     /*background-color: transparent;*/
-    background-color: rgba(255, 255, 255, 0.3);
+    /*background-color: rgba(255, 255, 255, 0.3);*/
+    background-color: transparent;
+    color: #fff;
     /*box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);*/
     padding: 5px 0;
     /*margin-top: 33%;*/
@@ -381,6 +383,8 @@ main > section {
 .navigation-shadow {
     /* uncomment to enable collapsing two-row navi example  */
     /*height: 3.5em !important;*/
+    background-color: #fff !important;
+    color: #666 !important;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -491,7 +495,7 @@ div#navbar-search-wrapper {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-    color: #666;
+    color: inherit;
     font-size: 15px;
     /*text-transform: uppercase;*/
 }
@@ -647,7 +651,7 @@ div.yamm-content > div > .mega-lifecycle li {
 
     /* background image for landing area */
     /* TODO:  try gfbio bubbles */
-    background: url(../img/stocksnap_lightbulb.jpg) bottom left no-repeat;
+    background: url(../img/stocksnap_lightbulb_blue1.jpg) bottom left no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -670,7 +674,7 @@ div.yamm-content > div > .mega-lifecycle li {
     position: absolute;
 
     /* TODO: see javascript for slideHeight when modifying height etc. !*/
-    bottom: 0; /* 15px TODO: there is a gap if set to 0 ?*/
+    bottom: 10%; /* 15px TODO: there is a gap if set to 0 ?*/
 
     justify-content: space-around;
     margin: auto;
