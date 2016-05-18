@@ -539,6 +539,16 @@ div#navbar-search-wrapper {
     padding-top: 0;
 }
 
+.yamm-content a {
+    color: #666;
+    font-size: 15px;
+    padding: 10px 0 10px 0;
+}
+
+.yamm-content a:hover {
+    color: #333;
+}
+
 div.yamm-content .mega-lifecycle a {
     color: #666;
     font-size: 15px;
@@ -1192,6 +1202,10 @@ div.yamm-content > div > .mega-lifecycle a:hover {
 /*=================================================================
 	Services
 ==================================================================*/
+
+.service-spacer {
+    margin-top: 40px;
+}
 
 .service-icon {
     border: 3px solid transparent;
