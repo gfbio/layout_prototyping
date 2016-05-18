@@ -520,8 +520,15 @@ div#navbar-search-wrapper {
 /*  https://github.com/geedmo/yamm3 */
 .dropdown-menu {
     border: 0;
+    /*margin: -5px;*/
     box-shadow: 0 2px 5px rgba(0, 0.2, 0.2, 0.2);
 }
+
+/*TODO: hover for dropdown, issues with gap between  link and menu ...*/
+/* TODO: now hover via javascript*/
+/*.dropdown:hover > .dropdown-menu {*/
+    /*display: block;*/
+/*}*/
 
 .right {
     padding-left: 10px;
@@ -547,10 +554,11 @@ div.yamm-content > div > .mega-lifecycle li {
     padding: 15px;
 }
 
-/*div.yamm-content > div > .mega-lifecycle a:hover {*/
-/*color: #333333;*/
-/*border-bottom: 3px solid rgba(52, 90, 162, 0.8);*/
-/*}*/
+div.yamm-content > div > .mega-lifecycle a:hover {
+    color: #333333;
+    border-bottom: 3px solid rgba(52, 90, 162, 0.8);
+}
+
 
 /*=================================================================
 	Landing Area
