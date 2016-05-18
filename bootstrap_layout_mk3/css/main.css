@@ -1191,13 +1191,13 @@ div.yamm-content > div > .mega-lifecycle a:hover {
     margin-left: 135px;
 }
 
-/* ------- partner --------- */
+/* ------- psartner --------- */
 
-/*#partner-banner {*/
-    /*background: url("../img/GFBiologofooter_juni2015.png") no-repeat scroll center center;*/
-    /*padding-left: 2000px;*/
-    /*padding-top: 291px;*/
-/*}*/
+#partner-banner {
+    background: url("../img/GFBiologofooter_juni2015_mod1.png") no-repeat scroll center center;
+    padding-left: 1079px;
+    padding-top: 435px;
+}
 
 /*=================================================================
 	Services
