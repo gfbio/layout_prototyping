@@ -102,20 +102,20 @@ $(document).ready(function(){
 		}
 	});
 
-    jQuery('#nav-right').singlePageNav({
-        offset: jQuery('#nav-right').outerHeight(),
-        filter: ':not(.external)',
-        speed: 2000,
-        currentClass: 'current',
-        easing: 'easeInOutExpo',
-        updateHash: true,
-        beforeStart: function() {
-            console.log('begin scrolling');
-        },
-        onComplete: function() {
-            console.log('done scrolling');
-        }
-    });
+    // jQuery('#nav-right').singlePageNav({
+    //     offset: jQuery('#nav-right').outerHeight(),
+    //     filter: ':not(.external)',
+    //     speed: 2000,
+    //     currentClass: 'current',
+    //     easing: 'easeInOutExpo',
+    //     updateHash: true,
+    //     beforeStart: function() {
+    //         console.log('begin scrolling');
+    //     },
+    //     onComplete: function() {
+    //         console.log('done scrolling');
+    //     }
+    // });
 
     // yamm megamenu
     $(document).on('click', '.yamm .dropdown-menu', function(e) {
