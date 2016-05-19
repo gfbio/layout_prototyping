@@ -970,6 +970,11 @@ div.yamm-content > div > .mega-lifecycle a:hover {
     /*bottom: 0;*/
 }
 
+.abcen {
+    position: absolute;
+    bottom: 8%;
+}
+
 .sl-slider-wrapper {
     width: 100%;
     margin: 0 auto;
@@ -1177,8 +1182,8 @@ div.yamm-content > div > .mega-lifecycle a:hover {
 
 #about .overlay {
     /*background-color: rgba(60, 172, 228, 0.8);*/
-    background-color: rgba(52, 90, 162, 0.75);
-    /*background-color: rgba(102, 102, 102, 0.75);*/
+    /*background-color: rgba(52, 90, 162, 0.75);*/
+    background-color: rgba(102, 102, 102, 0.75);
     /*background: url("../img/slide_bg.png") repeat scroll 0 0 transparent;*/
     padding: 30px 0 20px;
 }
