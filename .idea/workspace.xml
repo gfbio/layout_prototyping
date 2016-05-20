@@ -11,9 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b0da817a-5eba-491d-adfc-ec949778e9c7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/blue-onepage-business-template/Blue-Onepage-HTML5-Business-Template" afterPath="$PROJECT_DIR$/templates/blue-onepage-business-template/Blue-Onepage-HTML5-Business-Template" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backups/f5_layout_mk1/index.html" afterPath="$PROJECT_DIR$/backups/f5_layout_mk1/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap_layout_mk3/css/main.css" afterPath="$PROJECT_DIR$/bootstrap_layout_mk3/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap_layout_mk3/index.html" afterPath="$PROJECT_DIR$/bootstrap_layout_mk3/index.html" />
     </list>
     <ignored path="gfbio_html.iws" />
@@ -34,7 +31,7 @@
     <favorites_list name="gfbio_html" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.556962">
+    <splitter split-orientation="horizontal" split-proportion="0.7236287">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
@@ -67,11 +64,11 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/bootstrap_layout_mk3/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="231">
-                  <caret line="1076" column="52" selection-start-line="1076" selection-start-column="52" selection-end-line="1076" selection-end-column="52" />
+                <state relative-caret-position="588">
+                  <caret line="160" column="68" selection-start-line="160" selection-start-column="68" selection-end-line="160" selection-end-column="68" />
                   <folding>
                     <element signature="n#style#0;n#a#0;n#div#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <marker date="1463773938524" expanded="false" signature="51607:51619" ph="..." />
+                    <marker date="1463777403352" expanded="false" signature="51824:51836" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -94,8 +91,8 @@
           <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/bootstrap_layout_mk3/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="756">
-                  <caret line="1750" column="18" selection-start-line="1750" selection-start-column="18" selection-end-line="1750" selection-end-column="18" />
+                <state relative-caret-position="189">
+                  <caret line="1723" column="16" selection-start-line="1723" selection-start-column="16" selection-end-line="1723" selection-end-column="16" />
                   <folding>
                     <marker date="1463774467068" expanded="true" signature="38036:38112" ph="{...}" />
                     <marker date="1463774467068" expanded="true" signature="38134:38179" ph="{...}" />
@@ -125,7 +122,9 @@
                   <caret line="539" column="0" selection-start-line="539" selection-start-column="0" selection-end-line="539" selection-end-column="0" />
                   <folding>
                     <element signature="n#style#0;n#a#0;n#div#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <marker date="1463773938524" expanded="false" signature="51607:51619" ph="..." />
+                    <marker date="1463777403352" expanded="true" signature="48838:48942" ph="..." />
+                    <marker date="1463777403352" expanded="false" signature="51824:51836" ph="..." />
+                    <marker date="1463777403352" expanded="true" signature="52612:52721" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -188,8 +187,8 @@
         <option value="$PROJECT_DIR$/bootstrap_layout_mk3/contact.html" />
         <option value="$PROJECT_DIR$/bootstrap_layout_mk3/snippets/twitter.html" />
         <option value="$PROJECT_DIR$/backups/f5_layout_mk1/index.html" />
-        <option value="$PROJECT_DIR$/bootstrap_layout_mk3/index.html" />
         <option value="$PROJECT_DIR$/bootstrap_layout_mk3/css/main.css" />
+        <option value="$PROJECT_DIR$/bootstrap_layout_mk3/index.html" />
       </list>
     </option>
   </component>
@@ -350,7 +349,7 @@
       <workItem from="1463596057877" duration="8819000" />
       <workItem from="1463644453289" duration="12850000" />
       <workItem from="1463747503859" duration="7264000" />
-      <workItem from="1463772359050" duration="2149000" />
+      <workItem from="1463772359050" duration="4280000" />
     </task>
     <task id="LOCAL-00001" summary="GFBIO-1328 adapt partner logos and consortium section">
       <created>1463604845705</created>
@@ -377,7 +376,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81008000" />
+    <option name="totallyTimeSpent" value="83139000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -766,17 +765,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap_layout_mk3/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12530">
-          <caret line="539" column="0" selection-start-line="539" selection-start-column="0" selection-end-line="539" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1463773938524" expanded="false" signature="51607:51619" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backups/f5_layout_mk1/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
@@ -787,8 +775,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap_layout_mk3/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="1750" column="18" selection-start-line="1750" selection-start-column="18" selection-end-line="1750" selection-end-column="18" />
+        <state relative-caret-position="20244">
+          <caret line="964" column="1" selection-start-line="964" selection-start-column="1" selection-end-line="964" selection-end-column="1" />
           <folding>
             <marker date="1463774467068" expanded="true" signature="38036:38112" ph="{...}" />
             <marker date="1463774467068" expanded="true" signature="38134:38179" ph="{...}" />
@@ -806,6 +794,17 @@
             <marker date="1463774467068" expanded="true" signature="39863:40101" ph="{...}" />
             <marker date="1463774467068" expanded="true" signature="40136:40163" ph="{...}" />
             <marker date="1463774467068" expanded="true" signature="40189:40237" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap_layout_mk3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="160" column="68" selection-start-line="160" selection-start-column="68" selection-end-line="160" selection-end-column="68" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1463777403352" expanded="false" signature="51824:51836" ph="..." />
           </folding>
         </state>
       </provider>

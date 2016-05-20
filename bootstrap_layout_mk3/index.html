@@ -158,7 +158,7 @@ Fixed Navigation
                             <div class="row">
                                 <div class="col-md-6">
                                     <ul class="list-unstyled">
-                                        <li><a href="#">Create a Ticket</a></li>
+                                        <li><a id="jiraCollectorNavi" href="#">Create a Ticket</a></li>
                                         <li><a href="#">FAQ</a></li>
                                         <li><a href="contact.html">Contact</a></li>
                                     </ul>
@@ -1057,11 +1057,15 @@ End Fixed Navigation
                     <i class="fa fa-comments-o"></i>
                     <h4>Contact us !</h4>
                     <p>
-                        Follow us <a href="#">@GFBio-twitter</a>
+                        Write our
+                        <strong><a id="jiraCollector" href="#">Helpdesk</a></strong> Staff !
                     </p>
+                    <!--<p>-->
+                        <!--Follow us <a href="#">@GFBio-twitter</a>-->
+                    <!--</p>-->
                     <p>
                         Got questions ? Email us at
-                        <strong><a href="mailto:contact@gfbio.org">contact@gfbio.org</a></strong>
+                        <strong><a href="mailto:info@gfbio.org">contact@gfbio.org</a></strong>
                     </p>
                 </div>
 
@@ -1143,17 +1147,17 @@ End Fixed Navigation
                     <!--<div class="large-6 medium-6 columns">-->
                     <ul class="list-unstyled list-inline">
                         <li class="index-collection active-link folder">
-                            <a href="/"><span>About</span></a>
+                            <a href="/"><span>Legal Information</span></a>
                         </li>
                         <li class="index-collection active-link folder">
-                            <a href="/"><span>Get Help</span></a>
+                            <a href="/"><span>Terms of Service</span></a>
                         </li>
                         <li class="index-collection active-link folder">
-                            <a href="/"><span>Contact</span></a>
+                            <a href="/"><span>Privacy Policy</span></a>
                         </li>
-                        <li class="index-collection active-link folder">
-                            <a href="/"><span>Sitemap</span></a>
-                        </li>
+                        <!--<li class="index-collection active-link folder">-->
+                            <!--<a href="/"><span>Sitemap</span></a>-->
+                        <!--</li>-->
                     </ul>
                 </div>
 
@@ -1227,6 +1231,33 @@ End Fixed Navigation
 <!-- Custom Functions -->
 <script src="js/main.js"></script>
 
+
+<script>
+
+
+    $.ajax({
+        url: "http://helpdesk.gfbio.org/s/b086cc2a071c89387e71c6e198b40729-T/en_US-b9c5o9/70120/221180b2cb092830730d3d1b3198c81a/2.0.8/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector-embededjs/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector-embededjs.js?locale=en-US&collectorId=ea83cdef",
+        type: "get",
+        cache: true,
+        dataType: "script"
+    });
+
+    window.ATL_JQ_PAGE_PROPS = {
+        "triggerFunction": function (showCollectorDialog) {
+            //Requires that jQuery is available!
+            $("#jiraCollector").click(function (e) {
+                e.preventDefault();
+                showCollectorDialog();
+            });
+
+            $("#jiraCollectorNavi").click(function (e) {
+                e.preventDefault();
+                showCollectorDialog();
+            });
+        }
+    };
+
+</script>
 <!-- twitter  -->
 <!--<script>-->
 <!--!function (d, s, id) {-->
