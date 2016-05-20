@@ -11,8 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b0da817a-5eba-491d-adfc-ec949778e9c7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/blue-onepage-business-template/Blue-Onepage-HTML5-Business-Template" afterPath="$PROJECT_DIR$/templates/blue-onepage-business-template/Blue-Onepage-HTML5-Business-Template" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backups/f5_layout_mk1/index.html" afterPath="$PROJECT_DIR$/backups/f5_layout_mk1/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap_layout_mk3/css/main.css" afterPath="$PROJECT_DIR$/bootstrap_layout_mk3/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap_layout_mk3/index.html" afterPath="$PROJECT_DIR$/bootstrap_layout_mk3/index.html" />
     </list>
     <ignored path="gfbio_html.iws" />
@@ -66,11 +64,11 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/bootstrap_layout_mk3/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="819">
-                  <caret line="1067" column="46" selection-start-line="1067" selection-start-column="46" selection-end-line="1067" selection-end-column="46" />
+                <state relative-caret-position="693">
+                  <caret line="1121" column="41" selection-start-line="1121" selection-start-column="41" selection-end-line="1121" selection-end-column="41" />
                   <folding>
                     <element signature="n#style#0;n#a#0;n#div#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <marker date="1463749413158" expanded="false" signature="51141:51153" ph="..." />
+                    <marker date="1463749633842" expanded="false" signature="51487:51499" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -124,7 +122,7 @@
                   <caret line="1066" column="0" selection-start-line="1066" selection-start-column="0" selection-end-line="1066" selection-end-column="0" />
                   <folding>
                     <element signature="n#style#0;n#a#0;n#div#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <marker date="1463749413158" expanded="false" signature="51141:51153" ph="..." />
+                    <marker date="1463749633842" expanded="false" signature="51487:51499" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -501,7 +499,7 @@
       <workItem from="1463596003206" duration="40000" />
       <workItem from="1463596057877" duration="8819000" />
       <workItem from="1463644453289" duration="12850000" />
-      <workItem from="1463747503859" duration="1933000" />
+      <workItem from="1463747503859" duration="2234000" />
     </task>
     <task id="LOCAL-00001" summary="GFBIO-1328 adapt partner logos and consortium section">
       <created>1463604845705</created>
@@ -528,7 +526,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73528000" />
+    <option name="totallyTimeSpent" value="73829000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -958,11 +956,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap_layout_mk3/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="1067" column="46" selection-start-line="1067" selection-start-column="46" selection-end-line="1067" selection-end-column="46" />
+        <state relative-caret-position="693">
+          <caret line="1121" column="41" selection-start-line="1121" selection-start-column="41" selection-end-line="1121" selection-end-column="41" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1463749413158" expanded="false" signature="51141:51153" ph="..." />
+            <marker date="1463749633842" expanded="false" signature="51487:51499" ph="..." />
           </folding>
         </state>
       </provider>
