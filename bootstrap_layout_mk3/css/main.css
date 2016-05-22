@@ -1173,9 +1173,10 @@ div.yamm-content > div > .mega-lifecycle a:hover {
 }
 
 #about .overlay {
+    /*background: rgba(129, 178, 72, 0.7);*/
     /*background-color: rgba(60, 172, 228, 0.8);*/
-    /*background-color: rgba(52, 90, 162, 0.75);*/
-    background-color: rgba(102, 102, 102, 0.75);
+    background-color: rgba(52, 90, 162, 0.75);
+    /*background-color: rgba(102, 102, 102, 0.75);*/
     /*background: url("../img/slide_bg.png") repeat scroll 0 0 transparent;*/
     padding: 30px 0 20px;
 }
@@ -1582,13 +1583,18 @@ ul.external li a:hover {
 ==================================================================*/
 
 #social {
-    background-image: url(../img/slider/banner.jpg);
+    background-image: url(../img/unsplash_books.jpg);
     padding: 0;
 }
 
 #social .overlay {
-    background: url("../img/slide_bg.png") repeat scroll 0 0 transparent;
+    /*background-color: rgba(129, 178, 72, 0.7);*/
+    /*background-color: rgba(60, 172, 228, 0.8);*/
+    background-color: rgba(52, 90, 162, 0.75);
+    /*background-color: rgba(102, 102, 102, 0.75);*/
+    /*background: url("../img/slide_bg.png") repeat scroll 0 0 transparent;*/
     padding: 100px 0 120px;
+
 }
 
 .social-button {
@@ -1623,8 +1629,10 @@ ul.external li a:hover {
 }
 
 .social-button li a:hover {
-    color: #008ECC;
-    border: 2px solid #008ECC;
+    /*rgba(52, 90, 162, 0.8);*/
+    /*rgba(129, 178, 72, 0.8);*/
+    color: rgba(60, 172, 228, 1.0);
+    border: 2px solid rgba(60, 172, 228, 1.0);
 }
 
 /*=================================================================
@@ -1662,8 +1670,9 @@ textarea.form-control {
 }
 
 .contact-details h3 {
-    border-bottom: 1px solid #008ecc;
-    font-weight: 700;
+    margin-top: 0;
+    border-bottom: 1px dotted rgba(52, 90, 162, 0.75);
+    font-weight: 400;
     margin-bottom: 15px;
     padding-bottom: 15px;
     text-transform: uppercase;
