@@ -132,13 +132,24 @@ $(document).ready(function () {
             $('.dropdown-menu', this).stop().fadeOut("slow");
         });
 
+
+    //$(".navbar-fixed-top").hide();
+
+
     $(window).scroll(function () {
         if ($(window).scrollTop() > 100) {
             //$("#navigation").css("background-color", "#fff");
+
             $(".navbar-fixed-top").addClass("navigation-shadow");
+
+            //$(".navbar-fixed-top").fadeIn(1000);
+
         } else {
             //$("#navigation").css("background-color", "transparent");
             //$("#navigation").css("background-color", "rgba(255, 255, 255, 0.3)");
+
+            //$(".navbar-fixed-top").fadeOut(1000);
+
             $(".navbar-fixed-top").removeClass("navigation-shadow");
         }
         // if ($(window).scrollTop() > 400) {
