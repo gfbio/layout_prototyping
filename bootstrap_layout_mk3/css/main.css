@@ -801,7 +801,7 @@ div.yamm-content > div > .mega-lifecycle a:hover {
 
     /*background-color: #ffce00;*/
     background-color: transparent;
-    border-left: 2px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.6);
 }
 
 .home-col:first-child {
@@ -836,8 +836,10 @@ div.yamm-content > div > .mega-lifecycle a:hover {
     transition: opacity .4s ease-in
 }
 
-#home-1 .hover {
-    background: rgba(52, 90, 162, 0.6);
+.home-1 .hover {
+    background: rgba(52, 90, 162, 0.85);
+    /*background: rgba(5, 10, 33, 0.75);*/
+    /*background: rgba(129, 178, 72, 1.0);*/
 }
 
 #home-2 .hover {
@@ -863,7 +865,11 @@ div.yamm-content > div > .mega-lifecycle a:hover {
     top: 50%;
     font-size: 16px;
     font-weight: 400;
-    color: #bdbdbd;
+    /*color: #bdbdbd;*/
+    color: rgba(255, 255, 255, 0.8);
+
+    text-align: right;
+
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -o-transform: translateY(-50%);
@@ -877,12 +883,15 @@ div.yamm-content > div > .mega-lifecycle a:hover {
 .hover-content p {
     float: left;
     margin: 0 30px 0 0;
-    line-height: 18px
+    line-height: 18px;
+    text-align: center;
+    font-size: 1.2em;
 }
 
 .hover-content p span {
     display: block;
-    font-size: 10px;
+    padding-bottom: 20px;
+    font-size: 1.2em;
     font-weight: 300;
     letter-spacing: 2px;
     text-transform: uppercase
@@ -891,7 +900,7 @@ div.yamm-content > div > .mega-lifecycle a:hover {
 .hover-content .icon-arrow {
     font-size: 32px;
     line-height: 36px;
-    color: #888
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .home-col a {
