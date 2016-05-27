@@ -140,7 +140,7 @@ $(document).ready(function () {
         if ($(window).scrollTop() > 100) {
             //$("#navigation").css("background-color", "#fff");
 
-            $(".navbar-fixed-top").addClass("navigation-shadow");
+            //$(".navbar-fixed-top").addClass("navigation-shadow");
 
             //$(".navbar-fixed-top").fadeIn(1000);
 
@@ -150,7 +150,7 @@ $(document).ready(function () {
 
             //$(".navbar-fixed-top").fadeOut(1000);
 
-            $(".navbar-fixed-top").removeClass("navigation-shadow");
+            //$(".navbar-fixed-top").removeClass("navigation-shadow");
         }
         // if ($(window).scrollTop() > 400) {
         //     $(".navbar-brand a").css("color","#fff");
@@ -169,13 +169,13 @@ $(document).ready(function () {
     // Slider Height
     // FIXME: why is there 15px gap on bottom of section ?
     var slideHeight = $(window).height() + 15;
-    console.log('slideHeight ' + slideHeight);
+    //console.log('slideHeight ' + slideHeight);
 
-    $('#home-slider, #slider, .sl-slider, .sl-content-wrapper').css('height', slideHeight);
+    $('#home-slider, #slider, .sl-slider, .sl-content-wrapper, #xgeneric-main').css('height', slideHeight);
 
     $(window).resize(function () {
         'use strict',
-            $('#home-slider, #slider, .sl-slider, .sl-content-wrapper').css('height', slideHeight);
+            $('#home-slider, #slider, .sl-slider, .sl-content-wrapper, #xgeneric-main').css('height', slideHeight);
     });
 
 
