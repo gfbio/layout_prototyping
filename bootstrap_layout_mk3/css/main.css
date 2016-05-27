@@ -10,23 +10,21 @@
 *
 */
 
-
 /*@font-face {*/
-    /*font-family: 'icomoon';*/
-    /*src:    url('../fonts/icomoon/fonts/icomoon.eot?xtb52m');*/
-    /*src:    url('../fonts/icomoon/fonts/icomoon.eot?xtb52m#iefix') format('embedded-opentype'),*/
-    /*url('../fonts/icomoon/fonts/icomoon.ttf?xtb52m') format('truetype'),*/
-    /*url('../fonts/icomoon/fonts/icomoon.woff?xtb52m') format('woff'),*/
-    /*url('../fonts/icomoon/fonts/icomoon.svg?xtb52m#icomoon') format('svg');*/
-    /*font-weight: normal;*/
-    /*font-style: normal;*/
+/*font-family: 'icomoon';*/
+/*src:    url('../fonts/icomoon/fonts/icomoon.eot?xtb52m');*/
+/*src:    url('../fonts/icomoon/fonts/icomoon.eot?xtb52m#iefix') format('embedded-opentype'),*/
+/*url('../fonts/icomoon/fonts/icomoon.ttf?xtb52m') format('truetype'),*/
+/*url('../fonts/icomoon/fonts/icomoon.woff?xtb52m') format('woff'),*/
+/*url('../fonts/icomoon/fonts/icomoon.svg?xtb52m#icomoon') format('svg');*/
+/*font-weight: normal;*/
+/*font-style: normal;*/
 /*}*/
-
 
 @font-face {
     font-family: 'icomoon';
-    src:    url('../fonts/icomoon/fonts/icomoon.eot?xtb52m');
-    src:    url('../fonts/icomoon/fonts/icomoon.eot?xtb52m#iefix') format('embedded-opentype'),
+    src: url('../fonts/icomoon/fonts/icomoon.eot?xtb52m');
+    src: url('../fonts/icomoon/fonts/icomoon.eot?xtb52m#iefix') format('embedded-opentype'),
     url('../fonts/icomoon/fonts/icomoon.ttf?xtb52m') format('truetype'),
     url('../fonts/icomoon/fonts/icomoon.woff?xtb52m') format('woff'),
     url('../fonts/icomoon/fonts/icomoon.svg?xtb52m#icomoon') format('svg');
@@ -59,7 +57,6 @@ svg {
     -moz-osx-font-smoothing: grayscale;
 }
 
-
 .node {
     fill: #fff;
     stroke: #345AA2;
@@ -77,6 +74,7 @@ svg {
 text {
     fill: #345AA2;
 }
+
 /*.upload {*/
 /*color: red;*/
 /*font-family: FontAwesome;*/
@@ -148,7 +146,7 @@ main > section {
 }
 
 .btn-contact-send:hover {
-    background-color: rgba(129, 178, 72, 0.8);
+    background-color: rgba(129, 178, 72, 1.0);
 }
 
 .btn-border {
@@ -370,19 +368,29 @@ main > section {
     transition: all 0.8s ease 0s;
 
     /*background-color: rgba(0,0,0,.4);*/
-    background-color: transparent;
+    /*background-color: transparent;*/
+    /*background-color: rgba(255, 255, 255, 0.3);*/
+
+    /* for dark backgroudimages */
+    /*color: #fff;*/
+    background-color: rgba(255, 255, 255, 1.0);
+    /*background-color: rgba(52, 90, 162, 0.5);*/
+    color: #666;
+
+    /*border-bottom: 1px solid white;*/
     /*box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);*/
     padding: 5px 0;
+    /*margin-top: 33%;*/
 
     /* uncomment to enable collapsing two-row navi example  */
     /*height: 7.5em;*/
 }
 
-
 .navigation-shadow {
     /* uncomment to enable collapsing two-row navi example  */
     /*height: 3.5em !important;*/
-
+    background-color: #fff !important;
+    color: #666 !important;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -392,13 +400,35 @@ main > section {
 
 /* TODO: add transitions for change of size in two row navi*/
 h1.navbar-brand {
+    -webkit-transition: all 0.8s ease 0s;
+    -moz-transition: all 0.8s ease 0s;
+    -ms-transition: all 0.8s ease 0s;
+    -o-transition: all 0.8s ease 0s;
+    transition: all 0.8s ease 0s;
+
     background: url("../img/GFBio_logo_png_60x122.png") no-repeat center center;
     padding: 60px 122px 0 0 !important;
-    /*background: url("../img/GFBio_logo_png_299x147.png") no-repeat center center;
-    padding: 147px 299px 0 0 !important;*/
+    /*background: url("../img/GFBio_logo_png_299x147.png") no-repeat center center;*/
+    /*padding: 147px 299px 0 0 !important;*/
+
+
+    /*background: url(../img/GFBio_logo_174x86.png) no-repeat center center;*/
+    /*padding: 86px 174px 0 0 !important;*/
+
+
     margin: 0;
 }
 
+.navigation-shadow h1.navbar-brand {
+    -webkit-transition: all 0.8s ease 0s;
+    -moz-transition: all 0.8s ease 0s;
+    -ms-transition: all 0.8s ease 0s;
+    -o-transition: all 0.8s ease 0s;
+    transition: all 0.8s ease 0s;
+
+    background: url("../img/GFBio_logo_png_60x122.png") no-repeat center center;
+    padding: 60px 122px 0 0 !important;
+}
 
 #nav-left, #nav-right, #nav-right2 {
     padding-top: 5px;
@@ -446,22 +476,40 @@ div#navbar-search-wrapper {
 #navbar-search-submit {
     text-transform: none;
     color: #666;
+    background-color: transparent;
     font-size: 20px;
 }
 
 #navbar-search-submit:hover {
-    background-color: #fff;
+    background-color: transparent;
     color: rgba(52, 90, 162, 0.7);
+    /*color: rgba(129, 178, 72, 1.0);*/
+    /*color: rgba(255, 206, 0, 0.75);*/
+    /*border-bottom: 4px solid #fff;*/
 }
-
 
 #navbar-search-input {
     height: 40px;
     border-radius: 6px;
 }
 
+#nav-right-background {
+    z-index: -999;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url("../img/header-image-start.png");
+    background-size: contain;
+    height: 231px;
+    width: 565px;
+
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: fixed;*/
+    /*background-position: center;*/
+}
+
 .navbar-inverse .navbar-nav > li > a {
-    color: #666;
+    color: inherit;
     font-size: 15px;
     /*text-transform: uppercase;*/
 }
@@ -477,6 +525,121 @@ div#navbar-search-wrapper {
     /*border-bottom: 3px solid rgba(52, 90, 162, 0.8);*/
 }
 
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #333333;
+    background-color: inherit;
+}
+
+/*=================================================================
+	YAMM MENU
+==================================================================*/
+
+/*  https://github.com/geedmo/yamm3 */
+.dropdown-menu {
+    border: 0;
+    /*margin: -5px;*/
+    box-shadow: 0 2px 5px rgba(0, 0.2, 0.2, 0.2);
+}
+
+
+.right {
+    padding-left: 10px;
+    float: right;
+}
+
+.yamm-content {
+    padding-top: 0;
+}
+
+.yamm-content a {
+    color: #666;
+    font-size: 15px;
+    padding: 10px 0 10px 0;
+}
+
+.yamm-content h4 {
+    border-bottom: 1px solid rgba(52, 90, 162, 0.5);
+    padding: 0 20px 5px 0;
+}
+
+.yamm-content h4 > a {
+}
+
+.yamm-content a:hover {
+    color: #333;
+}
+
+.yamm-content .tile-1 {
+    color: rgba(52, 90, 162, 0.6);
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    /*border: 1px dotted rgba(129, 178, 72, 0.8); !*#666;*!*/
+    border: 1px solid rgba(52, 90, 162, 0.6);
+    border-radius: 6px;
+    margin-right: 10px;
+    margin-left: 20px;
+    /*margin: auto;*/
+    /*background-color: rgba(52, 90, 162, 0.3);*/
+}
+
+.yamm-content .tile-1:hover {
+    background-color: rgba(52, 90, 162, 0.6);
+}
+
+
+
+.yamm-content .tile-1 a span {
+    color: rgba(52, 90, 162, 0.6);
+}
+
+.yamm-content .tile-1:hover a h5 {
+    color: #fff;
+}
+
+.yamm-content .tile-1:hover a span {
+    color: #fff;
+}
+
+.yamm-content .tile-1 a h5 {
+    color: rgba(52, 90, 162, 0.6);
+}
+
+.yamm-content .tile-2 {
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(52, 90, 162, 0.6);
+    border-radius: 6px;
+    /*margin: auto;*/
+    /*background-color: rgba(52, 90, 162, 0.3);*/
+}
+
+.icon-mega-navi {
+    font-size: 24px;
+}
+
+div.yamm-content .mega-lifecycle a {
+    color: #666;
+    font-size: 15px;
+    padding: 0 15px 15px 15px;
+}
+
+div.yamm-content .mega-lifecycle a:hover {
+    color: #333333;
+    border-bottom: 3px solid rgba(52, 90, 162, 0.8);
+}
+
+div.yamm-content > div > .mega-lifecycle li {
+    padding: 15px;
+}
+
+div.yamm-content > div > .mega-lifecycle a:hover {
+    color: #333333;
+    border-bottom: 3px solid rgba(52, 90, 162, 0.8);
+}
+
+
 
 /*=================================================================
 	Landing Area
@@ -484,20 +647,21 @@ div#navbar-search-wrapper {
 
 /* centered columns styles */
 .row-centered {
-    text-align:center;
+    text-align: center;
 }
+
 .col-centered {
-    display:inline-block;
-    float:none;
+    display: inline-block;
+    float: none;
     /* reset the text-align */
-    text-align:center;
+    text-align: center;
     /* inline-block space fix */
-    margin-right:-4px;
+    margin-right: -4px;
 }
 
 .landing {
     display: inline-block;
-    color: #666;
+    color: #666; /* 666 */
     width: 200px;
     padding: 20px;
     /*height: 250px;*/
@@ -513,23 +677,28 @@ div#navbar-search-wrapper {
 #landing-1:hover {
     background-color: rgba(52, 90, 162, 0.6);
 }
+
 #landing-2:hover {
     background-color: rgba(60, 172, 228, 0.6);
 }
+
 #landing-3:hover {
     background-color: rgba(129, 178, 72, 0.7);
 }
 
 .landing-h1 {
-    color: #666;
+    /*color: #666;*/
+    color: rgba(255, 255, 255, 1.0);
     font-weight: 300;
 }
 
 .landing-h1-wrapper {
     margin-bottom: 75px;
 }
+
 .landing-h1-sub {
-    color: #666;
+    /*color: #666;*/
+    color: rgba(255, 255, 255, 1.0);
     font-size: 20px;
     font-weight: 300;
 }
@@ -538,8 +707,9 @@ div#navbar-search-wrapper {
     display: block;
     margin-bottom: 20px;
     font-size: 72px;
-    /*color: #345AA2;*/
     color: inherit;
+    /*color: #345AA2;*/
+    /*color: inherit;*/
 }
 
 .landing-footer {
@@ -548,27 +718,332 @@ div#navbar-search-wrapper {
     font-weight: 300;
 }
 
-
 /*=================================================================
 	Home Slider
 ==================================================================*/
 
 #home-slider {
-    position: relative;
+
+    /*display: -webkit-flex;*/
+    /*display: -moz-flex;*/
+    /*display: -ms-flex;*/
+    /*display: flex;*/
+    /*-webkit-flex-flow: row wrap;*/
+    /*-moz-flex-flow: row wrap;*/
+    /*-ms-flex-flow: row wrap;*/
+    /*flex-flow: row wrap;*/
+    /*min-height: 100%;*/
+
+    /*padding: 0px 0px 20px 0px;*/
+
+    /*position: relative;*/
     padding: 0;
+    /* blue water bg of gfbio */
+    /*background: url(../img/gf_bio_body_bg.jpg) top left no-repeat; background-size: cover;*/
 
     /* background image for landing area */
-    /*background-image: url(../img/network-connection_50.jpg);
-    background-position: center;
+    /* TODO:  try gfbio bubbles */
+    background-color: #fff;
+
+    background: url(../img/blue_mk1.2.png) top right no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;*/
+    -o-background-size:cover;
+}
+
+#home-slider .btn {
+    /*color: #666;*/
+    color: rgba(255, 255, 255, 1.0);
+    /*border: 1px solid rgba(102, 102, 102, 0.7);*/
+    border: 1px solid rgba(255, 255, 255, 1.0);
+}
+
+#home-slider .btn:hover {
+    color: #fff;
+    /*border: 1px solid rgba(102, 102, 102, 0.7);*/
+    background-color: rgba(129, 178, 72, 1.0);
+}
+
+#flex-wrap {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 200px;
+    min-height: 200px;
+
+    position: absolute;
+
+    /* TODO: see javascript for slideHeight when modifying height etc. !*/
+    bottom: 5%; /* 15px TODO: there is a gap if set to 0 ?*/
+
+    justify-content: space-around;
+    margin: auto;
+    padding: 0 0 0 0;
+}
+
+.home-col {
+    width: 100%;
+    /*height: 50%;*/
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+
+    /*background-color: #ffce00;*/
+    background-color: transparent;
+    border-left: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.home-col:first-child {
+    border: none;
+}
+
+.home-col h2 {
+    position: absolute;
+    opacity: 0;
+    display: block;
+    left: 50%;
+    top: 50%;
+    width: 72px;
+    text-indent: -9999em
+}
+
+.hover {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    padding: 0 10%;
+    background: rgba(0, 0, 0, .8);
+    /*background: rgba(52, 90, 162, 0.6);*/
+    color: #fff;
+    -webkit-transition: opacity .4s ease-in;
+    -moz-transition: opacity .4s ease-in;
+    -o-transition: opacity .4s ease-in;
+    transition: opacity .4s ease-in
+}
+
+.home-1 .hover {
+    background: rgba(52, 90, 162, 0.85);
+    /*background: rgba(5, 10, 33, 0.75);*/
+    /*background: rgba(129, 178, 72, 1.0);*/
+}
+
+#home-2 .hover {
+    background: rgba(60, 172, 228, 0.6);
+}
+
+#home-3 .hover {
+    background: rgba(129, 178, 72, 0.7);
+}
+
+#home-4 .hover {
+    background: rgba(52, 90, 162, 0.6);
+}
+
+.hover-content {
+    position: relative;
+    width: 100%
+}
+
+.hover-content {
+    opacity: 0;
+    display: block;
+    top: 50%;
+    font-size: 16px;
+    font-weight: 400;
+    /*color: #bdbdbd;*/
+    color: rgba(255, 255, 255, 0.8);
+
+    text-align: right;
+
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: .4s ease-in .2s;
+    -moz-transition: .4s ease-in .2s;
+    -o-transition: .4s ease-in .2s;
+    transition: .4s ease-in .2s
+}
+
+.hover-content p {
+    float: left;
+    margin: 0 30px 0 0;
+    line-height: 18px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.hover-content p span {
+    display: block;
+    padding-bottom: 20px;
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase
+}
+
+.hover-content .icon-arrow {
+    font-size: 32px;
+    line-height: 36px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.home-col a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.home-col a:hover .hover, .home-col a:hover .hover .hover-content {
+    opacity: 1;
+}
+
+.project {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#home-1 .project {
+    -webkit-animation: columnLoad 1.5s step-end forwards;
+    -moz-animation: columnLoad 1.5s step-end forwards;
+    -o-animation: columnLoad 1.5s step-end forwards;
+    animation: columnLoad 1.5s step-end forwards;
+    /*background: url(../img/gf_bio_body_bg.jpg) no-repeat;*/
+    /*background-size: cover*/
+}
+
+#home-2 .project {
+    -webkit-animation: columnLoad 1.5s step-end forwards;
+    -moz-animation: columnLoad 1.5s step-end forwards;
+    -o-animation: columnLoad 1.5s step-end forwards;
+    animation: columnLoad 1.5s step-end forwards;
+    /*background: url(../img/gf_bio_body_bg.jpg) no-repeat;*/
+    /*background-size: cover*/
+}
+
+#home-3 .project {
+    -webkit-animation: columnLoad 1.5s step-end forwards;
+    -moz-animation: columnLoad 1.5s step-end forwards;
+    -o-animation: columnLoad 1.5s step-end forwards;
+    animation: columnLoad 1.5s step-end forwards;
+    /*background: url(../img/gf_bio_body_bg.jpg) no-repeat;*/
+    /*background-size: cover*/
+}
+
+#home-4 .project {
+    -webkit-animation: columnLoad 1.5s step-end forwards;
+    -moz-animation: columnLoad 1.5s step-end forwards;
+    -o-animation: columnLoad 1.5s step-end forwards;
+    animation: columnLoad 1.5s step-end forwards;
+    /*background: url(../img/gf_bio_body_bg.jpg) no-repeat;*/
+    /*background-size: cover*/
+}
+
+.project > a > h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project > a > h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 2em;
+}
+
+.icon-landing-flex {
+    color: rgba(255, 255, 255, 0.6);
+    /*color: rgba(102, 102, 102, 0.75);*/
+    font-size: 96px;
+}
+
+#home-1 h2 {
+    /*width: 74px;*/
+    /*height: 331px;*/
+    /*margin: -165px 0 0 -37px;*/
+
+    /*!*background: url(../img/ud-heading.png) no-repeat;*!*/
+    /*!*background-size: 74px auto;*!*/
+    /*-webkit-animation: fadeIn .5s ease 1.5s forwards;*/
+    /*-moz-animation: fadeIn .5s ease 1.5s forwards;*/
+    /*-o-animation: fadeIn .5s ease 1.5s forwards;*/
+    /*animation: fadeIn .5s ease 1.5s forwards*/
+}
+
+#home-2 h2 {
+    width: 74px;
+    height: 331px;
+    margin: -165px 0 0 -37px;
+    background: url(../img/ud-heading.png) no-repeat;
+    background-size: 74px auto;
+    -webkit-animation: fadeIn .5s ease 1.5s forwards;
+    -moz-animation: fadeIn .5s ease 1.5s forwards;
+    -o-animation: fadeIn .5s ease 1.5s forwards;
+    animation: fadeIn .5s ease 1.5s forwards
+}
+
+#home-3 h2 {
+    width: 74px;
+    height: 331px;
+    margin: -165px 0 0 -37px;
+    background: url(../img/ud-heading.png) no-repeat;
+    background-size: 74px auto;
+    -webkit-animation: fadeIn .5s ease 1.5s forwards;
+    -moz-animation: fadeIn .5s ease 1.5s forwards;
+    -o-animation: fadeIn .5s ease 1.5s forwards;
+    animation: fadeIn .5s ease 1.5s forwards
+}
+
+#home-4 h2 {
+    width: 74px;
+    height: 331px;
+    margin: -165px 0 0 -37px;
+    background: url(../img/ud-heading.png) no-repeat;
+    background-size: 74px auto;
+    -webkit-animation: fadeIn .5s ease 1.5s forwards;
+    -moz-animation: fadeIn .5s ease 1.5s forwards;
+    -o-animation: fadeIn .5s ease 1.5s forwards;
+    animation: fadeIn .5s ease 1.5s forwards
+}
+
+.landing_flex {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+}
+
+.test_colors {
+    background-color: #00b3ee;
+    border-left: 2px solid crimson;
 }
 
 .abcen1 {
     position: absolute;
     top: 20%;
+    /*bottom: 0;*/
+}
+
+.abcen {
+    position: absolute;
+    bottom: 8%;
 }
 
 .sl-slider-wrapper {
@@ -777,13 +1252,13 @@ div#navbar-search-wrapper {
 }
 
 #about .overlay {
+    /*background: rgba(129, 178, 72, 0.7);*/
     /*background-color: rgba(60, 172, 228, 0.8);*/
-    /*background-color: rgba(52, 90, 162, 0.75);*/
+    background-color: rgba(52, 90, 162, 0.75);
     /*background-color: rgba(102, 102, 102, 0.75);*/
-    background: url("../img/slide_bg.png") repeat scroll 0 0 transparent;
+    /*background: url("../img/slide_bg.png") repeat scroll 0 0 transparent;*/
     padding: 30px 0 20px;
 }
-
 
 #about h3 {
     color: #fff;
@@ -837,9 +1312,21 @@ div#navbar-search-wrapper {
     margin-left: 135px;
 }
 
+/* ------- partner --------- */
+
+#partner-banner {
+    background: url("../img/GFBiologofooter_juni2015_mod1.png") no-repeat scroll center center;
+    padding-left: 1079px;
+    padding-top: 435px;
+}
+
 /*=================================================================
 	Services
 ==================================================================*/
+
+.service-spacer {
+    margin-top: 40px;
+}
 
 .service-icon {
     border: 3px solid transparent;
@@ -869,7 +1356,6 @@ div#navbar-search-wrapper {
     font-size: 64px;
 
 }
-
 
 .icon-services {
     display: block;
@@ -1176,13 +1662,18 @@ ul.external li a:hover {
 ==================================================================*/
 
 #social {
-    background-image: url(../img/slider/banner.jpg);
+    background-image: url(../img/unsplash_books.jpg);
     padding: 0;
 }
 
 #social .overlay {
-    background: url("../img/slide_bg.png") repeat scroll 0 0 transparent;
+    /*background-color: rgba(129, 178, 72, 0.7);*/
+    /*background-color: rgba(60, 172, 228, 0.8);*/
+    background-color: rgba(52, 90, 162, 0.75);
+    /*background-color: rgba(102, 102, 102, 0.75);*/
+    /*background: url("../img/slide_bg.png") repeat scroll 0 0 transparent;*/
     padding: 100px 0 120px;
+
 }
 
 .social-button {
@@ -1194,6 +1685,10 @@ ul.external li a:hover {
 
 .social-button li {
     display: inline-block;
+}
+
+.social-button li:nth-child(1) {
+    margin: 0 75px;
 }
 
 .social-button li:nth-child(2) {
@@ -1217,8 +1712,10 @@ ul.external li a:hover {
 }
 
 .social-button li a:hover {
-    color: #008ECC;
-    border: 2px solid #008ECC;
+    /*rgba(52, 90, 162, 0.8);*/
+    /*rgba(129, 178, 72, 0.8);*/
+    color: rgba(60, 172, 228, 1.0);
+    border: 2px solid rgba(60, 172, 228, 1.0);
 }
 
 /*=================================================================
@@ -1256,8 +1753,9 @@ textarea.form-control {
 }
 
 .contact-details h3 {
-    border-bottom: 1px solid #008ecc;
-    font-weight: 700;
+    margin-top: 0;
+    border-bottom: 1px dotted rgba(52, 90, 162, 0.75);
+    font-weight: 400;
     margin-bottom: 15px;
     padding-bottom: 15px;
     text-transform: uppercase;
@@ -1293,116 +1791,248 @@ textarea.form-control {
 	Footer
 ==============================================================*/
 
-#footer {
-    background-color: #2E2E2E;
-    padding: 70px 0;
+.border-right {
+    border-right: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.footer {
+    /*background-color: rgba(129, 178, 72, 0.8);*/
+    background-color: rgba(52, 90, 162, 0.8);
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    padding-top: 4rem;
+}
+
+.footer h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.8em;
+    font-weight: 300;
     color: #fff;
 }
 
-.footer-content {
-    width: 390px;
-    margin: 0 auto;
+.footer h4 {
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-top: 0;
 }
 
-.footer-content > div {
-    margin-bottom: 40px;
+.footer a {
+    color: #fff;
+    font-weight: bold;
 }
 
-.footer-content > div > p:first-child {
-    margin-bottom: 15px;
-    text-transform: uppercase;
+.footer a > i {
+    font-size: 1.8em;
+    padding-bottom: 10px;
+    float: left;
+    padding-top: 2px;
+    color: rgba(255, 255, 255, 0.5);
 }
 
-.subscribe-form {
-    position: relative;
+.footer .left {
+    color: #fff;
+    text-align: left;
+    padding-left: 50px;
 }
 
-.subscribe.form-control {
-    background-color: transparent;
-    border: 1px solid #7f7f7f;
+#footer-middle-row p {
+    font-weight: 300;
+    font-size: 0.9em;
+    color: #fff;
 }
 
-.subscribe.form-control:focus {
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
+.footer h5 {
+    font-size: 1.2em;
+    padding-left: 50px !important;
 }
 
-.submit-icon {
-    background-color: #7f7f7f;
-    border: 0 none;
-    border-radius: 0;
-    color: #c1c1c1;
-    padding: 13px 20px;
-    position: absolute;
-    overflow: hidden;
-    right: 0;
-    top: 0;
+.footer p {
+    margin-bottom: 1rem;
 }
 
-.submit-icon .fa-paper-plane {
-    position: relative;
-    top: 0;
-
-    -webkit-transform: translateX(0);
-    -moz-transform: translateX(0);
-    -ms-transform: translateX(0);
-    -o-transform: translateX(0);
-    transform: translateX(0);
-
-    -webkit-transition: all 0.3s ease 0.2s;
-    -moz-transition: all 0.3s ease 0.2s;
-    -ms-transition: all 0.3s ease 0.2s;
-    -o-transition: all 0.3s ease 0.2s;
-    transition: all 0.3s ease 0.2s;
+.footer p a {
+    color: #fff;
+    font-weight: bold;
 }
 
-.submit-icon:hover .fa-paper-plane {
-    position: relative;
-    top: -37px;
-
-    -webkit-transform: translateX(30px);
-    -moz-transform: translateX(30px);
-    -ms-transform: translateX(30px);
-    -o-transform: translateX(30px);
-    transform: translateX(30px);
+.footer i {
+    font-size: 1.8em;
+    padding-bottom: 10px;
 }
 
-.footer-content .footer-social {
-    margin: 40px 0 35px;
+footer ul > li {
+    padding-top: 0.5rem;
 }
 
-.footer-social ul {
-    list-style: outside none none;
+.footer ul > li > a {
+    color: #fff;
+    font-weight: bold;
+}
+
+#footer-middle-row {
+    border-top: 1px dotted rgba(255, 255, 255, 0.4);
+    padding: 25px 0;
+}
+
+#footer-bottom-wrapper {
+    background-color: #5c5c5c;
+}
+
+#footer-bottom-row {
+
+}
+
+#footer-bottom-row ul {
     margin: 0;
-    padding: 0;
-    text-align: center;
+    text-align: left;
+    padding: 1rem 1rem 0.7rem 0;
 }
 
-.footer-social ul li {
-    display: inline-block;
-    margin: 0 10px;
+#footer-bottom-row ul li > a {
+    color: #a3a3a3;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 0.7rem 1rem 0.7rem 1rem;
 }
 
-.footer-social ul li a {
-    color: #7f7f7f;
-    display: block;
-
-    -webkit-transition: all 0.2s ease 0s;
-    -moz-transition: all 0.2s ease 0s;
-    -ms-transition: all 0.2s ease 0s;
-    -o-transition: all 0.2s ease 0s;
-    transition: all 0.2s ease 0s;
+#footer-bottom-row ul li > a:hover {
+    color: #fff;
 }
 
-.footer-social ul li a:hover {
-    color: #009EE3;
+#footer-bottom-row ul li > a > i {
+    font-size: 1.8em;
 }
 
-.footer-content > p {
-    color: #ababab;
-    font-size: 12px;
+#footer-bottom-row ul li > a > i:hover {
+    color: #fff;
 }
+
+a.btn-footer {
+    text-transform: none;
+    font-weight: normal !important;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    margin-bottom: 4rem;
+}
+
+a.btn-footer:hover {
+    color: #345AA2;
+    background-color: #fff;
+}
+
+/*#footer {*/
+/*background-color: #2E2E2E;*/
+/*padding: 70px 0;*/
+/*color: #fff;*/
+/*}*/
+
+/*.footer-content {*/
+/*width: 390px;*/
+/*margin: 0 auto;*/
+/*}*/
+
+/*.footer-content > div {*/
+/*margin-bottom: 40px;*/
+/*}*/
+
+/*.footer-content > div > p:first-child {*/
+/*margin-bottom: 15px;*/
+/*text-transform: uppercase;*/
+/*}*/
+
+/*.subscribe-form {*/
+/*position: relative;*/
+/*}*/
+
+/*.subscribe.form-control {*/
+/*background-color: transparent;*/
+/*border: 1px solid #7f7f7f;*/
+/*}*/
+
+/*.subscribe.form-control:focus {*/
+/*-webkit-box-shadow: none;*/
+/*-moz-box-shadow: none;*/
+/*box-shadow: none;*/
+/*}*/
+
+/*.submit-icon {*/
+/*background-color: #7f7f7f;*/
+/*border: 0 none;*/
+/*border-radius: 0;*/
+/*color: #c1c1c1;*/
+/*padding: 13px 20px;*/
+/*position: absolute;*/
+/*overflow: hidden;*/
+/*right: 0;*/
+/*top: 0;*/
+/*}*/
+
+/*.submit-icon .fa-paper-plane {*/
+/*position: relative;*/
+/*top: 0;*/
+
+/*-webkit-transform: translateX(0);*/
+/*-moz-transform: translateX(0);*/
+/*-ms-transform: translateX(0);*/
+/*-o-transform: translateX(0);*/
+/*transform: translateX(0);*/
+
+/*-webkit-transition: all 0.3s ease 0.2s;*/
+/*-moz-transition: all 0.3s ease 0.2s;*/
+/*-ms-transition: all 0.3s ease 0.2s;*/
+/*-o-transition: all 0.3s ease 0.2s;*/
+/*transition: all 0.3s ease 0.2s;*/
+/*}*/
+
+/*.submit-icon:hover .fa-paper-plane {*/
+/*position: relative;*/
+/*top: -37px;*/
+
+/*-webkit-transform: translateX(30px);*/
+/*-moz-transform: translateX(30px);*/
+/*-ms-transform: translateX(30px);*/
+/*-o-transform: translateX(30px);*/
+/*transform: translateX(30px);*/
+/*}*/
+
+/*.footer-content .footer-social {*/
+/*margin: 40px 0 35px;*/
+/*}*/
+
+/*.footer-social ul {*/
+/*list-style: outside none none;*/
+/*margin: 0;*/
+/*padding: 0;*/
+/*text-align: center;*/
+/*}*/
+
+/*.footer-social ul li {*/
+/*display: inline-block;*/
+/*margin: 0 10px;*/
+/*}*/
+
+/*.footer-social ul li a {*/
+/*color: #7f7f7f;*/
+/*display: block;*/
+
+/*-webkit-transition: all 0.2s ease 0s;*/
+/*-moz-transition: all 0.2s ease 0s;*/
+/*-ms-transition: all 0.2s ease 0s;*/
+/*-o-transition: all 0.2s ease 0s;*/
+/*transition: all 0.2s ease 0s;*/
+/*}*/
+
+/*.footer-social ul li a:hover {*/
+/*color: #009EE3;*/
+/*}*/
+
+/*.footer-content > p {*/
+/*color: #ababab;*/
+/*font-size: 12px;*/
+/*}*/
 
 /*============================================================
 	Responsive Styles

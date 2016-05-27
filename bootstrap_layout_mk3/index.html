@@ -15,8 +15,7 @@
     <title>GFBio | German Federation for Biological Data</title>
     <!-- Meta Description -->
     <meta name="description" content="Central point of access for all information regarding GFBio">
-    <meta name="keywords"
-          content="one page, single page, onepage, responsive, parallax, creative, business, html5, css3, css3 animation">
+    <meta name="keywords" content="">
     <meta name="author" content="Marc Weber">
 
     <!-- Mobile Specific Meta -->
@@ -42,6 +41,9 @@
     <link rel="stylesheet" href="css/slit-slider.css">
     <!-- bootstrap.min -->
     <link rel="stylesheet" href="css/animate.css">
+
+    <!-- Yamm styles-->
+    <link href="css/yamm.css" rel="stylesheet">
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/main.css">
 
@@ -64,7 +66,7 @@
 <!--
 Fixed Navigation
 ==================================== -->
-<header id="navigation" class="navbar-inverse navbar-fixed-top animated-header">
+<header id="navigation" class="yamm navbar-inverse navbar-fixed-top animated-header">
     <div class="container">
 
         <div class="navbar-header">
@@ -90,16 +92,193 @@ Fixed Navigation
         <nav class="collapse navbar-collapse navbar-left" role="navigation">
 
             <!-- TODO: animation of navclicks is done via jquery selection to this id ("nav") -->
+            <!-- TODO: there is a filter for class="external" links to allow "real" links instead of single page links -->
             <ul id="nav-left" class="nav navbar-nav">
-                <li><a href="#">Data</a></li>
-                <li><a href="#body">Browse</a></li>
-                <!--<li><a href="#body">Home</a></li>-->
-                <!--<li><a href="#service">Service</a></li>-->
-                <!--<li><a href="#portfolio">portfolio</a></li>-->
-                <!--<li><a href="#testimonials">Testimonial</a></li>-->
-                <!--<li><a href="#price">price</a></li>-->
-                <!--<li><a href="#contact">Contact</a></li>-->
+
+                <li class="dropdown yamm"><a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                    About <span class="right"><i class="fa fa-angle-down fa-lg" aria-hidden="true"></i></span></a>
+                    <ul class="dropdown-menu">
+                        <div class="yamm-content">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul class="list-unstyled">
+                                        <li><a href="#">News</a></li>
+                                        <li><a href="#">Structure</a></li>
+                                        <li><a href="#">Consortium</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+
+                <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                    Data <span class="right"><i class="fa fa-angle-down fa-lg" aria-hidden="true"></i></span></a>
+                    <ul class="dropdown-menu">
+                        <div class="yamm-content">
+                            <div class="row">
+                                <!--<div class="col-md-6">-->
+                                <!--<ul class="list-unstyled">-->
+                                <!--<li><a href="#">Data Management Plan</a></li>-->
+                                <!--<li><a href="#">Submit Data</a></li>-->
+                                <!--<li><a href="#">Search</a></li>-->
+                                <!--<li><a href="#">Tools</a></li>-->
+                                <!--<li><a href="#">Visualization & Analysis</a></li>-->
+                                <!--<li><a href="#">Terminology Services</a></li>-->
+                                <!--</ul>-->
+                                <!--</div>-->
+                                <div class="col-sm-4">
+                                    <h4><a href="#">Data Management</a></h4>
+                                    <ul class="list-unstyled">
+                                        <li><a href="#">Detail 1</a></li>
+                                        <li><a href="#">Detail 2</a></li>
+                                        <li><a href="#">Detail 3</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-4">
+                                    <h4><a href="#">Submit Data</a></h4>
+
+                                    <div class="row">
+                                        <div class="col-sm-5 tile-1">
+                                            <a href="#">
+                                                <span class="icon-mega-navi">&#xed0d;</span>
+                                                <h5>Microbial Data</h5>
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-5 tile-2">
+                                            <a href="#">
+                                                <span class="icon-mega-navi">&#xed0d;</span>
+                                                <h5>Collections</h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-5 tile-1">
+                                            <a href="#">
+                                                <span class="icon-mega-navi">&#xed0d;</span>
+                                                <h5>Sequence Data</h5>
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-5 tile-2">
+                                            <a href="#">
+                                                <span class="icon-mega-navi">&#xed0d;</span>
+                                                <h5>I don't know</h5>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-sm-4">
+                                    <h4><a href="#">Search</a></h4>
+                                    <ul class="list-unstyled">
+                                        <li><a href="#">Detail 1</a></li>
+                                        <li><a href="#">Detail 2</a></li>
+                                        <li><a href="#">Detail 3</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+
+                <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                    Training <span class="right"><i class="fa fa-angle-down fa-lg" aria-hidden="true"></i></span></a>
+                    <ul class="dropdown-menu">
+                        <div class="yamm-content">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul class="list-unstyled">
+                                        <li><a href="#">Data Life Cycle</a></li>
+                                        <li><a href="#">Education Modules</a></li>
+                                        <li><a href="#">Training Resources</a></li>
+                                        <li><a href="#">Graduate Courses</a></li>
+                                        <li><a href="#">Training for Curators and Data-Managers</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+
+                <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                    Get Help <span class="right"><i class="fa fa-angle-down fa-lg" aria-hidden="true"></i></span></a>
+                    <ul class="dropdown-menu">
+                        <div class="yamm-content">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul class="list-unstyled">
+                                        <li><a id="jiraCollectorNavi" href="#">Create a Ticket</a></li>
+                                        <li><a href="#">FAQ</a></li>
+                                        <li><a href="mailto:helpdesk@gfbio.org">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+
+
+                <li><a href="contact.html" class="external">Contact</a></li>
+
+                <!--<li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">-->
+                <!--Data Lifecycle <span class="right"><i class="fa fa-angle-down fa-lg" aria-hidden="true"></i></span></a>-->
+                <!--<ul class="dropdown-menu">-->
+                <!--<li>-->
+                <!--&lt;!&ndash; Content container to add padding &ndash;&gt;-->
+                <!--<div class="yamm-content">-->
+                <!--<div class="row mega-lifecycle">-->
+                <!--<div class="col-md-1"><a href="#">Propose</a></div>-->
+                <!--<div class="col-md-1"><a href="#">Collect</a></div>-->
+                <!--<div class="col-md-1"><a href="#">Assure</a></div>-->
+                <!--<div class="col-md-1"><a href="#">Submit</a></div>-->
+                <!--<div class="col-md-1"><a href="#">Preserve</a></div>-->
+                <!--<div class="col-md-1"><a href="#">Discover</a></div>-->
+                <!--<div class="col-md-1"><a href="#">Integrate</a></div>-->
+                <!--<div class="col-md-1"><a href="#">Analyze</a></div>-->
+                <!--<div class="col-md-1"><a href="#">Publish</a></div>-->
+                <!--&lt;!&ndash; yamm vertical &ndash;&gt;-->
+                <!--&lt;!&ndash;<div class="col-md-6">&ndash;&gt;-->
+                <!--&lt;!&ndash;<h4>About</h4>&ndash;&gt;-->
+                <!--&lt;!&ndash;<ul class="list-unstyled">&ndash;&gt;-->
+                <!--&lt;!&ndash;<li><a href="#">Structure</a></li>&ndash;&gt;-->
+                <!--&lt;!&ndash;<li><a href="#">Consortium</a></li>&ndash;&gt;-->
+                <!--&lt;!&ndash;<li><a href="#">Terminology Services</a></li>&ndash;&gt;-->
+                <!--&lt;!&ndash;<li><a href="#">Public Relations</a></li>&ndash;&gt;-->
+                <!--&lt;!&ndash;</ul>&ndash;&gt;-->
+                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                <!--&lt;!&ndash;<div class="col-md-6">&ndash;&gt;-->
+                <!--&lt;!&ndash;<h4>Data Lifecycle</h4>&ndash;&gt;-->
+                <!--&lt;!&ndash;<ul class="list-unstyled">&ndash;&gt;-->
+                <!--&lt;!&ndash;<li><a href="#">Propose</a></li>&ndash;&gt;-->
+                <!--&lt;!&ndash;<li><a href="#">Collect</a></li>&ndash;&gt;-->
+                <!--&lt;!&ndash;<li><a href="#">Assure</a></li>&ndash;&gt;-->
+                <!--&lt;!&ndash;<li><a href="#">Submit</a></li>&ndash;&gt;-->
+                <!--&lt;!&ndash;<li><a href="#">Preserve</a></li>&ndash;&gt;-->
+                <!--&lt;!&ndash;<li><a href="#">Discover</a></li>&ndash;&gt;-->
+                <!--&lt;!&ndash;<li><a href="#">Integrate</a></li>&ndash;&gt;-->
+                <!--&lt;!&ndash;<li><a href="#">Analyze</a></li>&ndash;&gt;-->
+                <!--&lt;!&ndash;<li><a href="#">Publish</a></li>&ndash;&gt;-->
+                <!--&lt;!&ndash;</ul>&ndash;&gt;-->
+                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                <!--&lt;!&ndash;/ yamm vertical &ndash;&gt;-->
+                <!--&lt;!&ndash;<div class="col-md-4">&ndash;&gt;-->
+                <!--&lt;!&ndash;<h4>News & Events</h4>&ndash;&gt;-->
+                <!--&lt;!&ndash;<ul class="list-unstyled">&ndash;&gt;-->
+                <!--&lt;!&ndash;<li><a href="#">Structure</a></li>&ndash;&gt;-->
+                <!--&lt;!&ndash;<li><a href="#">Consortium</a></li>&ndash;&gt;-->
+                <!--&lt;!&ndash;<li><a href="#">Terminology Services</a></li>&ndash;&gt;-->
+                <!--&lt;!&ndash;<li><a href="#">Public Relations</a></li>&ndash;&gt;-->
+                <!--&lt;!&ndash;</ul>&ndash;&gt;-->
+                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+                <!--</div>-->
+                <!--</div>-->
+                <!--</li>-->
+                <!--</ul>-->
+                <!--</li>-->
+
             </ul>
+
         </nav>
         <!-- /main nav-left -->
 
@@ -107,10 +286,10 @@ Fixed Navigation
         <!-- main nav-right -->
         <!-- TODO: add css class for style below, used in two-row navi-->
         <!--style="position: relative; float: right;"-->
-        <nav id="nav-right-root" class="collapse navbar-collapse navbar-right" role="navigation">
+        <!--<div id="nav-right-background"></div>-->
+        <nav class="collapse navbar-collapse navbar-right" role="navigation">
             <ul id="nav-right" class="nav navbar-nav">
-                <li><a href="#body">Login</a></li>
-                <li><a href="#service">Sign up</a></li>
+                <li><a href="sign_in.html">Sign In</a></li>
             </ul>
             <form class="navbar-form navbar-left" role="search">
                 <div id="navbar-search-wrapper" class="form-group">
@@ -121,24 +300,23 @@ Fixed Navigation
                 </button>
             </form>
         </nav>
+
         <!-- /main nav-right -->
 
         <!-- TODO: for colapsing two-row navi uncomment this here (check css also) -->
         <!-- main nav-right2 -->
         <!-- TODO: add css class for style below, used in two-row navi-->
         <!--<nav id="nav-right-root2" class="collapse navbar-collapse navbar-right" role="navigation" style="position: relative; float: right; clear: right;">-->
-            <!--<ul id="nav-right2" class="nav navbar-nav">-->
-                <!--<li><a href="#body">xLogin</a></li>-->
-                <!--<li><a href="#service">xSign up</a></li>-->
-                <!--<li><a href="#body">xLogin</a></li>-->
-                <!--<li><a href="#service">xSign up</a></li>-->
-                <!--<li><a href="#body">xLogin</a></li>-->
-                <!--<li><a href="#service">xSign up</a></li>-->
-            <!--</ul>-->
+        <!--<ul id="nav-right2" class="nav navbar-nav">-->
+        <!--<li><a href="#body">xLogin</a></li>-->
+        <!--<li><a href="#service">xSign up</a></li>-->
+        <!--<li><a href="#body">xLogin</a></li>-->
+        <!--<li><a href="#service">xSign up</a></li>-->
+        <!--<li><a href="#body">xLogin</a></li>-->
+        <!--<li><a href="#service">xSign up</a></li>-->
+        <!--</ul>-->
         <!--</nav>-->
         <!-- /main nav-right2 -->
-
-
 
 
     </div>
@@ -155,145 +333,184 @@ End Fixed Navigation
     ==================================== -->
 
     <section id="home-slider">
-        <div class="col-xs-12 text-center abcen1">
-            <div class="container">
-                <div class="row row-centered landing-h1-wrapper wow animated zoomIn">
-                    <h1 class="landing-h1">Cover the complete lifecycle of data</h1>
-                    <span class="landing-h1-sub">Get support in all aspects of research data management</span>
+        <!--<div class="col-xs-12 text-center abcen1 landing-flex">-->
+
+        <div class="container">
+            <div class="row">
+
+
+                <div class="col-xs-12 wow animated zoomIn" style="margin-top: 15%;">
+                    <div class="row container">
+                        <h1 class="landing-h1">Research Data Management</h1>
+                        <span class="landing-h1-sub">Step by step through the Data Life Cycle.</span>
+                    </div>
+                    <div class="row container" style="margin-top: 50px;">
+                        <div class="col-xs-1" style="padding-left: 0;">
+                            <!--<a href="#" class="btn btn-border btn-effect pull-left">Sign in </a>-->
+                        </div>
+                        <div class="col-xs-2" style="padding-left: 0;">
+                            <a href="#" class="btn btn-border pull-left">Get more Information</a>
+                        </div>
+                        <div class="col-xs-9">
+                        </div>
+                    </div>
                 </div>
-                <div class="row row-centered">
-
-
-                    <div class="col-md-3 col-sm-6 col-xs-12 col-centered text-center wow animated zoomIn">
-                        <a id="landing-1" class="landing" href="#">
-                            <span class="icon-landing-area">&#xe04c;</span>
-                            <span class="landing-footer">archive</span>
-                        </a>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6 col-xs-12 col-centered text-center wow animated zoomIn">
-                        <a id="landing-2" class="landing" href="#">
-                            <span class="icon-landing-area">&#xe02a;</span>
-                            <span class="landing-footer">discover</span>
-                        </a>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6 col-xs-12 col-centered text-center wow animated zoomIn">
-                        <a id="landing-3" class="landing" href="#">
-                            <span class="icon-landing-area">&#xe02b;</span>
-                            <span class="landing-footer">manage</span>
-                        </a>
-                    </div>
-
-                </div>
-
-
-                <!--<div class="row row-centered">-->
-                <!--<div class="col-md-3 col-sm-6 col-xs-12 col-centered text-center wow animated zoomIn">-->
-                <!--<div id="landing-1">-->
-                <!--<a href="#">-->
-                <!--<span class="icon-landing-area">&#xe04c;</span>-->
-                <!--<h1>archive</h1>-->
-                <!--</a>-->
-                <!--</div>-->
-                <!--&lt;!&ndash;<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>&ndash;&gt;-->
-                <!--</div>-->
-                <!--<div id="landing-2" class="col-centered col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn">-->
-                <!--<div class="">-->
-                <!--<div class="">-->
-                <!--<span class="icon-landing-area">&#xe02a;</span>-->
-                <!--&lt;!&ndash;<i class="fa fa-search fa-5x"></i>&ndash;&gt;-->
-                <!--</div>-->
-                <!--<h3>discover</h3>-->
-                <!--&lt;!&ndash;<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>&ndash;&gt;-->
-                <!--</div>-->
-                <!--</div>-->
-                <!--<div id="landing-3" class="col-centered col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn">-->
-                <!--<div class="">-->
-                <!--<div class="">-->
-                <!--&lt;!&ndash;<i class="fa fa-hdd-o fa-5x"></i>&ndash;&gt;-->
-                <!--<span class="icon-landing-area">&#xe02b;</span>-->
-                <!--</div>-->
-                <!--<h3>manage</h3>-->
-                <!--&lt;!&ndash;<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>&ndash;&gt;-->
-                <!--</div>-->
-                <!--</div>-->
-                <!--</div>-->
-
-
             </div>
         </div>
 
-        <!--<div id="slider" class="sl-slider-wrapper">-->
 
-        <!--<div class="sl-slider">-->
-        <!---->
-        <!--<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">-->
+        <!-- flex tiles -->
+        <div id="flex-wrap" class="row container-fluid wow animated zoomIn">
+            <div id="home-1" class="home-col home-1">
+                <!-- TODO: rename project class and children -->
+                <div class="project">
+                    <a href="#">
+                        <h1>
+                            <span class="icon-landing-flex">&#xe04c;</span>
+                        </h1>
+                        <h3>Submit</h3>
+                        <!-- TODO: rename hover class and children -->
+                        <div class="hover">
+                            <!-- TODO: rename hover-content class and children -->
+                            <div class="hover-content">
+                                <p>
+                                    <span>Submit</span>
+                                    Deposit data and specimens in dedicated long-term archives.
 
-        <!--<div class="bg-img bg-img-1"></div>-->
+                                </p>
+                                <span class="icon-arrow">&#xeeab;</span>
 
-        <!--<div class="slide-caption">-->
-        <!--<div class="caption-content">-->
-        <!--<h2 class="animated fadeInDown">BLUE Onepage HTML5 Template</h2>-->
-        <!--<span class="animated fadeInDown">Clean and Professional one page Template</span>-->
-        <!--<a href="#" class="btn btn-blue btn-effect">Join US</a>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!---->
-        <!--</div>-->
-        <!---->
-        <!--<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">-->
-        <!---->
-        <!--<div class="bg-img bg-img-2"></div>-->
-        <!--<div class="slide-caption">-->
-        <!--<div class="caption-content">-->
-        <!--<h2>BLUE Onepage HTML5 Template</h2>-->
-        <!--<span>Clean and Professional one page Template</span>-->
-        <!--<a href="#" class="btn btn-blue btn-effect">Join US</a>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!---->
-        <!--</div>-->
-        <!---->
-        <!--<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">-->
-        <!---->
-        <!--<div class="bg-img bg-img-3"></div>-->
-        <!--<div class="slide-caption">-->
-        <!--<div class="caption-content">-->
-        <!--<h2>BLUE Onepage HTML5 Template</h2>-->
-        <!--<span>Clean and Professional one page Template</span>-->
-        <!--<a href="#" class="btn btn-blue btn-effect">Join US</a>-->
-        <!--</div>-->
-        <!--</div>-->
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="home-col home-1">
+                <!-- TODO: rename project class and children -->
+                <div class="project">
+                    <a href="#">
+                        <!--<h2></h2>-->
+                        <h1>
+                            <span class="icon-landing-flex">&#xe02a;</span>
+                        </h1>
+                        <h3>Search</h3>
+                        <!-- TODO: rename hover class and children -->
+                        <div class="hover">
+                            <!-- TODO: rename hover-content class and children -->
+                            <div class="hover-content">
+                                <p>
+                                    <span>Search</span>
+                                    Start searching integrated datasets and archives.
+
+                                </p>
+                                <span class="icon-arrow">&#xeeab;</span>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="home-col home-1">
+                <!-- TODO: rename project class and children -->
+                <div class="project">
+                    <a href="#">
+                        <!--<h2></h2>-->
+                        <h1>
+                            <span class="icon-landing-flex">&#xe02b;</span>
+                        </h1>
+                        <h3>Manage</h3>
+                        <!-- TODO: rename hover class and children -->
+                        <div class="hover">
+                            <!-- TODO: rename hover-content class and children -->
+                            <div class="hover-content">
+                                <p>
+                                    <span>Manage</span>
+                                    Prepare a custom Data Management Plan for your project or application.
+
+                                </p>
+                                <span class="icon-arrow">&#xeeab;</span>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="home-col home-1">
+                <!-- TODO: rename project class and children -->
+                <div class="project">
+                    <a href="#">
+                        <!--<h2></h2>-->
+                        <h1>
+                            <span class="icon-landing-flex">&#xe033;</span>
+                        </h1>
+                        <h3>Tools</h3>
+                        <!-- TODO: rename hover class and children -->
+                        <div class="hover">
+                            <!-- TODO: rename hover-content class and children -->
+                            <div class="hover-content">
+                                <p>
+                                    <span>Tools</span>
+                                    Biodiversity Management tools developed and supported by GFBio.
+                                </p>
+                                <span class="icon-arrow">&#xeeab;</span>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--/ flex tiles -->
+
+
+        <!-- 3 tiles with claim , abcen is respsonsible for position !! -->
+        <!--<div class="col-xs-12 text-center abcen1">-->
+        <!--<div class="container">-->
+        <!--<div class="row row-centered landing-h1-wrapper wow animated zoomIn">-->
+        <!--&lt;!&ndash;<h1 class="landing-h1">Cover the complete lifecycle of data</h1>&ndash;&gt;-->
+        <!--&lt;!&ndash;<span class="landing-h1-sub">Get support in all aspects of research data management</span>&ndash;&gt;-->
+        <!--<h1 class="landing-h1">Research Data Management Done Right</h1>-->
+        <!--<span class="landing-h1-sub">We will take you through the complete Data Life Cycle. Step by step.</span>-->
 
         <!--</div>-->
-
-        <!--</div>&lt;!&ndash; /sl-slider &ndash;&gt;-->
-
-        <!--&lt;!&ndash; -->
-        <!--<nav id="nav-arrows" class="nav-arrows">-->
-        <!--<span class="nav-arrow-prev">Previous</span>-->
-        <!--<span class="nav-arrow-next">Next</span>-->
-        <!--</nav>-->
-        <!--&ndash;&gt;-->
-        <!---->
-        <!--<nav id="nav-arrows" class="nav-arrows hidden-xs hidden-sm visible-md visible-lg">-->
-        <!--<a href="javascript:;" class="sl-prev">-->
-        <!--<i class="fa fa-angle-left fa-3x"></i>-->
+        <!--<div class="row row-centered">-->
+        <!--<div class="col-md-3 col-sm-6 col-xs-12 col-centered text-center wow animated zoomIn">-->
+        <!--<a id="landing-1" class="landing" href="#">-->
+        <!--<span class="icon-landing-area">&#xe04c;</span>-->
+        <!--<span class="landing-footer">archive</span>-->
         <!--</a>-->
-        <!--<a href="javascript:;" class="sl-next">-->
-        <!--<i class="fa fa-angle-right fa-3x"></i>-->
+        <!--</div>-->
+        <!--<div class="col-md-3 col-sm-6 col-xs-12 col-centered text-center wow animated zoomIn">-->
+        <!--<a id="landing-2" class="landing" href="#">-->
+        <!--<span class="icon-landing-area">&#xe02a;</span>-->
+        <!--<span class="landing-footer">discover</span>-->
         <!--</a>-->
-        <!--</nav>-->
-        <!---->
+        <!--</div>-->
+        <!--<div class="col-md-3 col-sm-6 col-xs-12 col-centered text-center wow animated zoomIn">-->
+        <!--<a id="landing-3" class="landing" href="#">-->
+        <!--<span class="icon-landing-area">&#xe02b;</span>-->
+        <!--<span class="landing-footer">manage</span>-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
 
-        <!--<nav id="nav-dots" class="nav-dots visible-xs visible-sm hidden-md hidden-lg">-->
-        <!--<span class="nav-dot-current"></span>-->
-        <!--<span></span>-->
-        <!--<span></span>-->
-        <!--</nav>-->
 
-        <!--</div>&lt;!&ndash; /slider-wrapper &ndash;&gt;-->
+        <!--<div class="col-xs-12 text-center abcen wow animated zoomIn">-->
+        <!--&lt;!&ndash;<div class="button_down ">&ndash;&gt;-->
+        <!--&lt;!&ndash;<a class="imgcircle wow bounceInUp animated animated" data-wow-duration="1.5s" href="#whatis"&ndash;&gt;-->
+        <!--&lt;!&ndash;style="visibility: visible; animation-duration: 1.5s;"> <img class="img_scroll"&ndash;&gt;-->
+        <!--&lt;!&ndash;src="img/icon/circle.png" alt=""> </a>&ndash;&gt;-->
+        <!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+        <!--<a href="#about" style="color: #666;">-->
+        <!--&lt;!&ndash;<span class="fa-stack fa-2x">&ndash;&gt;-->
+        <!--&lt;!&ndash;<i class="fa fa-circle-thin fa-stack-2x"></i>&ndash;&gt;-->
+        <!--<i class="fa fa-angle-double-down fa-2x"></i>-->
+        <!--&lt;!&ndash;</span>&ndash;&gt;-->
+        <!--</a>-->
+        <!--</div>-->
 
 
     </section>
@@ -301,6 +518,7 @@ End Fixed Navigation
     <!--
     End Home SliderEnd
     ==================================== -->
+
 
     <!-- about section -->
     <section id="about" class="parallax">
@@ -364,6 +582,40 @@ End Fixed Navigation
     <!-- end about section -->
 
 
+    <!--<section id="twitter">-->
+    <!--<div class="container">-->
+    <!--<div class="row">-->
+    <!--<div class="col-lg-6">-->
+
+    <!--<a class="twitter-timeline"-->
+    <!--href="https://twitter.com/GFBio_Project"-->
+    <!--data-widget-id="730692464168861696">-->
+    <!--Tweets von @GFBIO-->
+    <!--</a>-->
+
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</section>-->
+
+
+    <section id="partner">
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="sec-title text-center">
+                        <h2 class="wow animated bounceInLeft">Consortium</h2>
+                        <p class="wow animated bounceInRight">GFBio's multidisciplinary consortium is represented by
+                            experts from a variety of institutions ranging from natural history collections, libraries,
+                            bioinformatics to environmental data archives.</p>
+                    </div>
+                    <!-- TODO: img as link to gfbio.org/consortium -->
+                    <div class="col-md-12" id="partner-banner"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Service section -->
     <section id="service">
         <div class="container">
@@ -371,7 +623,7 @@ End Fixed Navigation
 
                 <div class="sec-title text-center">
                     <h2 class="wow animated bounceInLeft">Services</h2>
-                    <p class="wow animated bounceInRight">The Key Features of our Job</p>
+                    <p class="wow animated bounceInRight">The Key Features of our Work</p>
                 </div>
 
                 <div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn">
@@ -381,7 +633,7 @@ End Fixed Navigation
                             <span class="icon-services">&#xe02a;</span>
                         </div>
                         <h3>Search</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                        <p>Start searching integrated datasets.</p>
                     </div>
                 </div>
 
@@ -392,7 +644,7 @@ End Fixed Navigation
                             <span class="icon-services">&#xe04c;</span>
                         </div>
                         <h3>Data Submission</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                        <p>Deposit data and specimens in dedicated long-term archives.</p>
                     </div>
                 </div>
 
@@ -403,7 +655,9 @@ End Fixed Navigation
                             <span class="icon-services">&#xe02b;</span>
                         </div>
                         <h3>Data Management</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                        <p>Prepare a custom Data Managemnt Plan for your project
+                            or application.
+                        </p>
                     </div>
                 </div>
 
@@ -415,9 +669,63 @@ End Fixed Navigation
                         </div>
 
                         <h3>Tools</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                        <p>Biodivrsity Management tools developed and supported by GFBio.</p>
                     </div>
                 </div>
+
+            </div>
+
+
+            <div class="row service-spacer">
+
+
+                <div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <!--<i class="fa fa-home fa-3x"></i>-->
+                            <span class="icon-services">&#xe046;</span>
+                        </div>
+                        <h3>Training</h3>
+                        <p>Materials and offers to learn more about research data
+                            management.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <!--<i class="fa fa-tasks fa-3x"></i>-->
+                            <span class="icon-services">&#xe018;</span>
+                        </div>
+                        <h3>Visualization</h3>
+                        <p>Our VAT system offers dynamic, integrated visualization
+                            of our data inventory.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <!--<i class="fa fa-clock-o fa-3x"></i>-->
+                            <span class="icon-services">&#xe03c;</span>
+                        </div>
+                        <h3>Analysis</h3>
+                        <p>Biodiversity analysis pipelines</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <!--<i class="fa fa-heart fa-3x"></i>-->
+                            <span class="icon-services">&#xe007;</span>
+                        </div>
+
+                        <h3>Terminology Services</h3>
+                        <p>Browse, search and apply terminologies to your data.</p>
+                    </div>
+                </div>
+
 
             </div>
         </div>
@@ -438,88 +746,91 @@ End Fixed Navigation
 
                 <ul class="project-wrapper wow animated fadeInUp">
                     <li class="portfolio-item">
-                        <img src="img/portfolio/item.jpg" class="img-responsive"
-                             alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat">
+                        <img src="img/jena_experiment_bg.jpeg" class="img-responsive"
+                             alt="Long-term biodiversity experiment on the effect of land management.">
                         <figcaption class="mask">
-                            <h3>Wall street</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p>
+                            <h3>Jena Experiment</h3>
+                            <p>Long-term biodiversity experiment on the effect of land management.
+                            </p>
                         </figcaption>
                         <ul class="external">
-                            <li><a class="fancybox" title="Araund The world" data-fancybox-group="works"
-                                   href="img/portfolio/item.jpg"><i class="fa fa-search"></i></a></li>
-                            <li><a href=""><i class="fa fa-link"></i></a></li>
+                            <li><a class="fancybox" title="Jena Experiment" data-fancybox-group="works"
+                                   href="img/jena_experiment_bg.jpeg"><i class="fa fa-search"></i></a></li>
+                            <li><a href="http://www.the-jena-experiment.de/"><i class="fa fa-link"></i></a></li>
                         </ul>
                     </li>
 
                     <li class="portfolio-item">
-                        <img src="img/portfolio/item2.jpg" class="img-responsive"
-                             alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+                        <img src="img/Kilimandscharo_bg.jpg" class="img-responsive"
+                             alt="Exploring biodiversity in Kilimanjaro.">
                         <figcaption class="mask">
-                            <h3>Wall street</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p>
+                            <h3>Kilimanjaro</h3>
+                            <p>Exploring biodiversity in Kilimanjaro.</p>
                         </figcaption>
                         <ul class="external">
-                            <li><a class="fancybox" title="Wall street" href="img/slider/banner.jpg"
+                            <li><a class="fancybox" title="Kilimanjaro" href="img/Kilimandscharo_bg.jpg"
                                    data-fancybox-group="works"><i class="fa fa-search"></i></a></li>
-                            <li><a href=""><i class="fa fa-link"></i></a></li>
+                            <li><a href="https://www.kilimanjaro.biozentrum.uni-wuerzburg.de/Project/Overview.aspx"><i
+                                    class="fa fa-link"></i></a></li>
                         </ul>
                     </li>
 
                     <li class="portfolio-item">
-                        <img src="img/portfolio/item3.jpg" class="img-responsive"
-                             alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+                        <img src="img/grbio_bg.jpg" class="img-responsive"
+                             alt="An open research platform for all biodiversity and ecosystem research groups of Germany.">
                         <figcaption class="mask">
-                            <h3>Wall street</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p>
+                            <h3>Biodiv. Exploratories</h3>
+                            <p>An open research platform for all biodiversity and ecosystem research
+                                groups of Germany.</p>
                         </figcaption>
                         <ul class="external">
-                            <li><a class="fancybox" title="Behind The world" data-fancybox-group="works"
-                                   href="img/portfolio/item3.jpg"><i class="fa fa-search"></i></a></li>
-                            <li><a href=""><i class="fa fa-link"></i></a></li>
+                            <li><a class="fancybox" title="Biodiversity Exploratories" data-fancybox-group="works"
+                                   href="img/grbio_bg.jpg"><i class="fa fa-search"></i></a></li>
+                            <li><a href="http://www.biodiversity-exploratories.de/"><i class="fa fa-link"></i></a></li>
                         </ul>
                     </li>
 
-                    <li class="portfolio-item">
-                        <img src="img/portfolio/item4.jpg" class="img-responsive"
-                             alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry.">
-                        <figcaption class="mask">
-                            <h3>Wall street</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p>
-                        </figcaption>
-                        <ul class="external">
-                            <li><a class="fancybox" title="Wall street 4" data-fancybox-group="works"
-                                   href="img/portfolio/item4.jpg"><i class="fa fa-search"></i></a></li>
-                            <li><a href=""><i class="fa fa-link"></i></a></li>
-                        </ul>
-                    </li>
+                    <!--<li class="portfolio-item">-->
+                    <!--<img src="img/portfolio/item4.jpg" class="img-responsive"-->
+                    <!--alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry.">-->
+                    <!--<figcaption class="mask">-->
+                    <!--<h3>Wall street</h3>-->
+                    <!--<p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p>-->
+                    <!--</figcaption>-->
+                    <!--<ul class="external">-->
+                    <!--<li><a class="fancybox" title="Wall street 4" data-fancybox-group="works"-->
+                    <!--href="img/portfolio/item4.jpg"><i class="fa fa-search"></i></a></li>-->
+                    <!--<li><a href=""><i class="fa fa-link"></i></a></li>-->
+                    <!--</ul>-->
+                    <!--</li>-->
 
-                    <li class="portfolio-item">
-                        <img src="img/portfolio/item5.jpg" class="img-responsive"
-                             alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
-                        <figcaption class="mask">
-                            <h3>Wall street</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p>
-                        </figcaption>
-                        <ul class="external">
-                            <li><a class="fancybox" title="Wall street 5" data-fancybox-group="works"
-                                   href="img/portfolio/item5.jpg"><i class="fa fa-search"></i></a></li>
-                            <li><a href=""><i class="fa fa-link"></i></a></li>
-                        </ul>
-                    </li>
+                    <!--<li class="portfolio-item">-->
+                    <!--<img src="img/portfolio/item5.jpg" class="img-responsive"-->
+                    <!--alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">-->
+                    <!--<figcaption class="mask">-->
+                    <!--<h3>Wall street</h3>-->
+                    <!--<p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p>-->
+                    <!--</figcaption>-->
+                    <!--<ul class="external">-->
+                    <!--<li><a class="fancybox" title="Wall street 5" data-fancybox-group="works"-->
+                    <!--href="img/portfolio/item5.jpg"><i class="fa fa-search"></i></a></li>-->
+                    <!--<li><a href=""><i class="fa fa-link"></i></a></li>-->
+                    <!--</ul>-->
+                    <!--</li>-->
 
-                    <li class="portfolio-item">
-                        <img src="img/portfolio/item6.jpg" class="img-responsive"
-                             alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
-                        <figcaption class="mask">
-                            <h3>Wall street</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p>
-                        </figcaption>
-                        <ul class="external">
-                            <li><a class="fancybox" title="Wall street 6" data-fancybox-group="works"
-                                   href="img/portfolio/item6.jpg"><i class="fa fa-search"></i></a></li>
-                            <li><a href=""><i class="fa fa-link"></i></a></li>
-                        </ul>
-                    </li>
+                    <!--<li class="portfolio-item">-->
+                    <!--<img src="img/portfolio/item6.jpg" class="img-responsive"-->
+                    <!--alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">-->
+                    <!--<figcaption class="mask">-->
+                    <!--<h3>Wall street</h3>-->
+                    <!--<p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p>-->
+                    <!--</figcaption>-->
+                    <!--<ul class="external">-->
+                    <!--<li><a class="fancybox" title="Wall street 6" data-fancybox-group="works"-->
+                    <!--href="img/portfolio/item6.jpg"><i class="fa fa-search"></i></a></li>-->
+                    <!--<li><a href=""><i class="fa fa-link"></i></a></li>-->
+                    <!--</ul>-->
+                    <!--</li>-->
                 </ul>
 
             </div>
@@ -656,18 +967,43 @@ End Fixed Navigation
 
                     <div class="sec-title text-center white wow animated fadeInDown">
                         <h2>FOLLOW US</h2>
-                        <p>Beautifully simple follow buttons to help you get followers on</p>
+                        <p>Keep up with the latest developments.</p>
                     </div>
 
                     <ul class="social-button">
-                        <li class="wow animated zoomIn"><a href="#"><i class="fa fa-thumbs-up fa-2x"></i></a></li>
-                        <li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="#"><i
-                                class="fa fa-twitter fa-2x"></i></a></li>
-                        <li class="wow animated zoomIn" data-wow-delay="0.6s"><a href="#"><i
-                                class="fa fa-dribbble fa-2x"></i></a></li>
+                        <li class="wow animated zoomIn"><a
+                                href="https://www.facebook.com/GFBio-717478461662621/?fref=nf"><i
+                                class="fa fa-facebook fa-2x"></i></a></li>
+                        <li class="wow animated zoomIn" data-wow-delay="0.3s">
+                            <a href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fwww.gfbio.org%2F&ref_src=twsrc%5Etfw&region=follow_link&screen_name=GFBio_Project&tw_p=followbutton">
+                                <i class="fa fa-twitter fa-2x"></i>
+                            </a>
+                        </li>
+                        <!--<li class="wow animated zoomIn" data-wow-delay="0.6s"><a href="#"><i-->
+                        <!--class="fa fa-instagram fa-2x"></i></a></li>-->
+                        <!--<li class="wow animated zoomIn" data-wow-delay="0.3s">-->
+                        <!--<a class="twitter-timeline"-->
+                        <!--href="https://twitter.com/GFBio_Project"-->
+                        <!--data-widget-id="730692464168861696" data-tweet-limit="1"-->
+                        <!--data-chrome="nofooter noborders noscrollbar white">-->
+                        <!--Tweets von @GFBIO-->
+                        <!--</a>-->
+                        <!--</li>-->
                     </ul>
 
                 </div>
+
+                <!--<div class="row wow animated zoomIn" data-wow-delay="0.3s" style="margin-top: 10px;">-->
+                <!--<div class="col-sm-12 col-centered">-->
+                <!--<a class="twitter-timeline"-->
+                <!--href="https://twitter.com/GFBio_Project"-->
+                <!--data-widget-id="730692464168861696" data-tweet-limit="1"-->
+                <!--data-chrome="nofooter noborders noscrollbar white">-->
+                <!--Tweets von @GFBIO-->
+                <!--</a>-->
+                <!--</div>-->
+                <!--</div>-->
+
             </div>
         </div>
     </section>
@@ -707,6 +1043,7 @@ End Fixed Navigation
                         <h3>Contact Us</h3>
                         <p><i class="fa fa-pencil"></i>
                             German Federation for Biological Data (GFBio)
+                            <span>Coordination Office</span>
                             <span>MARUM - Center for Marine Environmental Sciences</span>
                             <span>Universität Bremen</span>
                             <span>Leobener Str. 2</span>
@@ -723,47 +1060,235 @@ End Fixed Navigation
     </section>
     <!-- end Contact section -->
 
-    <section id="google-map">
-        <div id="map-canvas" class="wow animated fadeInUp"></div>
-    </section>
+    <!--<section id="google-map">-->
+    <!--<div id="map-canvas" class="wow animated fadeInUp"></div>-->
+    <!--</section>-->
 
 </main>
 
-<footer id="footer">
+<!--<footer id="footer">-->
+<!--<div class="container">-->
+<!--<div class="row text-center">-->
+<!--<div class="footer-content">-->
+<!--<div class="wow animated fadeInDown">-->
+<!--<p>newsletter signup</p>-->
+<!--<p>Get Cool Stuff! We hate spam!</p>-->
+<!--</div>-->
+<!--<form action="#" method="post" class="subscribe-form wow animated fadeInUp">-->
+<!--<div class="input-field">-->
+<!--<input type="email" class="subscribe form-control" placeholder="Enter Your Email...">-->
+<!--<button type="submit" class="submit-icon">-->
+<!--<i class="fa fa-paper-plane fa-lg"></i>-->
+<!--</button>-->
+<!--</div>-->
+<!--</form>-->
+<!--<div class="footer-social">-->
+<!--<ul>-->
+<!--<li class="wow animated zoomIn"><a href="#"><i class="fa fa-thumbs-up fa-3x"></i></a></li>-->
+<!--<li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="#"><i-->
+<!--class="fa fa-twitter fa-3x"></i></a></li>-->
+<!--<li class="wow animated zoomIn" data-wow-delay="0.6s"><a href="#"><i-->
+<!--class="fa fa-skype fa-3x"></i></a></li>-->
+<!--<li class="wow animated zoomIn" data-wow-delay="0.9s"><a href="#"><i-->
+<!--class="fa fa-dribbble fa-3x"></i></a></li>-->
+<!--<li class="wow animated zoomIn" data-wow-delay="1.2s"><a href="#"><i-->
+<!--class="fa fa-youtube fa-3x"></i></a></li>-->
+<!--</ul>-->
+<!--</div>-->
+
+<!--<p>Design And developed By <a href="http://themefisher.com/">Themefisher</a>. All rights Reserved</p>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</footer>-->
+
+
+<!-- // footer   -->
+
+<footer class="footer">
     <div class="container">
-        <div class="row text-center">
-            <div class="footer-content">
-                <div class="wow animated fadeInDown">
-                    <p>newsletter signup</p>
-                    <p>Get Cool Stuff! We hate spam!</p>
-                </div>
-                <form action="#" method="post" class="subscribe-form wow animated fadeInUp">
-                    <div class="input-field">
-                        <input type="email" class="subscribe form-control" placeholder="Enter Your Email...">
-                        <button type="submit" class="submit-icon">
-                            <i class="fa fa-paper-plane fa-lg"></i>
-                        </button>
-                    </div>
-                </form>
-                <div class="footer-social">
-                    <ul>
-                        <li class="wow animated zoomIn"><a href="#"><i class="fa fa-thumbs-up fa-3x"></i></a></li>
-                        <li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="#"><i
-                                class="fa fa-twitter fa-3x"></i></a></li>
-                        <li class="wow animated zoomIn" data-wow-delay="0.6s"><a href="#"><i
-                                class="fa fa-skype fa-3x"></i></a></li>
-                        <li class="wow animated zoomIn" data-wow-delay="0.9s"><a href="#"><i
-                                class="fa fa-dribbble fa-3x"></i></a></li>
-                        <li class="wow animated zoomIn" data-wow-delay="1.2s"><a href="#"><i
-                                class="fa fa-youtube fa-3x"></i></a></li>
+        <div class="row"> <!-- Footer top row -->
+
+            <div class="col-sm-12 col-md-4 border-right">
+                <!--<div class="small-12 medium-3 large-4 columns border-right">-->
+                <h3>GFBio Consortium</h3>
+                <p>
+                    The German Federation for Biological Data (GFBio), a sustainable, service oriented,
+                    national data infrastructure facilitating data sharing for biological and environmental research.
+                </p>
+            </div>
+
+            <div class="col-sm-12 col-md-8">
+                <!--<div class="small-12 medium-3 large-8 columns">-->
+
+                <div class="col-sm-12 col-md-4 border-right">
+                    <!--<div class="small-12 medium-3 large-4 columns border-right">-->
+                    <i class="fa fa-signal"></i>
+                    <h4>Want to know more ?</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="http://helpdesk.gfbio.org/servicedesk/customer/portal/2/group/9">Helpdesk</a></li>
+                        <li><a href="#">Training</a></li>
+                        <li><a href="#">FAQ's</a></li>
                     </ul>
                 </div>
 
-                <p>Design And developed By <a href="http://themefisher.com/">Themefisher</a>. All rights Reserved</p>
+                <!--<div class="small-12 medium-3 large-4 columns border-right">-->
+                <div class="col-sm-12 col-md-4 border-right">
+                    <i class="fa fa-comments-o"></i>
+                    <h4>Contact us !</h4>
+                    <p>
+                        Write our
+                        <strong><a
+                                href="http://helpdesk.gfbio.org/servicedesk/customer/portal/2/group/9">Helpdesk</a></strong>
+                        Staff !
+                    </p>
+                    <!--<p>-->
+                    <!--Follow us <a href="#">@GFBio-twitter</a>-->
+                    <!--</p>-->
+                    <p>
+                        Got questions ? Email us at
+                        <strong><a href="mailto:helpdesk@gfbio.org">helpdesk@gfbio.org</a></strong>
+                    </p>
+                </div>
+
+                <div class="col-sm-12 col-md-4">
+                    <!--<div class="small-12 medium-3 large-4 columns">-->
+                    <i class="fa fa-sign-in"></i>
+                    <h4>Sign up</h4>
+                    <p>
+                        Get full access to services and resources deriving benefit for your Projects
+                    </p>
+                    <br>
+                    <p>
+                        <a href="#" class="btn btn-footer">Create an account !</a>
+                    </p>
+                </div>
+
+            </div>
+
+        </div> <!-- end Footer top row -->
+    </div>
+
+    <div class="container">
+        <div id="footer-middle-row" class="row"> <!-- Footer middle row -->
+
+            <div class="col-sm-6 col-md-3">
+                <!--<div class="small-6 medium-3 large-3 columns">-->
+                <a href="#">
+                    <i class="fa fa-search"></i>
+                    <h5 class="left">Search</h5>
+
+                    <p class="left">Start searching integrated datasets.</p>
+                </a>
+            </div>
+
+            <div class="col-sm-6 col-md-3">
+                <!--<div class="small-6 medium-3 large-3 columns">-->
+                <a href="#">
+                    <i class="fa fa-upload"></i>
+                    <h5 class="left">Submit</h5>
+
+                    <p class="left">Deposit data and specimens in dedicated long-term archives.</p>
+                </a>
+            </div>
+
+            <div class="col-sm-6 col-md-3">
+                <!--<div class="small-6 medium-3 large-3 columns">-->
+                <a href="#">
+                    <i class="fa fa-cogs"></i>
+                    <h5 class="left">Manage</h5>
+
+                    <p class="left">Prepare a custom Data Managemnt Plan for your project
+                        or application.</p>
+                </a>
+            </div>
+
+            <div class="col-sm-6 col-md-3">
+                <!--<div class="small-6 medium-3 large-3 columns">-->
+                <a href="#">
+                    <i class="fa fa-wrench"></i>
+                    <h5 class="left">Tools</h5>
+
+                    <p class="left">Biodivrsity Management tools developed and supported by GFBio.</p>
+                </a>
+            </div>
+
+        </div> <!-- end Footer middle row  -->
+    </div>
+
+    <div class="container-fluid" id="footer-bottom-wrapper">
+        <div class="container">
+            <div class="row" id="footer-bottom-row"> <!-- Footer bottom row -->
+                <!--<div class="large-12">-->
+                <!--<div class="row" style="height: 50px">-->
+
+                <div class="col-md-6">
+                    <!--<div class="large-6 medium-6 columns">-->
+                    <ul class="list-unstyled list-inline">
+                        <li class="index-collection active-link folder">
+                            <a href="/"><span>Legal Information</span></a>
+                        </li>
+                        <li class="index-collection active-link folder">
+                            <a href="/"><span>Terms of Service</span></a>
+                        </li>
+                        <li class="index-collection active-link folder">
+                            <a href="/"><span>Privacy Policy</span></a>
+                        </li>
+                        <!--<li class="index-collection active-link folder">-->
+                        <!--<a href="/"><span>Sitemap</span></a>-->
+                        <!--</li>-->
+                    </ul>
+                </div>
+
+                <div class="col-md-6">
+                    <!--<div class="large-6 medium-6 columns">-->
+                    <ul class="list-unstyled list-inline right">
+                        <li class="index-collection active-link folder">
+                            <a href="mailto:helpdesk@gfbio.org"><i class="fa fa-envelope"></i></a>
+                        </li>
+                        <li class="index-collection active-link folder">
+                            <a href="https://www.facebook.com/GFBio-717478461662621/?fref=nf"><i
+                                    class="fa fa-facebook"></i></a>
+                        </li>
+                        <li class="index-collection active-link folder">
+                            <a href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fwww.gfbio.org%2F&ref_src=twsrc%5Etfw&region=follow_link&screen_name=GFBio_Project&tw_p=followbutton">
+                                <i class="fa fa-twitter"></i></a>
+                        </li>
+                        <!--<li class="index-collection active-link folder">-->
+                        <!--<a href="/"><i class="fa fa-google-plus"></i></a>-->
+                        <!--</li>-->
+
+                        <!--<li class="index-collection active-link folder">-->
+                        <!--<a href="/"><i class="fa fa-instagram"></i></a>-->
+                        <!--</li>-->
+                        <!--<li class="index-collection active-link folder">-->
+                        <!--<a href="/"><i class="fa fa-youtube"></i></a>-->
+                        <!--</li>-->
+
+                        <!--<li class="index-collection active-link folder">-->
+                        <!--<a href="/"><i class="fa fa-linkedin"></i></a>-->
+                        <!--</li>-->
+                        <!--<li class="index-collection active-link folder">-->
+                        <!--<a href="/"><i class="fa fa-xing"></i></a>-->
+                        <!--</li>-->
+                        <li class="index-collection active-link folder">
+                            <a href="https://github.com/gfbio"><i class="fa fa-github-alt"></i></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
+
+
+    </div> <!-- end Footer bottom row -->
+
+
+    <!--</div>-->
+
+    <!--</div>-->
+
 </footer>
+
 
 <!-- Essential jQuery Plugins
 ================================================== -->
@@ -789,122 +1314,48 @@ End Fixed Navigation
 <!-- Custom Functions -->
 <script src="js/main.js"></script>
 
-<!--<script src="//d3js.org/d3.v3.min.js"></script>-->
 
-<!--<script>-->
-
-<!--var width = 1024,-->
-<!--height = 900;-->
-
-<!--var color = d3.scale.category20();-->
-
-<!--var force = d3.layout.force()-->
-<!--.charge(-1000)-->
-<!--.linkDistance(550)-->
-<!--.size([width, height]);-->
+<script>
 
 
-<!--var svg = d3.select("#home-slider").append("svg");-->
-<!--//                    .attr("width", width)-->
-<!--//                    .attr("height", height);-->
+    $.ajax({
+        url: "http://helpdesk.gfbio.org/s/b086cc2a071c89387e71c6e198b40729-T/en_US-b9c5o9/70120/221180b2cb092830730d3d1b3198c81a/2.0.8/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector-embededjs/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector-embededjs.js?locale=en-US&collectorId=ea83cdef",
+        type: "get",
+        cache: true,
+        dataType: "script"
+    });
 
-<!--d3.json("less.json", function (error, graph) {-->
+    window.ATL_JQ_PAGE_PROPS = {
+        "triggerFunction": function (showCollectorDialog) {
+            //Requires that jQuery is available!
+            $("#jiraCollector").click(function (e) {
+                e.preventDefault();
+                showCollectorDialog();
+            });
 
-<!--force-->
-<!--.nodes(graph.nodes)-->
-<!--.links(graph.links)-->
-<!--.start();-->
+            $("#jiraCollectorNavi").click(function (e) {
+                e.preventDefault();
+                showCollectorDialog();
+            });
+        }
+    };
 
+</script>
+<!-- twitter  -->
+<script>
+    !function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+                p = /^http:/.test(d.location) ? 'http' : 'https';
+        if (!d.getElementById(id)) {
+            js = d.createElement(s);
+            js.id = id;
+            js.src = p + "://platform.twitter.com/widgets.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }
+    }
+    (document, "script", "twitter-wjs");
+</script>
 
-<!--//setInterval(function(){force.alpha(0.1);}, 250);-->
-
-<!--var link = svg.selectAll(".link")-->
-<!--.data(graph.links)-->
-<!--.enter().append("line")-->
-<!--.attr("class", "link");-->
-<!--//                .style("stroke-width", function (d) {-->
-<!--//                    return Math.sqrt(d.value);-->
-<!--//                });-->
-
-<!--var gnodes = svg.selectAll('g.gnode')-->
-<!--.data(graph.nodes)-->
-<!--.enter()-->
-<!--.append('g')-->
-<!--.classed('gnode', true);-->
-
-<!--var node = gnodes.append("circle")-->
-<!--.attr("class", "node")-->
-<!--.attr("r", 65)-->
-<!--//                .style("fill", function (d) {-->
-<!--//                    return color(d.group);-->
-<!--//                })-->
-<!--.call(force.drag);-->
-
-<!--var labels = gnodes.append("text")-->
-<!--//.attr('font-family', 'FontAwesome')-->
-<!--.attr('class', 'icon-circle')-->
-<!--.attr('font-size', '40px')-->
-<!--.attr('text-anchor', 'middle')-->
-<!--//                .attr('x', '50%')-->
-<!--.attr('y', '12')-->
-<!--// .text(function(d) { return '\uf1c0' });-->
-<!--.text(function (d) {-->
-<!--return d.icon_unicode;-->
-<!--});-->
-
-<!--var labels_sub_text_background = gnodes.append('rect')-->
-<!--.attr('x', '-50')-->
-<!--.attr('y', '22')-->
-<!--.attr('width', '100')-->
-<!--.attr('height', '12')-->
-<!--.attr('fill', function (d) {-->
-<!--if ('sub_text' in d) {-->
-<!--return 'white';-->
-<!--}-->
-<!--else {-->
-<!--return 'transparent';-->
-<!--}-->
-<!--});-->
-<!--//.attr('stroke', 'lime');-->
-
-
-<!--var labels_sub_text = gnodes.append('text')-->
-<!--.attr('font-family', 'Arial')-->
-<!--.attr('font-size', '12px')-->
-<!--.attr('text-anchor', 'middle')-->
-<!--//                .attr('x', '50%')-->
-<!--.attr('y', '32')-->
-<!--// .text(function(d) { return '\uf1c0' });-->
-<!--.text(function (d) {-->
-<!--return d.sub_text;-->
-<!--});-->
-
-<!--//console.log(labels);-->
-
-<!--force.on("tick", function () {-->
-<!--link.attr("x1", function (d) {-->
-<!--return d.source.x;-->
-<!--})-->
-<!--.attr("y1", function (d) {-->
-<!--return d.source.y;-->
-<!--})-->
-<!--.attr("x2", function (d) {-->
-<!--return d.target.x;-->
-<!--})-->
-<!--.attr("y2", function (d) {-->
-<!--return d.target.y;-->
-<!--});-->
-
-<!--gnodes.attr("transform", function (d) {-->
-<!--//console.log('transform '+d.x+' '+d.y);-->
-<!--return 'translate(' + [d.x, d.y] + ')';-->
-<!--});-->
-
-
-<!--});-->
-<!--});-->
-
-<!--</script>-->
 
 </body>
 </html>
