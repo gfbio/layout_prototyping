@@ -797,7 +797,7 @@ div.yamm-content > div > .mega-lifecycle a:hover {
     padding: 0 0 0 0;
 
 
-    background-color: #fff;
+    /*background-color: #fff;*/
 
 }
 
@@ -814,7 +814,7 @@ div.yamm-content > div > .mega-lifecycle a:hover {
 
     /*background-color: #ffce00;*/
     background-color: transparent;
-    border-left: 1px solid rgba(255, 255, 255, 0.6);
+    border-left: 3px dashed rgba(255, 255, 255, 0.5);
 }
 
 .home-col:first-child {
@@ -978,14 +978,15 @@ div.yamm-content > div > .mega-lifecycle a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 2em;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 2.0em;
+    font-weight: 300;
 }
 
 .icon-landing-flex {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.8);
     /*color: rgba(102, 102, 102, 0.75);*/
-    font-size: 96px;
+    font-size: 2.4em;
 }
 
 #home-1 h2 {
