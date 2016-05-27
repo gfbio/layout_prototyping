@@ -690,6 +690,7 @@ div.yamm-content > div > .mega-lifecycle a:hover {
     /*color: #666;*/
     color: rgba(255, 255, 255, 1.0);
     font-weight: 300;
+    font-size: 3.6em;
 }
 
 .landing-h1-wrapper {
@@ -781,11 +782,15 @@ div.yamm-content > div > .mega-lifecycle a:hover {
     position: absolute;
 
     /* TODO: see javascript for slideHeight when modifying height etc. !*/
-    bottom: 5%; /* 15px TODO: there is a gap if set to 0 ?*/
+    bottom: 0; /* 15px TODO: there is a gap if set to 0 ?*/
 
     justify-content: space-around;
     margin: auto;
     padding: 0 0 0 0;
+
+
+    background-color: #fff;
+
 }
 
 .home-col {
