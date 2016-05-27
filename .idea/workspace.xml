@@ -4,15 +4,16 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/bootstrap_layout_mk3/css/main.css" line="723" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/bootstrap_layout_mk3/css/main.css" line="731" mnemonic="3" />
     <bookmark url="file://$PROJECT_DIR$/bootstrap_layout_mk3/index.html" line="339" mnemonic="1" />
-    <bookmark url="file://$PROJECT_DIR$/bootstrap_layout_mk3/index.html" line="471" mnemonic="2" />
+    <bookmark url="file://$PROJECT_DIR$/bootstrap_layout_mk3/index.html" line="478" mnemonic="2" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0da817a-5eba-491d-adfc-ec949778e9c7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/blue-onepage-business-template/Blue-Onepage-HTML5-Business-Template" afterPath="$PROJECT_DIR$/templates/blue-onepage-business-template/Blue-Onepage-HTML5-Business-Template" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap_layout_mk3/css/main.css" afterPath="$PROJECT_DIR$/bootstrap_layout_mk3/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap_layout_mk3/index.html" afterPath="$PROJECT_DIR$/bootstrap_layout_mk3/index.html" />
     </list>
     <ignored path="gfbio_html.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,20 +33,18 @@
     <favorites_list name="gfbio_html" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.56253815">
+    <splitter split-orientation="horizontal" split-proportion="0.6674802">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/bootstrap_layout_mk3/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="18271">
-                  <caret line="1209" column="47" selection-start-line="1209" selection-start-column="47" selection-end-line="1209" selection-end-column="47" />
+                <state relative-caret-position="442">
+                  <caret line="347" column="44" selection-start-line="347" selection-start-column="44" selection-end-line="347" selection-end-column="44" />
                   <folding>
                     <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -55,7 +54,7 @@
             <entry file="file://$PROJECT_DIR$/bootstrap_layout_mk3/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="15687">
-                  <caret line="748" column="36" selection-start-line="748" selection-start-column="36" selection-end-line="748" selection-end-column="36" />
+                  <caret line="756" column="36" selection-start-line="756" selection-start-column="36" selection-end-line="756" selection-end-column="36" />
                   <folding />
                 </state>
               </provider>
@@ -78,8 +77,8 @@
           <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/bootstrap_layout_mk3/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="385">
-                  <caret line="692" column="18" selection-start-line="692" selection-start-column="18" selection-end-line="692" selection-end-column="18" />
+                <state relative-caret-position="700">
+                  <caret line="707" column="20" selection-start-line="707" selection-start-column="20" selection-end-line="707" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
@@ -123,9 +122,9 @@
         <option value="$PROJECT_DIR$/backups/f5_layout_mk1/index.html" />
         <option value="$PROJECT_DIR$/backups/f5_layout_mk1/css/app.css" />
         <option value="$PROJECT_DIR$/bootstrap_layout_mk3/js/main.js" />
-        <option value="$PROJECT_DIR$/bootstrap_layout_mk3/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/bootstrap_layout_mk3/css/main.css" />
+        <option value="$PROJECT_DIR$/bootstrap_layout_mk3/index.html" />
       </list>
     </option>
   </component>
@@ -398,7 +397,7 @@
       <workItem from="1464288260081" duration="2340000" />
       <workItem from="1464291948310" duration="6650000" />
       <workItem from="1464338979961" duration="3443000" />
-      <workItem from="1464376219630" duration="1074000" />
+      <workItem from="1464376219630" duration="2525000" />
     </task>
     <task id="LOCAL-00001" summary="GFBIO-1328 adapt partner logos and consortium section">
       <created>1463604845705</created>
@@ -460,7 +459,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112351000" />
+    <option name="totallyTimeSpent" value="113802000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -824,6 +823,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6972">
           <caret line="4" column="14978" selection-start-line="4" selection-start-column="14978" selection-end-line="4" selection-end-column="14978" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -856,25 +856,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap_layout_mk3/index.html">
+    <entry file="file://$PROJECT_DIR$/bootstrap_layout_mk3/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18271">
-          <caret line="1209" column="47" selection-start-line="1209" selection-start-column="47" selection-end-line="1209" selection-end-column="47" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="15687">
+          <caret line="756" column="36" selection-start-line="756" selection-start-column="36" selection-end-line="756" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap_layout_mk3/css/main.css">
+    <entry file="file://$PROJECT_DIR$/bootstrap_layout_mk3/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="692" column="18" selection-start-line="692" selection-start-column="18" selection-end-line="692" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="442">
+          <caret line="347" column="44" selection-start-line="347" selection-start-column="44" selection-end-line="347" selection-end-column="44" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

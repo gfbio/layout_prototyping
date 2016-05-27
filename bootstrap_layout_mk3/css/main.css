@@ -690,7 +690,7 @@ div.yamm-content > div > .mega-lifecycle a:hover {
     /*color: #666;*/
     color: rgba(255, 255, 255, 1.0);
     font-weight: 300;
-    font-size: 3.6em;
+    font-size: 3.8em;
 }
 
 .landing-h1-wrapper {
@@ -700,8 +700,16 @@ div.yamm-content > div > .mega-lifecycle a:hover {
 .landing-h1-sub {
     /*color: #666;*/
     color: rgba(255, 255, 255, 1.0);
-    font-size: 20px;
+    font-size: 2.0em;
     font-weight: 300;
+}
+
+.landing-p {
+    text-align: left;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.2em;
+    margin: 30px 0 30px 0;
 }
 
 .icon-landing-area {
