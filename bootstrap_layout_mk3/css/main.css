@@ -644,6 +644,22 @@ div.yamm-content > div > .mega-lifecycle a:hover {
 }
 
 
+/*=================================================================
+	SUBMISSION PAGE
+==================================================================*/
+
+.subm-tile {
+    /*border: 1px solid #666;*/
+
+    /*border-radius: 6px;*/
+
+    /*height: 200px;*/
+}
+
+#submission-fork h1, h3 {
+    font-weight: 300;
+}
+
 
 /*=================================================================
 	Landing Area
