@@ -126,7 +126,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 /*main {*/
-    /*min-height: 400px;*/
+/*min-height: 400px;*/
 /*}*/
 
 main > section {
@@ -415,10 +415,8 @@ h1.navbar-brand {
     /*background: url("../img/GFBio_logo_png_299x147.png") no-repeat center center;*/
     /*padding: 147px 299px 0 0 !important;*/
 
-
     /*background: url(../img/GFBio_logo_174x86.png) no-repeat center center;*/
     /*padding: 86px 174px 0 0 !important;*/
-
 
     margin: 0;
 }
@@ -545,7 +543,6 @@ div#navbar-search-wrapper {
     box-shadow: 0 2px 5px rgba(0, 0.2, 0.2, 0.2);
 }
 
-
 .right {
     padding-left: 10px;
     float: right;
@@ -590,8 +587,6 @@ div#navbar-search-wrapper {
 .yamm-content .tile-1:hover {
     background-color: rgba(52, 90, 162, 0.6);
 }
-
-
 
 .yamm-content .tile-1 a span {
     color: rgba(52, 90, 162, 0.6);
@@ -643,7 +638,6 @@ div.yamm-content > div > .mega-lifecycle a:hover {
     border-bottom: 3px solid rgba(52, 90, 162, 0.8);
 }
 
-
 /*=================================================================
 	SUBMISSION PAGE
 ==================================================================*/
@@ -669,12 +663,9 @@ div.yamm-content > div > .mega-lifecycle a:hover {
 
 }
 
-
 .subm-tile > div {
     border-left: 2px dashed #81B248;
 }
-
-
 
 #submission-fork #generic {
     border-left: 0;
@@ -726,11 +717,127 @@ div.yamm-content > div > .mega-lifecycle a:hover {
 
 }
 
-
 /*=================================================================
 	Submission page sidebar
 ==================================================================*/
 
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 250px;
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: rgba(52, 91, 162, 0.8);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+@media (min-width: 768px) {
+    #wrapper {
+        padding-left: 250px;
+    }
+
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 250px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+}
 
 /*=================================================================
 	Landing Area
@@ -840,7 +947,7 @@ div.yamm-content > div > .mega-lifecycle a:hover {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size:cover;
+    -o-background-size: cover;
 }
 
 #home-slider .btn {
