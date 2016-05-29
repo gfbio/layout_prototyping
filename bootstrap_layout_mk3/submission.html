@@ -229,73 +229,161 @@ End Fixed Navigation
 <!-- Use generic main id for resize javascript in main.js -->
 <main id="generic-main" class="site-content" role="main">
 
+    <!-- FIXME: move element styles to css classes or selectors-->
+    <section id="submission-header"></section>
+
     <section id="submission-fork">
+
 
         <div class="container">
 
+
             <div class="row row row-centered">
-                <div class="col-md-3 col-centered">
-                    <h1>Submission</h1>
+                <div class="col-md-4 col-centered">
+                    <h1>Select a Workflow</h1>
                 </div>
             </div>
-
-            <div class="row">
-
-                <div class="col-md-3 subm-tile col-centered">
-                    <h3>Generic</h3>
-                    <span class="icon-landing-area">&#xe029;</span>
-                </div>
-                <div class="col-md-3 subm-tile col-centered">
-                    <h3>Collections</h3>
-                    <i class="fa fa-pagelines fa-5x"></i>
-                </div>
-                <div class="col-md-3 subm-tile col-centered">
-                    <h3>Environmental</h3>
-                    <!--<i class="fa fa-globe fa-5x"></i>-->
-                    <span class="icon-landing-area">&#xe052;</span>
-                </div>
-                <div class="col-md-3 subm-tile col-centered">
-                    <h3>Molecular</h3>
-                    <span class="icon-landing-area">&#xe046;</span>
-                </div>
-
-            </div>
-
-            <div class="row">
-                <!--<div class="col-xs-12 text-center abcen1">-->
-                <div class="container">
-                    <div class="row row-centered landing-h1-wrapper wow animated zoomIn">
-                        <!--<h1 class="landing-h1">Cover the complete lifecycle of data</h1>-->
-                        <!--<span class="landing-h1-sub">Get support in all aspects of research data management</span>-->
-                        <h1 class="landing-h1">Research Data Management Done Right</h1>
-                        <span class="landing-h1-sub">We will take you through the complete Data Life Cycle. Step by step.</span>
-
+            <!--style="background-color: #f5f5f5"-->
+            <div class="row" style="border-bottom: 2px dashed #81B248; border-top: 2px dashed #81B248;">
+                <!--  for fluid laylout -->
+                <!--<div class="col-md-2"></div>-->
+                <div class="col-md-3 subm-tile">
+                    <div id="generic">
+                        <h2>Generic</h2>
+                        <span class="icon-submission">&#xe029;</span>
+                        <p>
+                            Lorem ipsum dolor sit amet, sed diam nonumy eirmod tempor.
+                        </p>
                     </div>
-                    <div class="row row-centered">
-                        <div class="col-md-3 col-sm-6 col-xs-12 col-centered text-center wow animated zoomIn">
-                            <a id="landing-1" class="landing" href="#">
-                                <span class="icon-landing-area">&#xe04c;</span>
-                                <span class="landing-footer">archive</span>
-                            </a>
-                        </div>
-                        <div class="col-md-3 col-sm-6 col-xs-12 col-centered text-center wow animated zoomIn">
-                            <a id="landing-2" class="landing" href="#">
-                                <span class="icon-landing-area">&#xe02a;</span>
-                                <span class="landing-footer">discover</span>
-                            </a>
-                        </div>
-                        <div class="col-md-3 col-sm-6 col-xs-12 col-centered text-center wow animated zoomIn">
-                            <a id="landing-3" class="landing" href="#">
-                                <span class="icon-landing-area">&#xe02b;</span>
-                                <span class="landing-footer">manage</span>
-                            </a>
-                        </div>
-                    </div>
-                    <!--</div>-->
                 </div>
+                <div class="col-md-3 subm-tile ">
+                    <div id="collections">
+                        <h2>Collections</h2>
+                        <i class="fa fa-pagelines" style="font-size: 5em; margin: 20px 0 10px 0;"></i>
+                        <p>
+                            Lorem ipsum dolor sit amet, sed diam nonumy eirmod tempor.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3 subm-tile ">
+                    <div id="environmental">
+                        <!--<i class="fa fa-globe fa-5x"></i>-->
+                        <h2>Environmental</h2>
+                        <span class="icon-submission">&#xe052;</span>
+                        <p>
+                            Lorem ipsum dolor sit amet, sed diam nonumy eirmod tempor.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3 subm-tile ">
+                    <div id="molecular">
+                        <h2>Molecular</h2>
+                        <span class="icon-submission">&#xe046;</span>
+                        <p>
+                            Lorem ipsum dolor sit amet, sed diam nonumy eirmod tempor.
+                        </p>
+                    </div>
+                </div>
+                <!--  for fluid laylout -->
+                <!--<div class="col-md-2"></div>-->
             </div>
+
 
         </div>
+    </section>
+
+
+    <section id="submission-desc">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 subm-tile">
+                    <h2>Generic Data</h2>
+                    <p class="text-left">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                        dolores et ea rebum. [more ...]
+                    </p>
+                </div>
+                <div class="col-md-6 subm-tile ">
+                    <h2>Data for Collections</h2>
+                    <p class="text-left">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                        dolores et ea rebum. [more ...]
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 subm-tile ">
+                    <!--<i class="fa fa-globe fa-5x"></i>-->
+                    <h2>Environmental Data</h2>
+                    <p class="text-left">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                        dolores et ea rebum. [more ...]
+                    </p>
+                </div>
+                <div class="col-md-6 subm-tile ">
+                    <h2>Molecular Data</h2>
+                    <p class="text-left">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                        dolores et ea rebum. [more ...]
+                    </p>
+                </div>
+                <!--  for fluid laylout -->
+                <!--<div class="col-md-2"></div>-->
+            </div>
+        </div>
+    </section>
+
+
+    <section id="submission-footer">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>No Idea what to do here ?</h3>
+                    <p>
+                        Leave us a message ! Our Helpdesk personnel will
+                        immediately take care of your request !
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <h3>Try one of the following Support Resources</h3>
+                    <p>
+                        Leave us a message ! Our Helpdesk personnel will
+                        immediately take care of your request !
+                    </p>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 25px;">
+
+
+                <div class="col-md-6 contact-form ">
+                    <form action="#" method="post">
+                        <!--<div class="input-field">-->
+                        <!--<input type="text" name="name" class="form-control" placeholder="Your Name...">-->
+                        <!--</div>-->
+                        <!--<div class="input-field">-->
+                        <!--<input type="email" name="email" class="form-control" placeholder="Your Email...">-->
+                        <!--</div>-->
+                        <div class="input-field">
+                            <input type="text" name="subject" class="form-control" placeholder="Subject...">
+                        </div>
+                        <div class="input-field">
+                            <textarea name="message" class="form-control" placeholder="Message..."></textarea>
+                        </div>
+                        <button type="submit" id="submit" class="btn btn-blue btn-contact-send">Send</button>
+                    </form>
+                </div>
+
+
+            </div>
+        </div>
+
     </section>
 
 </main>
