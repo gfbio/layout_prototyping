@@ -360,6 +360,9 @@ main > section {
 /*	Header
 /* ==========================================*/
 
+nav {
+    /*border-bottom: 3px dashed rgba(255, 255, 255, 0.5) !important;*/
+}
 #navigation {
     -webkit-transition: all 0.8s ease 0s;
     -moz-transition: all 0.8s ease 0s;
@@ -367,19 +370,18 @@ main > section {
     -o-transition: all 0.8s ease 0s;
     transition: all 0.8s ease 0s;
 
-    /*background-color: rgba(0,0,0,.4);*/
-    /*background-color: transparent;*/
+    /*background-color: rgba(0,0,0,.3);*/
+    background-color: transparent;
     /*background-color: rgba(255, 255, 255, 0.3);*/
 
     /* for dark backgroudimages */
-    /*color: #fff;*/
-    background-color: rgba(255, 255, 255, 1.0);
-    /*background-color: rgba(52, 90, 162, 0.5);*/
-    color: #666;
+    color: #fff;
+    /*background-color: rgba(255, 255, 255, 1.0);*/
+    /*background-color: rgba(52, 90, 162, 1.0);*/
+    /*color: #666;*/
 
-    /*border-bottom: 1px solid white;*/
-    /*box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);*/
-    padding: 5px 0;
+    /*box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);*/
+    /*padding: 5px 0;*/
     /*margin-top: 33%;*/
 
     /* uncomment to enable collapsing two-row navi example  */
@@ -408,6 +410,7 @@ h1.navbar-brand {
 
     background: url("../img/GFBio_logo_png_60x122.png") no-repeat center center;
     padding: 60px 122px 0 0 !important;
+
     /*background: url("../img/GFBio_logo_png_299x147.png") no-repeat center center;*/
     /*padding: 147px 299px 0 0 !important;*/
 
@@ -431,7 +434,7 @@ h1.navbar-brand {
 }
 
 #nav-left, #nav-right, #nav-right2 {
-    padding-top: 5px;
+    /*padding-top: 5px;*/
 }
 
 /* uncomment to enable collapsing two-row navi example  */
@@ -508,15 +511,31 @@ div#navbar-search-wrapper {
     /*background-position: center;*/
 }
 
+.navbar-inverse .navbar-nav > li {
+    /*border-left: 3px dashed rgba(255, 255, 255, 0.5);*/
+}
+
+/* TODO: nice trick to color link while hovering menu */
+.navbar-inverse .navbar-nav > li:hover {
+    background-color: #fff;
+}
+
 .navbar-inverse .navbar-nav > li > a {
     color: inherit;
     font-size: 15px;
+
+    /* close gap to megamenu*/
+    padding: 25px 15px 20px 15px;
     /*text-transform: uppercase;*/
 }
 
+
+
 .navbar-inverse .navbar-nav > li > a:hover {
-    color: #333333;
-    border-bottom: 3px solid rgba(52, 90, 162, 0.8);
+    /*color: #333333;*/
+    /*border-bottom: 3px solid rgba(52, 90, 162, 0.8);*/
+    color: #345AA2;
+    background-color: #fff;
 }
 
 .navbar-inverse .navbar-nav > li > a:focus {
@@ -526,6 +545,29 @@ div#navbar-search-wrapper {
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #333333;
+    background-color: inherit;
+}
+
+
+.navigation-shadow .navbar-inverse .navbar-nav > li > a {
+    color: inherit;
+    font-size: 15px;
+    /*text-transform: uppercase;*/
+}
+
+.navigation-shadow .navbar-inverse .navbar-nav > li > a:hover {
+    color: #333333;
+    border-bottom: 3px solid rgba(52, 90, 162, 0.8);
+}
+
+.navigation-shadow .navbar-inverse .navbar-nav > li > a:focus {
+    color: #333333;
+    font-weight: bold;
+    /*border-bottom: 3px solid rgba(52, 90, 162, 0.8);*/
+}
+
+.navigation-shadow .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
     color: #333333;
     background-color: inherit;
 }
@@ -690,6 +732,7 @@ div.yamm-content > div > .mega-lifecycle a:hover {
     /*color: #666;*/
     color: rgba(255, 255, 255, 1.0);
     font-weight: 300;
+    font-size: 3.8em;
 }
 
 .landing-h1-wrapper {
@@ -699,8 +742,16 @@ div.yamm-content > div > .mega-lifecycle a:hover {
 .landing-h1-sub {
     /*color: #666;*/
     color: rgba(255, 255, 255, 1.0);
-    font-size: 20px;
+    font-size: 2.0em;
     font-weight: 300;
+}
+
+.landing-p {
+    text-align: left;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.2em;
+    margin: 30px 0 30px 0;
 }
 
 .icon-landing-area {
@@ -745,7 +796,7 @@ div.yamm-content > div > .mega-lifecycle a:hover {
     /* TODO:  try gfbio bubbles */
     background-color: #fff;
 
-    background: url(../img/blue_mk1.2.png) top right no-repeat;
+    background: url(../img/blue_mk1.png) top right no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -781,11 +832,15 @@ div.yamm-content > div > .mega-lifecycle a:hover {
     position: absolute;
 
     /* TODO: see javascript for slideHeight when modifying height etc. !*/
-    bottom: 5%; /* 15px TODO: there is a gap if set to 0 ?*/
+    bottom: 0; /* 15px TODO: there is a gap if set to 0 ?*/
 
     justify-content: space-around;
     margin: auto;
     padding: 0 0 0 0;
+
+
+    /*background-color: #fff;*/
+
 }
 
 .home-col {
@@ -801,7 +856,7 @@ div.yamm-content > div > .mega-lifecycle a:hover {
 
     /*background-color: #ffce00;*/
     background-color: transparent;
-    border-left: 1px solid rgba(255, 255, 255, 0.6);
+    border-left: 3px dashed rgba(255, 255, 255, 0.5);
 }
 
 .home-col:first-child {
@@ -837,7 +892,7 @@ div.yamm-content > div > .mega-lifecycle a:hover {
 }
 
 .home-1 .hover {
-    background: rgba(52, 90, 162, 0.85);
+    background: rgba(52, 90, 162, 0.9);
     /*background: rgba(5, 10, 33, 0.75);*/
     /*background: rgba(129, 178, 72, 1.0);*/
 }
@@ -965,14 +1020,15 @@ div.yamm-content > div > .mega-lifecycle a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 2em;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 2.0em;
+    font-weight: 300;
 }
 
 .icon-landing-flex {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.8);
     /*color: rgba(102, 102, 102, 0.75);*/
-    font-size: 96px;
+    font-size: 2.4em;
 }
 
 #home-1 h2 {
