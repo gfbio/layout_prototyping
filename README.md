@@ -3,6 +3,12 @@
 This is the place to collect all basic layout ideas and suggestions,
 which are based ob plain HTML5, CSS, javascript, etc...
 
+## Development status
+
+The main basis for developments is the development-branch (quite obvious ...).
+Please create new branches based on the development-branch.
+
+
 ## See it live
 
 Mostly all content of this repository can be accessed as a live example
