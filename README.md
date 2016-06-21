@@ -8,6 +8,10 @@ which are based ob plain HTML5, CSS, javascript, etc...
 The main basis for developments is the develop-branch (quite obvious ...).
 Please create new branches based on the develop-branch.
 
+Currently the Layout prototype can be found inside the 'bootstrap_layout_mk' folder':
+- 'index.html' contains the Landing-Page prototype
+- 'base.html' contains the prototype for generic/main content
+
 
 ## See it live
 
