@@ -180,11 +180,11 @@ $(document).ready(function () {
     var slideHeight = $(window).height() + 15;
     //console.log('slideHeight ' + slideHeight);
 
-    $('#home-slider, #slider, .sl-slider, .sl-content-wrapper, #xgeneric-main').css('height', slideHeight);
+    $('#home-slider, #slider, .sl-slider, .sl-content-wrapper, #generic-main').css('height', slideHeight);
 
     $(window).resize(function () {
         'use strict',
-            $('#home-slider, #slider, .sl-slider, .sl-content-wrapper, #xgeneric-main').css('height', slideHeight);
+            $('#home-slider, #slider, .sl-slider, .sl-content-wrapper, #generic-main').css('height', slideHeight);
     });
 
 
