@@ -5,8 +5,8 @@ which are based ob plain HTML5, CSS, javascript, etc...
 
 ## Development status
 
-The main basis for developments is the development-branch (quite obvious ...).
-Please create new branches based on the development-branch.
+The main basis for developments is the develop-branch (quite obvious ...).
+Please create new branches based on the develop-branch.
 
 
 ## See it live
