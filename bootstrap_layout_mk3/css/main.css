@@ -1001,6 +1001,18 @@ div.yamm-content > div > .mega-lifecycle a:hover {
     -o-background-size: cover;
 }
 
+
+/* -----------------    white landing area 11.08.2016   ------------------------- */
+
+#big_logo_with_claim {
+    background: url("../img/gf_bio_logo_claim_370x208.png") no-repeat center center;
+    padding: 208px 370px 0 0 !important;
+}
+
+
+/* ------------------------------------------------------------------- */
+
+
 #home-slider .btn {
     /*color: #666;*/
     color: rgba(255, 255, 255, 1.0);
