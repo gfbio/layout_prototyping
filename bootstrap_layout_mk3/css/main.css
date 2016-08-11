@@ -406,15 +406,16 @@ nav {
 
 /* TODO: add transitions for change of size in two row navi*/
 h1.navbar-brand {
-    -webkit-transition: all 0.8s ease 0s;
-    -moz-transition: all 0.8s ease 0s;
-    -ms-transition: all 0.8s ease 0s;
-    -o-transition: all 0.8s ease 0s;
-    transition: all 0.8s ease 0s;
+    -webkit-transition: padding-right 0.8s ease 0s;
+    -moz-transition: padding-right 0.8s ease 0s;
+    -ms-transition: padding-right 0.8s ease 0s;
+    -o-transition: padding-right 0.8s ease 0s;
+    transition: padding-right 0.8s ease 0s;
 
-    /*background: url("../img/GFBio_logo_png_60x122.png") no-repeat center center;*/
+    background: url("../img/GFBio_logo_png_60x122.png") no-repeat center center;
     /*padding: 60px 122px 0 0 !important;*/
     /*width: 122px;*/
+    padding: 60px 0 0 0 !important;
 
     /*background: url("../img/GFBio_logo_png_299x147.png") no-repeat center center;*/
     /*padding: 147px 299px 0 0 !important;*/
@@ -426,11 +427,11 @@ h1.navbar-brand {
 }
 
 .navigation-shadow h1.navbar-brand {
-    -webkit-transition: all 0.8s ease 0s;
-    -moz-transition: all 0.8s ease 0s;
-    -ms-transition: all 0.8s ease 0s;
-    -o-transition: all 0.8s ease 0s;
-    transition: all 0.8s ease 0s;
+    -webkit-transition: padding-right 0.8s ease 0s;
+    -moz-transition: padding-right 0.8s ease 0s;
+    -ms-transition: padding-right 0.8s ease 0s;
+    -o-transition: padding-right 0.8s ease 0s;
+    transition: padding-right 0.8s ease 0s;
 
     background: url("../img/GFBio_logo_png_60x122.png") no-repeat center center;
     padding: 60px 122px 0 0 !important;
@@ -1007,9 +1008,21 @@ div.yamm-content > div > .mega-lifecycle a:hover {
 
 /* -----------------    white landing area 11.08.2016   ------------------------- */
 
-#big_logo_with_claim {
+#big-logo-with-claim {
     background: url("../img/gf_bio_logo_claim_370x208.png") no-repeat center center;
     padding: 208px 370px 0 0 !important;
+}
+
+#claim-top-wrapper {
+    margin-top: 10%;
+}
+
+#claim-header {
+    margin-top: 6%;
+}
+
+#claim-button-wrapper {
+    margin-top: 3%;
 }
 
 .landing-area {
@@ -1018,6 +1031,10 @@ div.yamm-content > div > .mega-lifecycle a:hover {
 
 h3.landing-area {
     font-weight: 400;
+}
+
+#claim-entry-points-wrapper {
+    margin-top: 12%;
 }
 
 
