@@ -928,9 +928,10 @@ div.yamm-content > div > .mega-lifecycle a:hover {
 
 .landing-h1 {
     /*color: #666;*/
-    color: rgba(255, 255, 255, 1.0);
+    color: rgb(0, 0, 0);
     font-weight: 300;
     font-size: 3.8em;
+    text-align: center;
 }
 
 .landing-h1-wrapper {
@@ -939,9 +940,10 @@ div.yamm-content > div > .mega-lifecycle a:hover {
 
 .landing-h1-sub {
     /*color: #666;*/
-    color: rgba(255, 255, 255, 1.0);
+    color: #666;
     font-size: 2.0em;
     font-weight: 300;
+    text-align: center;
 }
 
 .landing-p {
@@ -1016,6 +1018,7 @@ div.yamm-content > div > .mega-lifecycle a:hover {
 #home-slider .btn {
     /*color: #666;*/
     color: rgba(255, 255, 255, 1.0);
+    background-color: rgba(52, 90, 162, 1.0);
     /*border: 1px solid rgba(102, 102, 102, 0.7);*/
     border: 1px solid rgba(255, 255, 255, 1.0);
 }
