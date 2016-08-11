@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+    <!-- meta character set -->
+    <meta charset="utf-8">
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>GFBio | German Federation for Biological Data</title>
+    <!-- Meta Description -->
+    <meta name="description" content="Central point of access for all information regarding GFBio">
+    <meta name="keywords" content="">
+    <meta name="author" content="Marc Weber">
+
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+
+    <!-- TODO: clean when finished testing -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic|Open+Sans+Condensed:300,300italic,700|Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic'
+          rel='stylesheet' type='text/css'>
+
+
+    <!-- Fontawesome Icon font -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- bootstrap.min -->
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <!-- bootstrap.min -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- bootstrap.min -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <!-- bootstrap.min -->
+    <link rel="stylesheet" href="css/slit-slider.css">
+    <!-- bootstrap.min -->
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!-- Yamm styles-->
+    <link href="css/yamm.css" rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Modernizer Script for old Browsers -->
+    <script src="js/modernizr-3.3.1.min.js"></script>
+
+</head>
+
+<body id="body">
+
+<!--
+Fixed Navigation
+==================================== -->
+<header id="navigation" class="yamm navbar-inverse navbar-fixed-top navigation-shadow animated-header">
+    <div class="container">
+        <div class="navbar-header">
+            <!-- responsive nav button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!-- /responsive nav button -->
+            <!-- logo -->
+            <a href="index.html">
+                <h1 class="navbar-brand">
+                </h1>
+            </a>
+            <!-- /logo -->
+        </div>
+        <!-- main nav-left -->
+        <nav class="collapse navbar-collapse navbar-left" role="navigation">
+            <!-- TODO: animation of navclicks is done via jquery selection to this id ("nav") -->
+            <!-- TODO: there is a filter for class="external" links to allow "real" links instead of single page links -->
+            <ul id="nav-left" class="nav navbar-nav">
+                <li class="dropdown yamm"><a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                    About <span class="right"><i class="fa fa-angle-down fa-lg" aria-hidden="true"></i></span></a>
+                    <ul class="dropdown-menu">
+                        <div class="yamm-content">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul class="list-unstyled">
+                                        <li><a href="#">News</a></li>
+                                        <li><a href="#">Structure</a></li>
+                                        <li><a href="#">Consortium</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+                <li class="dropdown yamm"><a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                    Data <span class="right"><i class="fa fa-angle-down fa-lg" aria-hidden="true"></i></span></a>
+                    <ul class="dropdown-menu">
+                        <div class="yamm-content">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul class="list-unstyled">
+                                        <li><a href="#">Management Plan</a></li>
+                                        <li><a href="submission.html">Submit</a></li>
+                                        <li><a href="#">Search</a></li>
+                                        <li><a href="#">Tools & Workbenches</a></li>
+                                        <li><a href="#">Visualization & Analysis</a></li>
+                                        <li><a href="#">Terminology Server</a></li>
+                                    </ul>
+                                </div>
+                                <!--<div class="col-sm-4">-->
+                                <!--<h4><a href="#">Data Management</a></h4>-->
+                                <!--<ul class="list-unstyled">-->
+                                <!--<li><a href="#">Detail 1</a></li>-->
+                                <!--<li><a href="#">Detail 2</a></li>-->
+                                <!--<li><a href="#">Detail 3</a></li>-->
+                                <!--</ul>-->
+                                <!--</div>-->
+                                <!--<div class="col-sm-4">-->
+                                <!--<h4><a href="#">Submit Data</a></h4>-->
+                                <!--<div class="row">-->
+                                <!--<div class="col-sm-5 tile-1">-->
+                                <!--<a href="#">-->
+                                <!--<span class="icon-mega-navi">&#xed0d;</span>-->
+                                <!--<h5>Microbial Data</h5>-->
+                                <!--</a>-->
+                                <!--</div>-->
+                                <!--<div class="col-sm-5 tile-2">-->
+                                <!--<a href="#">-->
+                                <!--<span class="icon-mega-navi">&#xed0d;</span>-->
+                                <!--<h5>Collections</h5>-->
+                                <!--</a>-->
+                                <!--</div>-->
+                                <!--</div>-->
+                                <!--<div class="row">-->
+                                <!--<div class="col-sm-5 tile-1">-->
+                                <!--<a href="#">-->
+                                <!--<span class="icon-mega-navi">&#xed0d;</span>-->
+                                <!--<h5>Sequence Data</h5>-->
+                                <!--</a>-->
+                                <!--</div>-->
+                                <!--<div class="col-sm-5 tile-2">-->
+                                <!--<a href="#">-->
+                                <!--<span class="icon-mega-navi">&#xed0d;</span>-->
+                                <!--<h5>I don't know</h5>-->
+                                <!--</a>-->
+                                <!--</div>-->
+                                <!--</div>-->
+                                <!--</div>-->
+                                <!--<div class="col-sm-4">-->
+                                <!--<h4><a href="#">Search</a></h4>-->
+                                <!--<ul class="list-unstyled">-->
+                                <!--<li><a href="#">Detail 1</a></li>-->
+                                <!--<li><a href="#">Detail 2</a></li>-->
+                                <!--<li><a href="#">Detail 3</a></li>-->
+                                <!--</ul>-->
+                                <!--</div>-->
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+
+                <li class="dropdown yamm"><a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                    Training <span class="right"><i class="fa fa-angle-down fa-lg" aria-hidden="true"></i></span></a>
+                    <ul class="dropdown-menu">
+                        <div class="yamm-content">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul class="list-unstyled">
+                                        <li><a href="#">Data Life Cycle</a></li>
+                                        <li><a href="#">Education Modules</a></li>
+                                        <li><a href="#">Training Resources</a></li>
+                                        <li><a href="#">Graduate Courses</a></li>
+                                        <li><a href="#">Training for Curators and Data-Managers</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+
+                <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                    Get Help <span class="right"><i class="fa fa-angle-down fa-lg" aria-hidden="true"></i></span></a>
+                    <ul class="dropdown-menu">
+                        <div class="yamm-content">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul class="list-unstyled">
+                                        <li><a id="jiraCollectorNavi" href="#">Create a Ticket</a></li>
+                                        <li><a href="#">FAQ</a></li>
+                                        <li><a href="mailto:helpdesk@gfbio.org">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+
+                <li><a href="contact.html" class="external">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- /main nav-left -->
+
+        <!-- main nav-right -->
+        <!-- TODO: add css class for style below, used in two-row navi-->
+        <nav class="collapse navbar-collapse navbar-right" role="navigation">
+            <ul id="nav-right" class="nav navbar-nav">
+                <li><a href="sign_in.html">Sign In</a></li>
+            </ul>
+            <form class="navbar-form navbar-left" role="search">
+                <div id="navbar-search-wrapper" class="form-group">
+                    <input id="navbar-search-input" type="text" class="form-control" placeholder="Search ...">
+                </div>
+                <button id="navbar-search-submit" type="submit" class="btn btn-default"><i class="fa fa-search"
+                                                                                           aria-hidden="true"></i>
+                </button>
+            </form>
+        </nav>
+
+    </div>
+</header>
+<!--
+End Fixed Navigation
+==================================== -->
+
+<!-- Use generic main id for resize javascript in main.js -->
+<main id="generic-main" class="site-content" role="main">
+
+
+    <!-- FIXME: move element styles to css classes or selectors-->
+    <section id="generic-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2>Add content here ....</h2>
+                </div>
+            </div>
+        </div>  
+    </section>
+
+
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row"> <!-- Footer top row -->
+            <div class="col-sm-12 col-md-4 border-right">
+                <h3>GFBio Consortium</h3>
+                <p>
+                    The German Federation for Biological Data (GFBio), a sustainable, service oriented,
+                    national data infrastructure facilitating data sharing for biological and environmental
+                    research.
+                </p>
+            </div>
+
+            <div class="col-sm-12 col-md-8">
+                <div class="col-sm-12 col-md-4 border-right">
+                    <i class="fa fa-signal"></i>
+                    <h4>Want to know more ?</h4>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="http://helpdesk.gfbio.org/servicedesk/customer/portal/2/group/9">Helpdesk</a>
+                        </li>
+                        <li><a href="#">Training</a></li>
+                        <li><a href="#">FAQ's</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-4 border-right">
+                    <i class="fa fa-comments-o"></i>
+                    <h4>Contact us !</h4>
+                    <p>
+                        Write our
+                        <strong><a
+                                href="http://helpdesk.gfbio.org/servicedesk/customer/portal/2/group/9">Helpdesk</a></strong>
+                        Staff !
+                    </p>
+                    <p>
+                        Got questions ? Email us at
+                        <strong><a href="mailto:helpdesk@gfbio.org">helpdesk@gfbio.org</a></strong>
+                    </p>
+                </div>
+
+                <div class="col-sm-12 col-md-4">
+                    <i class="fa fa-sign-in"></i>
+                    <h4>Sign up</h4>
+                    <p>
+                        Get full access to services and resources deriving benefit for your Projects
+                    </p>
+                    <br>
+                    <p>
+                        <a href="#" class="btn btn-footer">Create an account !</a>
+                    </p>
+                </div>
+            </div>
+        </div> <!-- end Footer top row -->
+    </div>
+
+    <div class="container">
+        <div id="footer-middle-row" class="row"> <!-- Footer middle row -->
+            <div class="col-sm-6 col-md-3">
+                <a href="#">
+                    <i class="fa fa-search"></i>
+                    <h5 class="left">Search</h5>
+                    <p class="left">Start searching integrated datasets.</p>
+                </a>
+            </div>
+
+            <div class="col-sm-6 col-md-3">
+                <a href="submission.html">
+                    <i class="fa fa-upload"></i>
+                    <h5 class="left">Submit</h5>
+
+                    <p class="left">Deposit data and specimens in dedicated long-term archives.</p>
+                </a>
+            </div>
+
+            <div class="col-sm-6 col-md-3">
+                <a href="#">
+                    <i class="fa fa-cogs"></i>
+                    <h5 class="left">Manage</h5>
+                    <p class="left">Prepare a custom Data Managemnt Plan for your project
+                        or application.</p>
+                </a>
+            </div>
+
+            <div class="col-sm-6 col-md-3">
+                <a href="#">
+                    <i class="fa fa-wrench"></i>
+                    <h5 class="left">Tools</h5>
+
+                    <p class="left">Biodivrsity Management tools developed and supported by GFBio.</p>
+                </a>
+            </div>
+
+        </div> <!-- end Footer middle row  -->
+    </div>
+
+    <div class="container-fluid" id="footer-bottom-wrapper">
+        <div class="container">
+            <div class="row" id="footer-bottom-row"> <!-- Footer bottom row -->
+                <div class="col-md-6">
+                    <ul class="list-unstyled list-inline">
+                        <li class="index-collection active-link folder">
+                            <a href="/"><span>Legal Information</span></a>
+                        </li>
+                        <li class="index-collection active-link folder">
+                            <a href="/"><span>Terms of Service</span></a>
+                        </li>
+                        <li class="index-collection active-link folder">
+                            <a href="/"><span>Privacy Policy</span></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6">
+                    <ul class="list-unstyled list-inline right">
+                        <li class="index-collection active-link folder">
+                            <a href="mailto:helpdesk@gfbio.org"><i class="fa fa-envelope"></i></a>
+                        </li>
+                        <li class="index-collection active-link folder">
+                            <a href="https://www.facebook.com/GFBio-717478461662621/?fref=nf"><i
+                                    class="fa fa-facebook"></i></a>
+                        </li>
+                        <li class="index-collection active-link folder">
+                            <a href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fwww.gfbio.org%2F&ref_src=twsrc%5Etfw&region=follow_link&screen_name=GFBio_Project&tw_p=followbutton">
+                                <i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li class="index-collection active-link folder">
+                            <a href="https://github.com/gfbio"><i class="fa fa-github-alt"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div> <!-- end Footer bottom row -->
+</footer>
+
+<!-- Essential jQuery Plugins
+================================================== -->
+<!-- Main jQuery -->
+<script src="js/jquery-2.2.4.min.js"></script>
+<!-- Twitter Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+<!-- Single Page Nav -->
+<script src="js/jquery.singlePageNav.min.js"></script>
+<!-- jquery.fancybox.pack -->
+<script src="js/jquery.fancybox.pack.js"></script>
+<!-- Google Map API -->
+<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<!-- Owl Carousel -->
+<script src="js/owl.carousel.min.js"></script>
+<!-- jquery easing -->
+<script src="js/jquery.easing.min.js"></script>
+<!-- Fullscreen slider -->
+<script src="js/jquery.slitslider.js"></script>
+<script src="js/jquery.ba-cond.min.js"></script>
+<!-- onscroll animation -->
+<script src="js/wow.min.js"></script>
+
+<!-- Custom Functions -->
+<!-- TODO: check if this contains necessary stuff for non-landinpage pages  -->
+<script src="js/main.js"></script>
+
+<script>
+    var transparentNaviOnLoad = false;
+
+    $.ajax({
+        url: "http://helpdesk.gfbio.org/s/b086cc2a071c89387e71c6e198b40729-T/en_US-b9c5o9/70120/221180b2cb092830730d3d1b3198c81a/2.0.8/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector-embededjs/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector-embededjs.js?locale=en-US&collectorId=ea83cdef",
+        type: "get",
+        cache: true,
+        dataType: "script"
+    });
+    window.ATL_JQ_PAGE_PROPS = {
+        "triggerFunction": function (showCollectorDialog) {
+            //Requires that jQuery is available!
+            $("#jiraCollector").click(function (e) {
+                e.preventDefault();
+                showCollectorDialog();
+            });
+
+            $("#jiraCollectorNavi").click(function (e) {
+                e.preventDefault();
+                showCollectorDialog();
+            });
+        }
+    };
+</script>
+</body>
+</html>
