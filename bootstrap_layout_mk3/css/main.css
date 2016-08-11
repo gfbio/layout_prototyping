@@ -379,7 +379,7 @@ nav {
     /*background-color: rgba(255, 255, 255, 0.3);*/
 
     /* for dark backgroudimages */
-    color: #fff;
+    color: #666;
     /*background-color: rgba(255, 255, 255, 1.0);*/
     /*background-color: rgba(52, 90, 162, 1.0);*/
     /*color: #666;*/
@@ -412,8 +412,9 @@ h1.navbar-brand {
     -o-transition: all 0.8s ease 0s;
     transition: all 0.8s ease 0s;
 
-    background: url("../img/GFBio_logo_png_60x122.png") no-repeat center center;
-    padding: 60px 122px 0 0 !important;
+    /*background: url("../img/GFBio_logo_png_60x122.png") no-repeat center center;*/
+    /*padding: 60px 122px 0 0 !important;*/
+    /*width: 122px;*/
 
     /*background: url("../img/GFBio_logo_png_299x147.png") no-repeat center center;*/
     /*padding: 147px 299px 0 0 !important;*/
