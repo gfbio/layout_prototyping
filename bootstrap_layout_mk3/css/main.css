@@ -1011,6 +1011,14 @@ div.yamm-content > div > .mega-lifecycle a:hover {
     padding: 208px 370px 0 0 !important;
 }
 
+.landing-area {
+    text-align: center;
+}
+
+h3.landing-area {
+    font-weight: 400;
+}
+
 
 /* ------------------------------------------------------------------- */
 
@@ -1239,7 +1247,7 @@ div.yamm-content > div > .mega-lifecycle a:hover {
 }
 
 .icon-landing-flex {
-    color: rgba(255, 255, 255, 0.8);
+    color: #666;
     /*color: rgba(102, 102, 102, 0.75);*/
     font-size: 2.4em;
 }
