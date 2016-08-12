@@ -520,9 +520,15 @@ div#navbar-search-wrapper {
 }
 
 /* TODO: nice trick to color link while hovering menu */
+/* TODO: replace navbar-inverse with navigation-shadow to react to scroll navi*/
 .navbar-inverse .navbar-nav > li:hover {
+    /*background-color: #fff;*/
+}
+
+.navigation-shadow .navbar-nav > li:hover {
     background-color: #fff;
 }
+
 
 .navbar-inverse .navbar-nav > li > a {
     color: inherit;
@@ -534,14 +540,21 @@ div#navbar-search-wrapper {
 }
 
 
-
 .navbar-inverse .navbar-nav > li > a:hover {
+    /*color: #333333;*/
+    /*border-bottom: 3px solid rgba(52, 90, 162, 0.8);*/
+    color: #212121;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.navigation-shadow .navbar-nav > li > a:hover {
     /*color: #333333;*/
     /*border-bottom: 3px solid rgba(52, 90, 162, 0.8);*/
     color: #345AA2;
     background-color: #fff;
 }
 
+/* TODO: check proper usage and definition of focus etc.  */
 .navbar-inverse .navbar-nav > li > a:focus {
     color: #333333;
     font-weight: bold;
