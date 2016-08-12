@@ -143,10 +143,13 @@ $(document).ready(function () {
         if (typeof transparentNaviOnLoad !== 'undefined') {
             useTransparent = transparentNaviOnLoad;
         }
+
+
+
         if ($(window).scrollTop() > 100) {
             //$("#navigation").css("background-color", "#fff");
             if (useTransparent) {
-                $(".navbar-fixed-top").addClass("navigation-shadow");
+                //$(".navbar-fixed-top").addClass("navigation-shadow");
             }
 
 
@@ -158,9 +161,13 @@ $(document).ready(function () {
 
             //$(".navbar-fixed-top").fadeOut(1000);
             if (useTransparent) {
-                $(".navbar-fixed-top").removeClass("navigation-shadow");
+                //$(".navbar-fixed-top").removeClass("navigation-shadow");
             }
         }
+
+
+
+
         // if ($(window).scrollTop() > 400) {
         //     $(".navbar-brand a").css("color","#fff");
         //     $("#navigation").removeClass("animated-header");
